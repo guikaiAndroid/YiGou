@@ -1,4 +1,4 @@
 package com.guikai.latte;
 
-public class fdsf {
+public class test {
 }
