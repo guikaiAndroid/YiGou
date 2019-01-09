@@ -39,6 +39,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     //圆角图片
     implementation 'de.hdodenhof:circleimageview:2.2.0'
-    compileOnly project(':latte-annotations')
+
     implementation project(':latte-ui')
+    compileOnly project(':latte-annotations')
+    annotationProcessor project(':latte-compiler')
+
 }
