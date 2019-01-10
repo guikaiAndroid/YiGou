@@ -40,7 +40,7 @@ dependencies {
     //圆角图片
     implementation 'de.hdodenhof:circleimageview:2.2.0'
 
-    implementation project(':latte-ui')
+    api project(':latte-ui')
     compileOnly project(':latte-annotations')
     annotationProcessor project(':latte-compiler')
 
