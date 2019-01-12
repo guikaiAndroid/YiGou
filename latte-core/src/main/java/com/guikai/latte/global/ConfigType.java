@@ -1,4 +1,4 @@
-package com.guikai.latte.app;
+package com.guikai.latte.global;
 
 public enum  ConfigType {
     API_HOST,

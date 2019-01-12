@@ -1,4 +1,4 @@
-package com.guikai.latte.app;
+package com.guikai.latte.global;
 
 import android.content.Context;
 
@@ -13,6 +13,10 @@ public final class Latte {
 
     public static HashMap<String,Object> getConfigurations() {
         return Configurator.getInstance().getLatteConfigs();
+    }
+
+    public static Context getApplicationContext() {
+        return (Context) getConfigurations().get(ConfigType.APPLICATION_CONTEXT.name());
     }
 
 }

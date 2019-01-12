@@ -1,13 +1,12 @@
 package com.guikai.yigou;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import com.guikai.latte.activities.ProxyActivity;
+import com.guikai.latte.fragments.LatteFragment;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends ProxyActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    public LatteFragment setRootFragment() {
+        return new MainFragment();
     }
 }

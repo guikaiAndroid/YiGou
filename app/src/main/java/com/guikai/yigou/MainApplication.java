@@ -2,10 +2,10 @@ package com.guikai.yigou;
 
 import android.app.Application;
 
-import com.guikai.latte.app.Latte;
+import com.guikai.latte.global.Latte;
 import com.joanzapata.iconify.fonts.FontAwesomeModule;
 
-public class MainApp extends Application {
+public class MainApplication extends Application {
 
     @Override
     public void onCreate() {
