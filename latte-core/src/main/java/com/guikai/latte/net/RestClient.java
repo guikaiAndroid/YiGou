@@ -4,11 +4,14 @@ import com.guikai.latte.net.callback.IError;
 import com.guikai.latte.net.callback.IFailure;
 import com.guikai.latte.net.callback.IRequest;
 import com.guikai.latte.net.callback.ISuccess;
+import com.guikai.latte.net.callback.RequestCallbacks;
 
 import java.util.Map;
 import java.util.WeakHashMap;
 
 import okhttp3.RequestBody;
+import retrofit2.Call;
+import retrofit2.Callback;
 
 /**
  * Created by Anding on 2019/1/13 17:50
@@ -46,4 +49,58 @@ public class RestClient {
         return new RestClientBuilder();
     }
 
+    private void request(HttpMethod method) {
+        final RestService service = RestCreator.getRestService();
+        Call<String> call = null;
+
+        if (REQUEST != null) {
+            REQUEST.onRequestStart();
+        }
+
+        switch (method) {
+            case GET:
+                call = service.get(URL, PARAMS);
+                break;
+            case POST:
+                call = service.post(URL, PARAMS);
+                break;
+            case PUT:
+                call = service.put(URL, PARAMS);
+                break;
+            case DELETE:
+                call = service.delete(URL, PARAMS);
+                break;
+            default:
+                break;
+        }
+
+        if (call != null) {
+            call.enqueue(getRequestCallback());
+        }
+    }
+
+    private Callback<String> getRequestCallback() {
+        return new RequestCallbacks(
+                REQUEST,
+                SUCCESS,
+                FAILURE,
+                ERROR
+        );
+    }
+
+    public final void get() {
+        request(HttpMethod.GET);
+    }
+
+    public final void post() {
+        request(HttpMethod.POST);
+    }
+
+    public final void put() {
+        request(HttpMethod.GET);
+    }
+
+    public final void delete() {
+        request(HttpMethod.DELETE);
+    }
 }

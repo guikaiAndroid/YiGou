@@ -1,2 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.guikai.latte" />
+    package="com.guikai.latte" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>
