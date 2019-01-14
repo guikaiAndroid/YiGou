@@ -12,7 +12,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 /**
  * Created by Anding on 2019/1/13 18:15
- * Note: Retrofit、RestService、OkHttpClient单例
+ * Note: Retrofit、RestService、OkHttpClient单例创建
  */
 
 public class RestCreator {
