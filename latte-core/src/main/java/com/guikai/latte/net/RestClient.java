@@ -1,10 +1,14 @@
 package com.guikai.latte.net;
 
+import android.content.Context;
+
 import com.guikai.latte.net.callback.IError;
 import com.guikai.latte.net.callback.IFailure;
 import com.guikai.latte.net.callback.IRequest;
 import com.guikai.latte.net.callback.ISuccess;
 import com.guikai.latte.net.callback.RequestCallbacks;
+import com.guikai.latte.ui.FragmentLoader;
+import com.guikai.latte.ui.LoaderStyle;
 
 import java.util.Map;
 import java.util.WeakHashMap;
@@ -28,6 +32,8 @@ public class RestClient {
     private final IFailure FAILURE;
     private final IError ERROR;
     private final RequestBody BODY;
+    private LoaderStyle LOADER_STYLE;
+    private Context CONTEXT;
 
     public RestClient(String url,
                       WeakHashMap<String, Object> params,
@@ -35,7 +41,9 @@ public class RestClient {
                       ISuccess success,
                       IFailure failure,
                       IError error,
-                      RequestBody body) {
+                      RequestBody body,
+                      Context context,
+                      LoaderStyle loaderStyle) {
         this.URL = url;
         PARAMS.putAll(params);
         this.REQUEST = request;
@@ -43,6 +51,8 @@ public class RestClient {
         this.FAILURE = failure;
         this.ERROR = error;
         this.BODY = body;
+        this.LOADER_STYLE = loaderStyle;
+        this.CONTEXT = context;
     }
 
     public static RestClientBuilder builder() {
@@ -55,6 +65,10 @@ public class RestClient {
 
         if (REQUEST != null) {
             REQUEST.onRequestStart();
+        }
+
+        if (LOADER_STYLE != null) {
+            FragmentLoader.showLoading(CONTEXT, LOADER_STYLE);
         }
 
         switch (method) {
@@ -84,7 +98,8 @@ public class RestClient {
                 REQUEST,
                 SUCCESS,
                 FAILURE,
-                ERROR
+                ERROR,
+                LOADER_STYLE
         );
     }
 

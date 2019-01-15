@@ -33,16 +33,16 @@ public final class LoaderCreator {
         if (name == null || name.isEmpty()) {
             return null;
         }
-        final StringBuilder drawbleClassName = new StringBuilder();
+        final StringBuilder drawableClassName = new StringBuilder();
         if (!name.contains(".")) {
             final String defaultPackageName = AVLoadingIndicatorView.class.getPackage().getName();
-            drawbleClassName.append(defaultPackageName)
+            drawableClassName.append(defaultPackageName)
                     .append(".indicators")
                     .append(".");
         }
-        drawbleClassName.append(name);
+        drawableClassName.append(name);
         try {
-            final Class<?> drawableClass = Class.forName(drawbleClassName.toString());
+            final Class<?> drawableClass = Class.forName(drawableClassName.toString());
             return (Indicator) drawableClass.newInstance();
         } catch (Exception e) {
             e.printStackTrace();
