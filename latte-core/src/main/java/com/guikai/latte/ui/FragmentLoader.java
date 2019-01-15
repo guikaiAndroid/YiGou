@@ -38,7 +38,7 @@ public class FragmentLoader {
         dialog.setContentView(avLoadingIndicatorView);
 
         int deviceWidth = DimeUtil.getScreenWidth();
-        int deviceHeight = DimeUtil.getScreenHight();
+        int deviceHeight = DimeUtil.getScreenHeight();
 
         final Window dialogwindow = dialog.getWindow();
 

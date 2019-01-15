@@ -20,7 +20,7 @@ public class DimeUtil {
     }
 
     //得到屏幕的高
-    public static int getScreenHight() {
+    public static int getScreenHeight() {
         final Resources resources = Latte.getApplicationContext().getResources();
         final DisplayMetrics dm = resources.getDisplayMetrics();
         return dm.heightPixels;
