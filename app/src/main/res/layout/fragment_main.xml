@@ -8,6 +8,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16sp"
-        android:text="我是根Freaagment"/>
+        android:text="我是根Fragment"/>
 
 </LinearLayout>
