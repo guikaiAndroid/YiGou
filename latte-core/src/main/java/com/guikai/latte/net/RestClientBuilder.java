@@ -6,6 +6,7 @@ import com.guikai.latte.net.callback.IError;
 import com.guikai.latte.net.callback.IFailure;
 import com.guikai.latte.net.callback.IRequest;
 import com.guikai.latte.net.callback.ISuccess;
+import com.guikai.latte.net.download.DownloadHandler;
 import com.guikai.latte.ui.LoaderStyle;
 
 import java.io.File;
@@ -33,6 +34,10 @@ public class RestClientBuilder {
     private Context mContext = null;
     private LoaderStyle mLoaderStyle = null;
     private File mFile = null;
+
+    private String mDownloadDir = null;
+    private String mExtension = null;
+    private String mName = null;
 
     RestClientBuilder() {
 
@@ -73,6 +78,16 @@ public class RestClientBuilder {
         return this;
     }
 
+    public final RestClientBuilder dir(String dir) {
+        this.mDownloadDir = dir;
+        return this;
+    }
+
+    public final RestClientBuilder extension(String extension) {
+        this.mExtension = extension;
+        return this;
+    }
+
     public final RestClientBuilder success(ISuccess iSuccess) {
         this.mISuccess = iSuccess;
         return this;
@@ -102,7 +117,12 @@ public class RestClientBuilder {
     }
 
     public final RestClient build() {
-        return new RestClient(mUrl, PARAMS, mIRequest, mISuccess, mIFailure, mIError, mBody, mFile, mContext, mLoaderStyle);
+        return new RestClient(mUrl, PARAMS, mDownloadDir, mExtension, mName, mIRequest, mISuccess, mIFailure, mIError, mBody, mFile, mContext, mLoaderStyle);
+    }
+
+    public final void download() {
+        new DownloadHandler(mUrl, mIRequest, mDownloadDir, mExtension,mName, mISuccess, mIFailure, mIError)
+                .handleDownload();
     }
 
 }
