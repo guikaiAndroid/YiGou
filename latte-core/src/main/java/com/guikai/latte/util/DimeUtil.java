@@ -1,4 +1,4 @@
-package com.guikai.latte.ui.util;
+package com.guikai.latte.util;
 
 import android.content.res.Resources;
 import android.util.DisplayMetrics;

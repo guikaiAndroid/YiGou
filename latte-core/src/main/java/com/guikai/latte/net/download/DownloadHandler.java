@@ -30,11 +30,14 @@ public class DownloadHandler {
     private final IFailure FAILURE;
     private final IError ERROR;
 
-    public DownloadHandler(String url, IRequest request,
+    public DownloadHandler(String url,
+                           IRequest request,
                            String download_dir,
-                           String extension, String name,
+                           String extension,
+                           String name,
                            ISuccess success,
-                           IFailure failure, IError error) {
+                           IFailure failure,
+                           IError error) {
         this.URL = url;
         this.REQUEST = request;
         this.DOWNLOAD_DIR = download_dir;
