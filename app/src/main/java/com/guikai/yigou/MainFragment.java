@@ -31,7 +31,7 @@ public class MainFragment extends LatteFragment {
 
     private void testRestClient() {
         RestClient.builder()
-                .url("http://news.baidu.com/")
+                .url("http://mock.fulingjie.com/mock/api/")
                 .loader(getContext())
                 .success(new ISuccess() {
                     @Override
