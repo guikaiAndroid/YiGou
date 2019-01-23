@@ -1,6 +1,7 @@
-package com.guikai.latte.ui;
+package com.guikai.latte.ui.launcher;
 
 import com.bigkoo.convenientbanner.holder.CBViewHolderCreator;
+import com.guikai.latte.ui.launcher.LauncherHolder;
 
 public class LauncherHolderCreator implements CBViewHolderCreator<LauncherHolder> {
 

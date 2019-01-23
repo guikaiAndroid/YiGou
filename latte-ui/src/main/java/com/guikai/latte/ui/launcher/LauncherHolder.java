@@ -1,4 +1,4 @@
-package com.guikai.latte.ui;
+package com.guikai.latte.ui.launcher;
 
 import android.content.Context;
 import android.support.v7.widget.AppCompatImageView;

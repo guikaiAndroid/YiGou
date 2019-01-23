@@ -7,6 +7,8 @@ import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
 
 import com.guikai.latte.fragments.LatteFragment;
+import com.guikai.latte.ui.launcher.ScrollLauncherTag;
+import com.guikai.latte.util.storage.LattePreference;
 import com.guikai.latte.util.timer.BaseTimerTask;
 import com.guikai.latte.util.timer.ITimerListener;
 import com.guikai.latteec.R;
@@ -24,13 +26,14 @@ public class LauncherFragment extends LatteFragment implements ITimerListener {
         if (mTimer != null) {
             mTimer.cancel();
             mTimer = null;
+            checkIsShowScroll();
         }
     }
 
     private void initTimer() {
         mTimer = new Timer();
         final BaseTimerTask task = new BaseTimerTask(this);
-        mTimer.schedule(task, 0 , 1000);
+        mTimer.schedule(task, 0, 1000);
     }
 
 
@@ -43,14 +46,16 @@ public class LauncherFragment extends LatteFragment implements ITimerListener {
     public void onBindView(@Nullable Bundle savedInstanceState, @NonNull View root) {
         initTimer();
         mTvTimer = $(R.id.tv_launcher_timer);
-        mTvTimer.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onClickTimerView();
-            }
-        });
+        mTvTimer.setOnClickListener(v -> onClickTimerView());
     }
 
+    public void checkIsShowScroll() {
+        if (!LattePreference.getAppFlag(ScrollLauncherTag.HAS_FIRST_LAUNCHER_APP.name())) {
+            getSupportDelegate().startWithPop(new LauncherScrollFragment());
+        } else {
+            //检查用户是否登录了
+        }
+    }
 
     @Override
     public void onTimer() {
@@ -64,6 +69,8 @@ public class LauncherFragment extends LatteFragment implements ITimerListener {
                         if (mTimer != null) {
                             mTimer.cancel();
                             mTimer = null;
+                            //判断是否第一次登录
+                            checkIsShowScroll();
                         }
                     }
                 }
