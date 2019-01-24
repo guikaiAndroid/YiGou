@@ -56,23 +56,26 @@ public class SignUpFragment extends LatteFragment {
 
     private void onClickSignUp() {
         if (checkForm()) {
-//            RestClient.builder()
-//                    .url("sign_up")
-//                    .params("","")
-//                    .success(new ISuccess() {
-//                        @Override
-//                        public void onSuccess(String response) {
-//
-//                        }
-//                    })
-//                    .build()
-//                    .post();
-            Toast.makeText(getContext(),"验证通过",Toast.LENGTH_SHORT).show();
+            RestClient.builder()
+                    .url("http://mock.fulingjie.com/mock/data/user_profile.json")
+                    .params("name", mName.getText().toString())
+                    .params("email",mEmail.getText().toString())
+                    .params("phone", mPhone.getText().toString())
+                    .params("password", mPassword.getText().toString())
+                    .success(new ISuccess() {
+                        @Override
+                        public void onSuccess(String response) {
+                            Toast.makeText(getContext(),response,Toast.LENGTH_SHORT).show();
+                        }
+                    })
+                    .loader(getContext())
+                    .build()
+                    .post();
         }
     }
 
     private void onClickLink() {
-
+        getSupportDelegate().start(new SignInFragment(),SINGLETASK);
     }
 
     private boolean checkForm() {
