@@ -1,5 +1,7 @@
 package com.guikai.latte.sign;
 
+import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -8,9 +10,11 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Toast;
 
+import com.guikai.latte.app.AccountManager;
 import com.guikai.latte.fragments.LatteFragment;
 import com.guikai.latte.net.RestClient;
 import com.guikai.latte.net.callback.ISuccess;
+import com.guikai.latte.util.log.LogUtils;
 import com.guikai.latteec.R;
 
 /**
@@ -25,6 +29,16 @@ public class SignUpFragment extends LatteFragment {
     private TextInputEditText mPhone = null;
     private TextInputEditText mPassword = null;
     private TextInputEditText mRePassword = null;
+
+    public ISignListener mISignListener = null;
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        if (activity instanceof ISignListener) {
+            mISignListener = (ISignListener) activity;
+        }
+    }
 
     @Override
     public Object setLayout() {
@@ -59,13 +73,14 @@ public class SignUpFragment extends LatteFragment {
             RestClient.builder()
                     .url("http://mock.fulingjie.com/mock/data/user_profile.json")
                     .params("name", mName.getText().toString())
-                    .params("email",mEmail.getText().toString())
+                    .params("email", mEmail.getText().toString())
                     .params("phone", mPhone.getText().toString())
                     .params("password", mPassword.getText().toString())
                     .success(new ISuccess() {
                         @Override
                         public void onSuccess(String response) {
-                            Toast.makeText(getContext(),response,Toast.LENGTH_SHORT).show();
+                            LogUtils.json("USER_PROFILE", response);
+                            SignHandler.onSignUp(response, mISignListener);
                         }
                     })
                     .loader(getContext())
@@ -75,7 +90,7 @@ public class SignUpFragment extends LatteFragment {
     }
 
     private void onClickLink() {
-        getSupportDelegate().start(new SignInFragment(),SINGLETASK);
+        getSupportDelegate().start(new SignInFragment(), SINGLETASK);
     }
 
     private boolean checkForm() {

@@ -3,26 +3,57 @@ package com.guikai.yigou;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBar;
+import android.widget.Toast;
 
 import com.guikai.latte.activities.ProxyActivity;
 import com.guikai.latte.fragments.LatteFragment;
 import com.guikai.latte.launcher.LauncherFragment;
+import com.guikai.latte.sign.ISignListener;
 import com.guikai.latte.sign.SignInFragment;
 import com.guikai.latte.sign.SignUpFragment;
+import com.guikai.latte.ui.launcher.ILauncherListener;
+import com.guikai.latte.ui.launcher.OnLauncherFinishTag;
 
-public class MainActivity extends ProxyActivity {
+public class MainActivity extends ProxyActivity implements
+        ISignListener, ILauncherListener {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         final ActionBar actionBar = getSupportActionBar();
-        if (actionBar!=null) {
+        if (actionBar != null) {
             actionBar.hide();
         }
     }
 
     @Override
     public LatteFragment setRootFragment() {
-        return new SignInFragment();
+        return new LauncherFragment();
+    }
+
+    @Override
+    public void onSignInSuccess() {
+        Toast.makeText(this, "登录成功", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void onSignUpSuccess() {
+        Toast.makeText(this, "注册成功", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void onLauncherFinish(OnLauncherFinishTag tag) {
+        switch (tag) {
+            case SIGNED:
+                Toast.makeText(this, "启动结束，你已登陆了哟！", Toast.LENGTH_LONG).show();
+                getSupportDelegate().startWithPop(new MainFragment());
+                break;
+            case NOT_SIGNED:
+                Toast.makeText(this, "启动结束，亲，你还没有登陆哟！", Toast.LENGTH_LONG).show();
+                getSupportDelegate().startWithPop(new SignInFragment());
+                break;
+            default:
+                break;
+        }
     }
 }

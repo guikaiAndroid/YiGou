@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
 
-import com.guikai.latte.global.Latte;
+import com.guikai.latte.app.Latte;
 import com.guikai.latte.net.callback.IRequest;
 import com.guikai.latte.net.callback.ISuccess;
 import com.guikai.latte.util.file.FileUtil;

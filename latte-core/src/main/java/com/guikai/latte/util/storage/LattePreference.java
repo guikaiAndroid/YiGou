@@ -5,7 +5,7 @@ import android.preference.PreferenceManager;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.guikai.latte.global.Latte;
+import com.guikai.latte.app.Latte;
 
 public class LattePreference {
 
