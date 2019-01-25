@@ -10,7 +10,6 @@ import com.guikai.latte.fragments.LatteFragment;
 import com.guikai.latte.launcher.LauncherFragment;
 import com.guikai.latte.sign.ISignListener;
 import com.guikai.latte.sign.SignInFragment;
-import com.guikai.latte.sign.SignUpFragment;
 import com.guikai.latte.ui.launcher.ILauncherListener;
 import com.guikai.latte.ui.launcher.OnLauncherFinishTag;
 
