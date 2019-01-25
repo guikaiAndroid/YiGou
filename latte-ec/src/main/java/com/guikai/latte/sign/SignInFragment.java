@@ -1,5 +1,7 @@
 package com.guikai.latte.sign;
 
+import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -11,12 +13,22 @@ import android.widget.Toast;
 import com.guikai.latte.fragments.LatteFragment;
 import com.guikai.latte.net.RestClient;
 import com.guikai.latte.net.callback.ISuccess;
+import com.guikai.latte.util.log.LogUtils;
 import com.guikai.latteec.R;
 
 public class SignInFragment extends LatteFragment implements View.OnClickListener {
 
     private TextInputEditText mEmail = null;
     private TextInputEditText mPassword = null;
+    private ISignListener mISignListener = null;
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        if (activity instanceof ISignListener) {
+            mISignListener = (ISignListener) activity;
+        }
+    }
 
     @Override
     public Object setLayout() {
@@ -37,11 +49,12 @@ public class SignInFragment extends LatteFragment implements View.OnClickListene
             RestClient.builder()
                     .url("http://mock.fulingjie.com/mock/data/user_profile.json")
                     .params("name", mEmail.getText().toString())
-                    .params("email",mPassword.getText().toString())
+                    .params("email", mPassword.getText().toString())
                     .success(new ISuccess() {
                         @Override
                         public void onSuccess(String response) {
-                            Toast.makeText(getContext(),response,Toast.LENGTH_SHORT).show();
+                            LogUtils.json("USER_PROFILE", response);
+                            SignHandler.onSignIn(response, mISignListener);
                         }
                     })
                     .loader(getContext())
@@ -78,7 +91,7 @@ public class SignInFragment extends LatteFragment implements View.OnClickListene
         int i = v.getId();
         if (i == R.id.btn_sign_in) {
             onClickSignIn();
-        } else if(i == R.id.tv_link_sign_up){
+        } else if (i == R.id.tv_link_sign_up) {
             onClickLink();
         } else if (i == R.id.icon_sign_in_wechat) {
             onClickWeChat();
@@ -86,12 +99,11 @@ public class SignInFragment extends LatteFragment implements View.OnClickListene
     }
 
 
-
     private void onClickLink() {
-        getSupportDelegate().start(new SignUpFragment(),SINGLETASK);
+        getSupportDelegate().start(new SignUpFragment(), SINGLETASK);
     }
 
     private void onClickWeChat() {
-        Toast.makeText(getContext(),"验证通过",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getContext(), "验证通过", Toast.LENGTH_SHORT).show();
     }
 }

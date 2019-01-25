@@ -1,8 +1,6 @@
-package com.guikai.latte.global;
+package com.guikai.latte.app;
 
 import android.content.Context;
-
-import java.util.HashMap;
 
 public final class Latte {
 

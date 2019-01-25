@@ -1,4 +1,4 @@
-package com.guikai.latte.global;
+package com.guikai.latte.app;
 
 import com.joanzapata.iconify.IconFontDescriptor;
 import com.joanzapata.iconify.Iconify;

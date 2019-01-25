@@ -1,7 +1,7 @@
 package com.guikai.latte.net;
 
-import com.guikai.latte.global.ConfigKeys;
-import com.guikai.latte.global.Latte;
+import com.guikai.latte.app.ConfigKeys;
+import com.guikai.latte.app.Latte;
 
 import java.util.ArrayList;
 import java.util.WeakHashMap;

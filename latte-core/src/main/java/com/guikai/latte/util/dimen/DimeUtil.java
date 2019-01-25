@@ -3,7 +3,7 @@ package com.guikai.latte.util.dimen;
 import android.content.res.Resources;
 import android.util.DisplayMetrics;
 
-import com.guikai.latte.global.Latte;
+import com.guikai.latte.app.Latte;
 
 /**
  * Created by Anding on 2019/1/15 22:12
