@@ -3,6 +3,7 @@ package com.compiler;
 import com.annotations.annotations.AppRegisterGenerator;
 import com.annotations.annotations.EntryGenerator;
 import com.annotations.annotations.PayEntryGenerator;
+import com.google.auto.service.AutoService;
 
 import java.lang.annotation.Annotation;
 import java.util.LinkedHashSet;
@@ -11,6 +12,7 @@ import java.util.Map;
 import java.util.Set;
 
 import javax.annotation.processing.AbstractProcessor;
+import javax.annotation.processing.Processor;
 import javax.annotation.processing.RoundEnvironment;
 import javax.lang.model.element.AnnotationMirror;
 import javax.lang.model.element.AnnotationValue;
@@ -23,7 +25,8 @@ import javax.lang.model.element.TypeElement;
  * Created by Anding on 2019/1/25 21:50
  * Note:
  */
-
+@SuppressWarnings("unused")
+@AutoService(Processor.class)
 public final class FragmentProcessor extends AbstractProcessor{
 
     @Override

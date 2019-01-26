@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBar;
 import android.widget.Toast;
 
 import com.guikai.latte.activities.ProxyActivity;
+import com.guikai.latte.app.Latte;
 import com.guikai.latte.fragments.LatteFragment;
 import com.guikai.latte.launcher.LauncherFragment;
 import com.guikai.latte.sign.ISignListener;
@@ -23,6 +24,7 @@ public class MainActivity extends ProxyActivity implements
         if (actionBar != null) {
             actionBar.hide();
         }
+        Latte.getConfigurator().withActivity(this);
     }
 
     @Override

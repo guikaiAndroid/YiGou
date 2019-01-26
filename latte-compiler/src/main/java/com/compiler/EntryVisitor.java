@@ -46,7 +46,7 @@ public class EntryVisitor extends SimpleAnnotationValueVisitor7<Void, Void> {
                         .build();
 
         final JavaFile javaFile = JavaFile.builder(mPackageName + ".wxapi", targetActivity)
-                .addFileComment("微信入口文件")
+                .addFileComment("WeChat entry file")
                 .build();
         try {
             javaFile.writeTo(FILER);

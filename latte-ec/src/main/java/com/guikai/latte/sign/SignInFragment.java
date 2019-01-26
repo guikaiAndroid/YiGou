@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TextInputEditText;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Toast;
@@ -14,6 +15,8 @@ import com.guikai.latte.fragments.LatteFragment;
 import com.guikai.latte.net.RestClient;
 import com.guikai.latte.net.callback.ISuccess;
 import com.guikai.latte.util.log.LogUtils;
+import com.guikai.latte.wechat.LatteWeChat;
+import com.guikai.latte.wechat.callbacks.IWeChatSignInCallback;
 import com.guikai.latteec.R;
 
 public class SignInFragment extends LatteFragment implements View.OnClickListener {
@@ -104,6 +107,12 @@ public class SignInFragment extends LatteFragment implements View.OnClickListene
     }
 
     private void onClickWeChat() {
-        Toast.makeText(getContext(), "验证通过", Toast.LENGTH_SHORT).show();
+        LatteWeChat.getInstance().onSignSuccess(new IWeChatSignInCallback() {
+            @Override
+            public void onSignInsuccess(String userInfo) {
+                Toast.makeText(getContext(),userInfo, Toast.LENGTH_LONG).show();
+                Log.e("xxxx", "userInfo");
+            }
+        }).signIn();
     }
 }
