@@ -16,8 +16,8 @@ public class MainApplication extends Application {
                 .withIcon(new FontAwesomeModule())
                 .withIcon(new FontEcModule())
                 .withApiHost("http://127.0.0.1/")
-                .withWeChatAppId("dfsfsfas")
-                .withWeChatAppSecret("sdfsdfsdf")
+                .withWeChatAppId("App_id")
+                .withWeChatAppSecret("Secret_id")
                 .configure();
     }
 }

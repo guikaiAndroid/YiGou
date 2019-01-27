@@ -101,9 +101,9 @@ public class LauncherFragment extends LatteFragment implements ITimerListener {
             @Override
             public void run() {
                 if (mTvTimer != null) {
-                    mTvTimer.setText(MessageFormat.format("跳过\n{0}s", mCount));
+                    mTvTimer.setText(MessageFormat.format("跳过 {0}s", mCount));
                     mCount--;
-                    if (mCount < 0) {
+                    if (mCount < 1) {
                         if (mTimer != null) {
                             mTimer.cancel();
                             mTimer = null;

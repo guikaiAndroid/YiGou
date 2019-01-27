@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!--加载LadingDialog-->
     <style name="dialog" parent="@android:style/Theme.Dialog">
         <!--去掉边框-->
         <item name="android:windowFrame">@null</item>
@@ -18,7 +19,7 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
-    <!--透明Activity-->
+    <!--透明微信Activity-->
     <style name="Theme.AppCompat.Translucent">
         <!--去掉标题栏-->
         <item name="android:windowNoTitle">true</item>

@@ -9,6 +9,7 @@ import com.guikai.latte.activities.ProxyActivity;
 import com.guikai.latte.app.Latte;
 import com.guikai.latte.fragments.LatteFragment;
 import com.guikai.latte.launcher.LauncherFragment;
+import com.guikai.latte.main.EcBottomFragment;
 import com.guikai.latte.sign.ISignListener;
 import com.guikai.latte.sign.SignInFragment;
 import com.guikai.latte.ui.launcher.ILauncherListener;
@@ -47,7 +48,7 @@ public class MainActivity extends ProxyActivity implements
         switch (tag) {
             case SIGNED:
                 Toast.makeText(this, "启动结束，你已登陆了哟！", Toast.LENGTH_LONG).show();
-                getSupportDelegate().startWithPop(new MainFragment());
+                getSupportDelegate().startWithPop(new EcBottomFragment());
                 break;
             case NOT_SIGNED:
                 Toast.makeText(this, "启动结束，亲，你还没有登陆哟！", Toast.LENGTH_LONG).show();
