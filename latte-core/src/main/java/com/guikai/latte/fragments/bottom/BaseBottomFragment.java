@@ -1,7 +1,6 @@
 package com.guikai.latte.fragments.bottom;
 
 import android.graphics.Color;
-import android.graphics.drawable.Icon;
 import android.os.Bundle;
 import android.support.annotation.ColorInt;
 import android.support.annotation.NonNull;
@@ -43,7 +42,7 @@ public abstract class BaseBottomFragment extends LatteFragment implements View.O
         return R.layout.fragment_bottom;
     }
 
-    public abstract LinkedHashMap<BottomTabBean, BottomItemFragment> setItems(ItemBuilder builder);
+    public abstract LinkedHashMap<BottomTabBean, BottomItemFragment> setItems(BottomItemBuilder builder);
 
     public abstract int setIndexFragment();
 
@@ -58,7 +57,7 @@ public abstract class BaseBottomFragment extends LatteFragment implements View.O
             mClickedColor = setClickColor();
         }
 
-        final ItemBuilder builder = ItemBuilder.builder();
+        final BottomItemBuilder builder = BottomItemBuilder.builder();
         final LinkedHashMap<BottomTabBean, BottomItemFragment> items = setItems(builder);
         ITEMS.putAll(items);
         for (Map.Entry<BottomTabBean, BottomItemFragment> item : ITEMS.entrySet()) {
@@ -74,6 +73,7 @@ public abstract class BaseBottomFragment extends LatteFragment implements View.O
         mBottomBar = $(R.id.bottom_bar);
         final int size = ITEMS.size();
         for (int i = 0; i < size; i++) {
+            //填充底部导航按钮
             LayoutInflater.from(getContext()).inflate(R.layout.bottom_item_icon_text_layout, mBottomBar);
             final RelativeLayout item = (RelativeLayout) mBottomBar.getChildAt(i);
             //设置每个item的点击事件

@@ -5,7 +5,7 @@ import android.graphics.Color;
 import com.guikai.latte.fragments.bottom.BaseBottomFragment;
 import com.guikai.latte.fragments.bottom.BottomItemFragment;
 import com.guikai.latte.fragments.bottom.BottomTabBean;
-import com.guikai.latte.fragments.bottom.ItemBuilder;
+import com.guikai.latte.fragments.bottom.BottomItemBuilder;
 import com.guikai.latte.main.index.IndexFragment;
 import com.guikai.latte.main.sort.SortFragment;
 
@@ -19,7 +19,7 @@ import java.util.LinkedHashMap;
 public class EcBottomFragment extends BaseBottomFragment{
 
     @Override
-    public LinkedHashMap<BottomTabBean, BottomItemFragment> setItems(ItemBuilder builder) {
+    public LinkedHashMap<BottomTabBean, BottomItemFragment> setItems(BottomItemBuilder builder) {
         final LinkedHashMap<BottomTabBean, BottomItemFragment> items = new LinkedHashMap<>();
         items.put(new BottomTabBean("{fa-home}","主页"), new IndexFragment());
         items.put(new BottomTabBean("{fa-sort}","分类"), new SortFragment());

@@ -10,7 +10,7 @@
         android:id="@+id/icon_bottom_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/tv_bottom_item"
+        android:layout_above="@id/tv_bottom_item"
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:textSize="28sp" />

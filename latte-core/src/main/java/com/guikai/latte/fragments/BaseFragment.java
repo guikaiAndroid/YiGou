@@ -199,7 +199,6 @@ public abstract class BaseFragment extends Fragment
         return DELEGATE.onBackPressedSupport();
     }
 
-
     @Override
     public void setFragmentResult(int resultCode, Bundle bundle) {
         DELEGATE.setFragmentResult(resultCode, bundle);

@@ -7,20 +7,20 @@ import java.util.LinkedHashMap;
  * Note: fragment和底部导航Item的绑定
  */
 
-public final class ItemBuilder {
+public final class BottomItemBuilder {
 
     private final LinkedHashMap<BottomTabBean, BottomItemFragment> ITEMS = new LinkedHashMap<>();
 
-    static ItemBuilder builder() {
-        return new ItemBuilder();
+    static BottomItemBuilder builder() {
+        return new BottomItemBuilder();
     }
 
-    public final ItemBuilder addItem(BottomTabBean bean, BottomItemFragment fragment) {
+    public final BottomItemBuilder addItem(BottomTabBean bean, BottomItemFragment fragment) {
         ITEMS.put(bean, fragment);
         return this;
     }
 
-    public final ItemBuilder addItems(LinkedHashMap<BottomTabBean, BottomItemFragment> items) {
+    public final BottomItemBuilder addItems(LinkedHashMap<BottomTabBean, BottomItemFragment> items) {
         ITEMS.putAll(items);
         return this;
     }
