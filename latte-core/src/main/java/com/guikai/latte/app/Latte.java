@@ -1,6 +1,7 @@
 package com.guikai.latte.app;
 
 import android.content.Context;
+import android.os.Handler;
 
 public final class Latte {
 
@@ -18,6 +19,10 @@ public final class Latte {
 
     public static <T> T getConfiguration(Object key) {
         return getConfigurator().getConfiguration(key);
+    }
+
+    public static Handler getHandler() {
+        return getConfiguration(ConfigKeys.HANDLER);
     }
 
     public static Context getApplicationContext() {

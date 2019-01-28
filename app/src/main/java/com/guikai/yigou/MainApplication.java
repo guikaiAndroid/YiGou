@@ -15,7 +15,7 @@ public class MainApplication extends Application {
         Latte.init(this)
                 .withIcon(new FontAwesomeModule())
                 .withIcon(new FontEcModule())
-                .withApiHost("http://127.0.0.1/")
+                .withApiHost("http://mock.fulingjie.com/mock/api/")
                 .withWeChatAppId("Your apply App_id")
                 .withWeChatAppSecret("Your apply Secret_id")
                 .configure();

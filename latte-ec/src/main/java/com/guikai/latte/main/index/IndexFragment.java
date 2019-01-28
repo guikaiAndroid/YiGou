@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.guikai.latte.fragments.bottom.BottomItemFragment;
+import com.guikai.latte.ui.refresh.RefreshHandler;
 import com.guikai.latteec.R;
 import com.joanzapata.iconify.widget.IconTextView;
 
@@ -21,6 +22,7 @@ public class IndexFragment extends BottomItemFragment {
 
     private RecyclerView mRecyclerView = null;
     private SwipeRefreshLayout mSwipeRefreshLayout = null;
+    private RefreshHandler mRefreshHandler = null;
 
     @Override
     public Object setLayout() {
@@ -35,6 +37,23 @@ public class IndexFragment extends BottomItemFragment {
         final IconTextView mIconScan = $(R.id.icon_index_scan);
         final AppCompatEditText mSearch = $(R.id.et_search_view);
 
+        mRefreshHandler = new RefreshHandler(mSwipeRefreshLayout);
 
+    }
+
+    private void initRefreshLayout() {
+        mSwipeRefreshLayout.setColorSchemeResources(
+                android.R.color.holo_blue_bright,
+                android.R.color.holo_orange_light,
+                android.R.color.holo_red_light
+        );
+        mSwipeRefreshLayout.setProgressViewOffset(true, 120, 260);
+    }
+
+    @Override
+    public void onLazyInitView(@Nullable Bundle savedInstanceState) {
+        super.onLazyInitView(savedInstanceState);
+        initRefreshLayout();
+        mRefreshHandler.firstPage("index.php");
     }
 }
