@@ -45,6 +45,7 @@ public class MultipleRecyclerAdapter extends
             case ItemType.TEXT:
                 text = item.getField(MultipleFields.TEXT);
                 holder.setText(R.id.text_single, text);
+                break;
             case ItemType.IMAGE:
                 imageUrl = item.getField(MultipleFields.IMAGE_URL);
                 Glide.with(mContext).load(imageUrl).apply(REQUEST_OPTIONS).into((ImageView) holder.getView(R.id.img_single));
@@ -62,6 +63,9 @@ public class MultipleRecyclerAdapter extends
                     BannerCreator.setDefault(convenientBanner, bannerImages, this);
                     mIsInitBanner = true;
                 }
+                break;
+            default:
+                break;
         }
     }
 
