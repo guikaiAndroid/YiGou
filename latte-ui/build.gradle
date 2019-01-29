@@ -39,7 +39,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40'
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40'
     implementation('com.choices.divider:RecyclerView_Divider:1.0.0') {
         exclude group: 'com.android.support'
     }
