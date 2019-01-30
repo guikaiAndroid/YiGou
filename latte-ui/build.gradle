@@ -40,22 +40,22 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40'
-    implementation('com.choices.divider:RecyclerView_Divider:1.0.0') {
+    api('com.choices.divider:RecyclerView_Divider:1.0.0') {
         exclude group: 'com.android.support'
     }
-    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    api 'com.github.bumptech.glide:glide:4.7.1'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
-    implementation 'com.github.bumptech.glide:okhttp3-integration:4.7.1@aar'
+    api 'com.github.bumptech.glide:okhttp3-integration:4.7.1@aar'
     //Banner依赖
     api 'com.youth.banner:banner:1.4.10'
     //Banner依赖
     api 'com.bigkoo:convenientbanner:2.0.5'
     api 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
     //View动画依赖
-    implementation 'com.nineoldandroids:library:2.4.0'
-    implementation 'com.daimajia.easing:library:2.1@aar'
-    implementation 'com.daimajia.androidanimations:library:2.3@aar'
-    implementation "com.google.auto.value:auto-value-annotations:1.6"
+    api 'com.nineoldandroids:library:2.4.0'
+    api 'com.daimajia.easing:library:2.1@aar'
+    api 'com.daimajia.androidanimations:library:2.3@aar'
+    api "com.google.auto.value:auto-value-annotations:1.6"
     annotationProcessor "com.google.auto.value:auto-value:1.6"
 
     api project(':latte-core')

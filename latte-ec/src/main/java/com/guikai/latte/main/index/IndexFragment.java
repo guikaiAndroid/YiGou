@@ -4,6 +4,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.AppCompatEditText;
 import android.support.v7.widget.GridLayoutManager;
@@ -15,6 +16,7 @@ import com.guikai.latte.app.Latte;
 import com.guikai.latte.fragments.bottom.BottomItemFragment;
 import com.guikai.latte.net.RestClient;
 import com.guikai.latte.net.callback.ISuccess;
+import com.guikai.latte.ui.recycler.BaseDecoration;
 import com.guikai.latte.ui.recycler.MultipleFields;
 import com.guikai.latte.ui.recycler.MultipleItemEntity;
 import com.guikai.latte.ui.refresh.PagingBean;
@@ -66,6 +68,9 @@ public class IndexFragment extends BottomItemFragment {
         final GridLayoutManager manager = new GridLayoutManager(getContext(), 4);
         final Context context = getContext();
         mRecyclerView.setLayoutManager(manager);
+        if (context != null)
+        mRecyclerView.addItemDecoration(BaseDecoration.create(ContextCompat.getColor(context,
+        R.color.app_background),5));
     }
 
     @Override

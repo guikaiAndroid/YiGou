@@ -81,7 +81,7 @@ public class RefreshHandler implements
 //            @Override
 //            public void run() {
 //                RestClient.builder()
-//                        .url("index_data.json")
+//                        .url("index_2_data.json")
 //                        .success(new ISuccess() {
 //                            @Override
 //                            public void onSuccess(String response) {
