@@ -74,10 +74,25 @@ public class RefreshHandler implements
                 .get();
     }
 
-
-
     @Override
     public void onLoadMoreRequested() {
-
+        mAdapter.loadMoreEnd();
+//        Latte.getHandler().postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                RestClient.builder()
+//                        .url("index_data.json")
+//                        .success(new ISuccess() {
+//                            @Override
+//                            public void onSuccess(String response) {
+//                                mAdapter.setNewData(CONVERTER.setJsonData(response).convert());
+//                                mAdapter.closeLoadAnimation();
+//                                mAdapter.loadMoreComplete();
+//                            }
+//                        })
+//                        .build()
+//                        .get();
+//            }
+//        },1000);
     }
 }

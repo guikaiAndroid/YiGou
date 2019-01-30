@@ -13,6 +13,10 @@ public class PagingBean {
     //加载延迟
     private int mDelayed = 0;
 
+    private int getPageIndex() {
+        return mPageIndex;
+    }
+
     public PagingBean setPageIndex(int mPageIndex) {
         this.mPageIndex = mPageIndex;
         return this;
