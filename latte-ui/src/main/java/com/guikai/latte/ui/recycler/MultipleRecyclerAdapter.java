@@ -48,13 +48,19 @@ public class MultipleRecyclerAdapter extends
                 break;
             case ItemType.IMAGE:
                 imageUrl = item.getField(MultipleFields.IMAGE_URL);
-                Glide.with(mContext).load(imageUrl).apply(REQUEST_OPTIONS).into((ImageView) holder.getView(R.id.img_single));
+                Glide.with(mContext)
+                        .load(imageUrl)
+                        .apply(REQUEST_OPTIONS)
+                        .into((ImageView) holder.getView(R.id.img_single));
                 break;
             case ItemType.TEXT_IMAGE:
                 text = item.getField(MultipleFields.TEXT);
                 imageUrl = item.getField(MultipleFields.IMAGE_URL);
                 holder.setText(R.id.tv_multiple, text);
-                Glide.with(mContext).load(imageUrl).apply(REQUEST_OPTIONS).into((ImageView) holder.getView(R.id.img_multiple));
+                Glide.with(mContext)
+                        .load(imageUrl)
+                        .apply(REQUEST_OPTIONS)
+                        .into((ImageView) holder.getView(R.id.img_multiple));
                 break;
             case ItemType.BANNER:
                 if (!mIsInitBanner) {
@@ -80,7 +86,7 @@ public class MultipleRecyclerAdapter extends
     private void init() {
         //设置不同的Item布局
         addItemType(ItemType.TEXT, R.layout.item_multiple_text);
-        addItemType(ItemType.IMAGE, R.layout.item_multiple_image);
+        addItemType(ItemType.IMAGE, R.layout.item_multiple_single_image);
         addItemType(ItemType.TEXT_IMAGE, R.layout.item_multiple_image_text);
         addItemType(ItemType.BANNER, R.layout.item_multipe_banner);
         //设置宽度监听
