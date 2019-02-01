@@ -11,21 +11,12 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Toast;
 
-import com.guikai.latte.app.Latte;
 import com.guikai.latte.fragments.bottom.BottomItemFragment;
-import com.guikai.latte.net.RestClient;
-import com.guikai.latte.net.callback.ISuccess;
 import com.guikai.latte.ui.recycler.BaseDecoration;
-import com.guikai.latte.ui.recycler.MultipleFields;
-import com.guikai.latte.ui.recycler.MultipleItemEntity;
-import com.guikai.latte.ui.refresh.PagingBean;
 import com.guikai.latte.ui.refresh.RefreshHandler;
 import com.guikai.latteec.R;
 import com.joanzapata.iconify.widget.IconTextView;
-
-import java.util.ArrayList;
 
 import qiu.niorgai.StatusBarCompat;
 

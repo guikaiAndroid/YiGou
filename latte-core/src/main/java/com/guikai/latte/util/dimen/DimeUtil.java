@@ -1,7 +1,6 @@
 package com.guikai.latte.util.dimen;
 
 import android.content.res.Resources;
-import android.support.v4.app.Fragment;
 import android.util.DisplayMetrics;
 
 import com.guikai.latte.app.Latte;

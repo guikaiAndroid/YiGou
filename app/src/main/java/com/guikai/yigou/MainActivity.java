@@ -26,7 +26,6 @@ public class MainActivity extends ProxyActivity implements
             actionBar.hide();
         }
         Latte.getConfigurator().withActivity(this);
-
     }
 
     @Override
