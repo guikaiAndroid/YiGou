@@ -53,7 +53,7 @@ public class TranslucentBehavior extends CoordinatorLayout.Behavior<Toolbar> {
         mOffset += dyConsumed;
         if (mOffset <= startOffset) {
             toolbar.getBackground().setAlpha(0);
-        } else if (mOffset > startOffset && mOffset < endOffset) {
+        } else if (mOffset < endOffset) {
             final float percent = (float) (mOffset - startOffset) / endOffset;
             final int alpha = Math.round(percent * 255);
             toolbar.getBackground().setAlpha(alpha);

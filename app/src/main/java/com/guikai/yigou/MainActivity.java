@@ -15,8 +15,6 @@ import com.guikai.latte.sign.SignInFragment;
 import com.guikai.latte.ui.launcher.ILauncherListener;
 import com.guikai.latte.ui.launcher.OnLauncherFinishTag;
 
-import qiu.niorgai.StatusBarCompat;
-
 public class MainActivity extends ProxyActivity implements
         ISignListener, ILauncherListener {
 
@@ -28,7 +26,7 @@ public class MainActivity extends ProxyActivity implements
             actionBar.hide();
         }
         Latte.getConfigurator().withActivity(this);
-        StatusBarCompat.translucentStatusBar(this, true);
+
     }
 
     @Override

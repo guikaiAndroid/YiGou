@@ -20,16 +20,14 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/tb_index"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="74dp"
         app:contentInsetStart="0dp"
-        android:padding="0dp"
         android:background="@color/app_main"
         app:layout_behavior="com.guikai.latte.main.index.TranslucentBehavior">
 
         <android.support.v7.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="16dp"
             android:orientation="horizontal">
 
             <com.joanzapata.iconify.widget.IconTextView
@@ -52,6 +50,7 @@
                 android:background="@android:color/white"
                 android:gravity="center_vertical"
                 android:hint="搜索"
+                android:textSize="16sp"
                 android:paddingLeft="20dp" />
 
             <com.joanzapata.iconify.widget.IconTextView

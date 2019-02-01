@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.guikai.latte.fragments.LatteFragment;
+import com.guikai.latte.main.EcBottomFragment;
 import com.guikai.latte.net.RestClient;
 import com.guikai.latte.net.callback.ISuccess;
 import com.guikai.latte.util.log.LogUtils;
@@ -58,6 +59,7 @@ public class SignInFragment extends LatteFragment implements View.OnClickListene
                         public void onSuccess(String response) {
                             LogUtils.json("USER_PROFILE", response);
                             SignHandler.onSignIn(response, mISignListener);
+                            getSupportDelegate().startWithPop(new EcBottomFragment());
                         }
                     })
                     .loader(getContext())
