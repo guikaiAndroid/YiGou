@@ -47,11 +47,11 @@ public class MainActivity extends ProxyActivity implements
     public void onLauncherFinish(OnLauncherFinishTag tag) {
         switch (tag) {
             case SIGNED:
-                Toast.makeText(this, "启动结束，你已登陆了哟！", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "您已登陆了哟！", Toast.LENGTH_LONG).show();
                 getSupportDelegate().startWithPop(new EcBottomFragment());
                 break;
             case NOT_SIGNED:
-                Toast.makeText(this, "启动结束，亲，你还没有登陆哟！", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "亲，请先登录！", Toast.LENGTH_LONG).show();
                 getSupportDelegate().startWithPop(new SignInFragment());
                 break;
             default:
