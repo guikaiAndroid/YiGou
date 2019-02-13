@@ -13,6 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.guikai.latte.fragments.bottom.BottomItemFragment;
+import com.guikai.latte.main.EcBottomFragment;
 import com.guikai.latte.ui.recycler.BaseDecoration;
 import com.guikai.latte.ui.refresh.RefreshHandler;
 import com.guikai.latteec.R;
@@ -71,6 +72,8 @@ public class IndexFragment extends BottomItemFragment {
         if (context != null)
         mRecyclerView.addItemDecoration(BaseDecoration.create(ContextCompat.getColor(context,
         R.color.app_background),5));
+        final EcBottomFragment ecBottomFragment = getParentFragments();
+        mRecyclerView.addOnItemTouchListener(IndexItemClickListener.create(ecBottomFragment));
     }
 
     @Override

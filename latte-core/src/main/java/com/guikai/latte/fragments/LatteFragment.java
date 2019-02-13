@@ -7,4 +7,8 @@ package com.guikai.latte.fragments;
 
 public abstract class LatteFragment extends PermissionCheckFragment {
 
+    @SuppressWarnings("unchecked")
+    public <T extends LatteFragment> T getParentFragments() {
+        return (T) getParentFragment();
+    }
 }
