@@ -48,7 +48,7 @@ public class IndexFragment extends BottomItemFragment {
         final IconTextView mIconScan = $(R.id.icon_index_scan);
         final AppCompatEditText mSearch = $(R.id.et_search_view);
 
-        mToolbar.getBackground().setAlpha(0);
+        mToolbar.getBackground().mutate().setAlpha(0);
         mToolbar.setPadding(0, getStatusBarHeight(),0,0);
 
         mRefreshHandler = RefreshHandler.create(mSwipeRefreshLayout,mRecyclerView,

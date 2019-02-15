@@ -11,7 +11,7 @@ import com.guikai.latte.fragments.LatteFragment;
  * Note:
  */
 
-public abstract class BottomItemFragment extends LatteFragment{
+public abstract class BottomItemFragment extends LatteFragment {
 
     // 再点一次退出程序时间设置
     private static final long WAIT_TIME = 2000L;

@@ -3,7 +3,6 @@ package com.guikai.latte.main.index;
 import android.view.View;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.chad.library.adapter.base.entity.MultiItemEntity;
 import com.chad.library.adapter.base.listener.SimpleClickListener;
 import com.guikai.latte.detail.GoodsDetailFragment;
 import com.guikai.latte.fragments.LatteFragment;
@@ -14,7 +13,7 @@ public class IndexItemClickListener extends SimpleClickListener {
 
     private final LatteFragment FRAGMENT;
 
-    public IndexItemClickListener(LatteFragment fragment) {
+    private IndexItemClickListener(LatteFragment fragment) {
         this.FRAGMENT = fragment;
     }
 
