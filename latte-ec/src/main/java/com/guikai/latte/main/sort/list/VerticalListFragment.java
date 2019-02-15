@@ -35,7 +35,7 @@ public class VerticalListFragment extends LatteFragment {
         final LinearLayoutManager manager = new LinearLayoutManager(getContext());
         mRecyclerView.setLayoutManager(manager);
         //屏蔽动画效果
-        mRecyclerView.setAnimation(null);
+
     }
 
     @Override
@@ -50,7 +50,8 @@ public class VerticalListFragment extends LatteFragment {
                         final List<MultipleItemEntity> data =
                                 new VerticalListDataConverter().setJsonData(response).convert();
                         final SortFragment fragment = getParentFragments();
-
+                        final SortRecyclerAdapter adapter = new SortRecyclerAdapter(data,fragment);
+                        mRecyclerView.setAdapter(adapter);
                     }
                 })
                 .build()

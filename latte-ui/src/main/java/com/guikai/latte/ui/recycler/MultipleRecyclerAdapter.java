@@ -91,7 +91,7 @@ public class MultipleRecyclerAdapter extends
         addItemType(ItemType.BANNER, R.layout.item_multipe_banner);
         //设置宽度监听
         setSpanSizeLookup(this);
-        openLoadAnimation();
+//        openLoadAnimation();
         //多次执行动画
         isFirstOnly(false);
     }
