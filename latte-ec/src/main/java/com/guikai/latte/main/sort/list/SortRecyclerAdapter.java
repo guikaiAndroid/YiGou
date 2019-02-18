@@ -56,7 +56,7 @@ public class SortRecyclerAdapter extends MultipleRecyclerAdapter {
                             mPrePosition = currentPosition;
 
                             final int contentId = getData().get(currentPosition).getField(MultipleFields.ID);
-//                            showContent(contentId);
+                            showContent(contentId);
                         }
                     }
                 });
