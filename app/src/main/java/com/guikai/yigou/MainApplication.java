@@ -16,7 +16,7 @@ public class MainApplication extends Application {
                 .withIcon(new FontAwesomeModule())
                 .withIcon(new FontEcModule())
 //                .withApiHost("http://192.168.0.109/RestServer/data/")
-                .withApiHost("http://mock.fulingjie.com/mock/data/")
+                .withApiHost("http://mock.fulingjie.com/mock/api/")
                 .withWeChatAppId("Your apply App_id")
                 .withWeChatAppSecret("Your apply Secret_id")
                 .configure();

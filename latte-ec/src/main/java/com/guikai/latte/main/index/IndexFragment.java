@@ -82,6 +82,6 @@ public class IndexFragment extends BottomItemFragment {
         StatusBarCompat.translucentStatusBar(getProxyActivity(), true);
         initRefreshLayout();
         initRecyclerView();
-        mRefreshHandler.firstPage("index_data.json");
+        mRefreshHandler.firstPage("index.php");
     }
 }

@@ -85,9 +85,9 @@ public class SortRecyclerAdapter extends MultipleRecyclerAdapter {
 
     private void switchContent(ContentFragment fragment) {
         final LatteFragment contentFragment =
-                SupportHelper.findFragment(FRAGMENT.getChildFragmentManager(),ContentFragment.class);
+                SupportHelper.findFragment(FRAGMENT.getChildFragmentManager(), ContentFragment.class);
         if (contentFragment != null) {
-            contentFragment.getSupportDelegate().replaceFragment(fragment,false);
+            contentFragment.getSupportDelegate().replaceFragment(fragment, false);
         }
     }
 

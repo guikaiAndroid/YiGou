@@ -39,7 +39,6 @@
             android:id="@+id/sort_content_container"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="8dp"
             android:layout_weight="4">
 
         </android.support.v7.widget.ContentFrameLayout>
