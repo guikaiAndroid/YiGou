@@ -19,7 +19,7 @@ public class SectionDataConverter {
             final int id = data.getInteger("id");
             final String title = data.getString("section");
 
-            //添加title
+            //添加title 这里定义分组头head和分组内content
             final SectionBean sectionTitleBean = new SectionBean(true, title);
             sectionTitleBean.setId(id);
             sectionTitleBean.setIsMore(true);

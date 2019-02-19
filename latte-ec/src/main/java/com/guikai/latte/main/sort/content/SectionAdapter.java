@@ -28,6 +28,7 @@ public class SectionAdapter extends BaseSectionQuickAdapter<SectionBean, BaseVie
         super(layoutResId, sectionHeadResId, data);
     }
 
+    //设置分组头title
     @Override
     protected void convertHead(BaseViewHolder helper, SectionBean item) {
         helper.setText(R.id.header, item.header);
@@ -35,6 +36,7 @@ public class SectionAdapter extends BaseSectionQuickAdapter<SectionBean, BaseVie
         helper.addOnClickListener(R.id.more);
     }
 
+    //设置每个分组下的内容content信息
     @Override
     protected void convert(BaseViewHolder helper, SectionBean item) {
         //item.t返回SectionBean类型
