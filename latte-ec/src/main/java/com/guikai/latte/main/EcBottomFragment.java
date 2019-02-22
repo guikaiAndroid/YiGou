@@ -6,6 +6,7 @@ import com.guikai.latte.fragments.bottom.BaseBottomFragment;
 import com.guikai.latte.fragments.bottom.BottomItemFragment;
 import com.guikai.latte.fragments.bottom.BottomTabBean;
 import com.guikai.latte.fragments.bottom.BottomItemBuilder;
+import com.guikai.latte.main.discover.DiscoverFragment;
 import com.guikai.latte.main.index.IndexFragment;
 import com.guikai.latte.main.sort.SortFragment;
 
@@ -23,7 +24,7 @@ public class EcBottomFragment extends BaseBottomFragment{
         final LinkedHashMap<BottomTabBean, BottomItemFragment> items = new LinkedHashMap<>();
         items.put(new BottomTabBean("{fa-home}","主页"), new IndexFragment());
         items.put(new BottomTabBean("{fa-sort}","分类"), new SortFragment());
-        items.put(new BottomTabBean("{fa-compass}","发现"), new IndexFragment());
+        items.put(new BottomTabBean("{fa-compass}","发现"), new DiscoverFragment());
         items.put(new BottomTabBean("{fa-shopping-cart}","购物车"), new IndexFragment());
         items.put(new BottomTabBean("{fa-user}","我的"), new IndexFragment());
         return builder.addItems(items).build();

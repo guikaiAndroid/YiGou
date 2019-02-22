@@ -51,7 +51,7 @@ public class SignInFragment extends LatteFragment implements View.OnClickListene
     private void onClickSignIn() {
         if (checkFrom()) {
             RestClient.builder()
-                        .url("http://mock.fulingjie.com/mock/data/user_profile.json")
+                    .url("http://mock.fulingjie.com/mock/data/user_profile.json")
                     .params("name", mEmail.getText().toString())
                     .params("email", mPassword.getText().toString())
                     .success(new ISuccess() {
@@ -112,7 +112,7 @@ public class SignInFragment extends LatteFragment implements View.OnClickListene
         LatteWeChat.getInstance().onSignSuccess(new IWeChatSignInCallback() {
             @Override
             public void onSignInsuccess(String userInfo) {
-                Toast.makeText(getContext(),userInfo, Toast.LENGTH_LONG).show();
+                Toast.makeText(getContext(), userInfo, Toast.LENGTH_LONG).show();
                 Log.e("xxxx", "userInfo");
             }
         }).signIn();
