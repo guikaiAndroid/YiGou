@@ -49,6 +49,7 @@ public class WebFragmentImpl extends WebFragment {
         return new WebViewInitializer().createWebView(webView);
     }
 
+    //给外界提供设置listener方法
     public void setPageLoadListener(IPageLoadListener listener) {
         this.mIPageLoadListener = listener;
     }

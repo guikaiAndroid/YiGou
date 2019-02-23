@@ -52,7 +52,7 @@ public class WebViewClientImpl extends WebViewClient {
             public void run() {
                 FragmentLoader.stopLoading();
             }
-        }, 1000);
+        }, 500);
     }
 
 }
