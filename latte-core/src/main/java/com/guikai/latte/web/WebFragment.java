@@ -13,6 +13,9 @@ import com.guikai.latte.web.route.RouteKeys;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
 
+import me.yokeyword.fragmentation.anim.DefaultHorizontalAnimator;
+import me.yokeyword.fragmentation.anim.FragmentAnimator;
+
 public abstract class WebFragment extends LatteFragment implements IWebViewInitializer{
 
     private WebView mWebView = null;
@@ -68,7 +71,7 @@ public abstract class WebFragment extends LatteFragment implements IWebViewIniti
 
     public LatteFragment getTopFragment() {
         if (mTopFragment != null) {
-            mTopFragment = this;
+            mTopFragment = this.getParentFragments();
         }
         return mTopFragment;
     }
@@ -118,5 +121,10 @@ public abstract class WebFragment extends LatteFragment implements IWebViewIniti
             mWebView.destroy();
             mWebView = null;
         }
+    }
+
+    @Override
+    public FragmentAnimator onCreateFragmentAnimator() {
+        return new DefaultHorizontalAnimator();
     }
 }

@@ -34,10 +34,8 @@ public class Router {
         }
 
         final LatteFragment topFragment = fragment.getTopFragment();
-
         final WebFragmentImpl webFragment = WebFragmentImpl.create(url);
-        topFragment.getSupportDelegate().start(webFragment);
-
+        topFragment.getParentFragments().getSupportDelegate().start(webFragment);
         return true;
     }
 

@@ -36,12 +36,10 @@ public class DiscoverFragment extends BottomItemFragment {
     public void onLazyInitView(@Nullable Bundle savedInstanceState) {
         super.onLazyInitView(savedInstanceState);
         final WebFragmentImpl fragment = WebFragmentImpl.create("index.html");
+//        final WebFragmentImpl fragment = WebFragmentImpl.create("https://www.csdn.net/");
         fragment.setTopFragment(this.getParentFragments());
         getSupportDelegate().loadRootFragment(R.id.web_discovery_container,fragment);
     }
 
-    @Override
-    public FragmentAnimator onCreateFragmentAnimator() {
-        return new DefaultHorizontalAnimator();
-    }
+
 }
