@@ -8,6 +8,7 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import com.guikai.latte.web.chromeclient.WebChromeClientImpl;
 import com.guikai.latte.web.client.WebViewClientImpl;
 import com.guikai.latte.web.route.RouteKeys;
 import com.guikai.latte.web.route.Router;
@@ -38,7 +39,7 @@ public class WebFragmentImpl extends WebFragment {
     public void onBindView(@Nullable Bundle savedInstanceState, @NonNull View root) {
         if (getUrl() != null) {
             //用原生的方式模仿Web跳转并进行页面加载
-            Router.getInstance().loadPage(this,getUrl());
+            Router.getInstance().loadPage(this, getUrl());
         }
     }
 
@@ -46,6 +47,10 @@ public class WebFragmentImpl extends WebFragment {
     public WebView initWebView(WebView webView) {
         //设置一下webView属性
         return new WebViewInitializer().createWebView(webView);
+    }
+
+    public void setPageLoadListener(IPageLoadListener listener) {
+        this.mIPageLoadListener = listener;
     }
 
     @Override
@@ -57,6 +62,6 @@ public class WebFragmentImpl extends WebFragment {
 
     @Override
     public WebChromeClient initWebChromeClient() {
-        return null;
+        return new WebChromeClientImpl();
     }
 }

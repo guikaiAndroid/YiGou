@@ -1,6 +1,6 @@
 package com.guikai.latte.web.event;
 
-public interface IEnent {
+public interface IEvent {
 
     String execute(String params);
 

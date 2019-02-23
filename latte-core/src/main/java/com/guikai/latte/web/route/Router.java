@@ -16,7 +16,7 @@ public class Router {
     private Router() {
     }
 
-    //线程安全的单例写法
+    //线程安全的惰性单例
     private static class Holder {
         private static final Router INSTANCE = new Router();
     }
@@ -33,7 +33,7 @@ public class Router {
             return true;
         }
 
-        final LatteFragment topFragment = fragment.getmTopFragment();
+        final LatteFragment topFragment = fragment.getTopFragment();
 
         final WebFragmentImpl webFragment = WebFragmentImpl.create(url);
         topFragment.getSupportDelegate().start(webFragment);

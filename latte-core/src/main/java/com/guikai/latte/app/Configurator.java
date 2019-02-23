@@ -2,7 +2,10 @@ package com.guikai.latte.app;
 
 import android.app.Activity;
 import android.os.Handler;
+import android.support.annotation.NonNull;
 
+import com.guikai.latte.web.event.Event;
+import com.guikai.latte.web.event.EventManager;
 import com.joanzapata.iconify.IconFontDescriptor;
 import com.joanzapata.iconify.Iconify;
 
@@ -47,7 +50,7 @@ public class Configurator {
 
     public final Configurator withIcon(IconFontDescriptor descriptor) {
         ICONS.add(descriptor);
-        LATTE_CONFIGS.put(ConfigKeys.INTERCEPTOR,INTERCEPTORS);
+        LATTE_CONFIGS.put(ConfigKeys.INTERCEPTOR, INTERCEPTORS);
         return this;
     }
 
@@ -66,13 +69,30 @@ public class Configurator {
         return this;
     }
 
-    public final Configurator withWeChatAppSecret(String appSecret){
+    public final Configurator withWeChatAppSecret(String appSecret) {
         LATTE_CONFIGS.put(ConfigKeys.WE_CHAT_APP_SECRET, appSecret);
         return this;
     }
 
     public final Configurator withActivity(Activity activity) {
         LATTE_CONFIGS.put(ConfigKeys.ACTIVITY, activity);
+        return this;
+    }
+
+    public Configurator withJavascriptInterface(@NonNull String name) {
+        LATTE_CONFIGS.put(ConfigKeys.JAVASCRIPT_INTERFACE, name);
+        return this;
+    }
+
+    public Configurator withWebEvent(@NonNull String name, @NonNull Event event) {
+        final EventManager manager = EventManager.getInstance();
+        manager.addEvent(name, event);
+        return this;
+    }
+
+    //浏览器加载的HOST
+    public Configurator withWebHost(@NonNull String host) {
+        LATTE_CONFIGS.put(ConfigKeys.WEB_HOST, host);
         return this;
     }
 

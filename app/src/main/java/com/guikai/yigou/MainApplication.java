@@ -19,6 +19,7 @@ public class MainApplication extends Application {
                 .withApiHost("http://mock.fulingjie.com/mock/api/")
                 .withWeChatAppId("Your apply App_id")
                 .withWeChatAppSecret("Your apply Secret_id")
+                .withJavascriptInterface("latte")
                 .configure();
     }
 }

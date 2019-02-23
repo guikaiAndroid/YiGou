@@ -6,24 +6,24 @@ import android.webkit.WebView;
 import com.guikai.latte.fragments.LatteFragment;
 import com.guikai.latte.web.WebFragment;
 
-public abstract class Event implements IEnent {
+public abstract class Event implements IEvent {
 
-    private Context mContext = null;
+    private Context mContent = null;
     private String mAction = null;
     private WebFragment mFragment = null;
     private String mUrl = null;
     private WebView mWebView = null;
 
-//    public WebView getWebView{
-//        return mFragment.getWebView();
-//    }
-
     public Context getContext() {
-        return mContext;
+        return mContent;
     }
 
-    public void setContext(Context mContext) {
-        this.mContext = mContext;
+    public WebView getWebView(){
+        return mFragment.getWebView();
+    }
+
+    public void setContext(Context mContent) {
+        this.mContent = mContent;
     }
 
     public String getAction() {
@@ -38,8 +38,8 @@ public abstract class Event implements IEnent {
         return mFragment;
     }
 
-    public void setFragment(WebFragment mFragment) {
-        this.mFragment = mFragment;
+    public void setFragment(WebFragment fragment) {
+        this.mFragment = fragment;
     }
 
     public String getUrl() {

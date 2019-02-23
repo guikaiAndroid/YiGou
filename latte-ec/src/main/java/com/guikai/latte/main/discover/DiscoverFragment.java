@@ -7,7 +7,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.guikai.latte.fragments.bottom.BottomItemFragment;
+import com.guikai.latte.web.WebFragmentImpl;
 import com.guikai.latteec.R;
+
+import me.yokeyword.fragmentation.anim.DefaultHorizontalAnimator;
+import me.yokeyword.fragmentation.anim.FragmentAnimator;
 
 import static com.blankj.utilcode.util.BarUtils.getStatusBarHeight;
 
@@ -26,5 +30,18 @@ public class DiscoverFragment extends BottomItemFragment {
     public void onBindView(@Nullable Bundle savedInstanceState, @NonNull View root) {
         Toolbar mToolbar = $(R.id.tb_discover);
         mToolbar.setPadding(0, getStatusBarHeight(),0,0);
+    }
+
+    @Override
+    public void onLazyInitView(@Nullable Bundle savedInstanceState) {
+        super.onLazyInitView(savedInstanceState);
+        final WebFragmentImpl fragment = WebFragmentImpl.create("index.html");
+        fragment.setTopFragment(this.getParentFragments());
+        getSupportDelegate().loadRootFragment(R.id.web_discovery_container,fragment);
+    }
+
+    @Override
+    public FragmentAnimator onCreateFragmentAnimator() {
+        return new DefaultHorizontalAnimator();
     }
 }

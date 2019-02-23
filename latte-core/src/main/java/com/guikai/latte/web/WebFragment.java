@@ -38,7 +38,7 @@ public abstract class WebFragment extends LatteFragment implements IWebViewIniti
         initWebView();
     }
 
-    @SuppressLint("JavascriptInterface")
+    @SuppressLint({"JavascriptInterface", "AddJavascriptInterface"})
     private void initWebView() {
         if (mWebView != null) {
             mWebView.removeAllViews();
@@ -66,7 +66,7 @@ public abstract class WebFragment extends LatteFragment implements IWebViewIniti
         mTopFragment = fragment;
     }
 
-    public LatteFragment getmTopFragment() {
+    public LatteFragment getTopFragment() {
         if (mTopFragment != null) {
             mTopFragment = this;
         }
