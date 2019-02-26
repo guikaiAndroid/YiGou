@@ -10,9 +10,9 @@ public class EventManager {
     private static final HashMap<String, Event> EVENTS = new HashMap<>();
 
     private EventManager() {
-
     }
 
+    //惰性单例
     private static class Holder {
         private static final EventManager INSTANCE = new EventManager();
     }

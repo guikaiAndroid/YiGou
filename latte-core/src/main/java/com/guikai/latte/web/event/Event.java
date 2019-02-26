@@ -18,7 +18,7 @@ public abstract class Event implements IEvent {
         return mContent;
     }
 
-    public WebView getWebView(){
+    public WebView getWebView() {
         return mFragment.getWebView();
     }
 

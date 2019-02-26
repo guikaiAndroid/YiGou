@@ -10,6 +10,19 @@
 <body>
 
 <h1>这是本地页面2</h1>
+<button id="test"> 测试原生与js交互</button>
 <a href="three.html">跳转测试2</a>
+<script type="text/javascript">
+    document.getElementById('test').onclick = function () {
+    var command = {
+    'action' : 'test'
+    };
+    latte.event(JSON.stringify(command));
+};
+
+function nativeCall() {
+alert('我已经接收到原生传来的事件了！');
+}
+</script>
 </body>
 </html>

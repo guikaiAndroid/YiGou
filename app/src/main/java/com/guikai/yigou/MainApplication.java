@@ -5,6 +5,7 @@ import android.app.Application;
 import com.guikai.latte.app.Latte;
 import com.guikai.latte.icon.FontEcModule;
 import com.guikai.latte.net.interceptors.DebugInterceptor;
+import com.guikai.yigou.event.TestEvent;
 import com.joanzapata.iconify.fonts.FontAwesomeModule;
 
 public class MainApplication extends Application {
@@ -20,6 +21,7 @@ public class MainApplication extends Application {
                 .withWeChatAppId("Your apply App_id")
                 .withWeChatAppSecret("Your apply Secret_id")
                 .withJavascriptInterface("latte")
+                .withWebEvent("test",new TestEvent())
                 .configure();
     }
 }

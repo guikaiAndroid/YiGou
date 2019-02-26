@@ -40,6 +40,4 @@ public class DiscoverFragment extends BottomItemFragment {
         fragment.setTopFragment(this.getParentFragments());
         getSupportDelegate().loadRootFragment(R.id.web_discovery_container,fragment);
     }
-
-
 }

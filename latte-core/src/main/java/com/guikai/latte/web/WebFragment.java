@@ -16,7 +16,7 @@ import java.lang.ref.WeakReference;
 import me.yokeyword.fragmentation.anim.DefaultHorizontalAnimator;
 import me.yokeyword.fragmentation.anim.FragmentAnimator;
 
-public abstract class WebFragment extends LatteFragment implements IWebViewInitializer{
+public abstract class WebFragment extends LatteFragment implements IWebViewInitializer {
 
     private WebView mWebView = null;
     private final ReferenceQueue<WebView> WEB_VIEW_QUEUE = new ReferenceQueue<>();
@@ -50,13 +50,13 @@ public abstract class WebFragment extends LatteFragment implements IWebViewIniti
             if (initializer != null) {
                 //使用弱应用 WebView在xml中定义可能会有oom内存泄漏 使用new
                 final WeakReference<WebView> webViewWeakReference =
-                        new WeakReference<>(new WebView(getContext()),WEB_VIEW_QUEUE);
+                        new WeakReference<>(new WebView(getContext()), WEB_VIEW_QUEUE);
                 mWebView = webViewWeakReference.get();
                 mWebView = initializer.initWebView(mWebView);
                 mWebView.setWebViewClient(initializer.initWebViewClient());
                 mWebView.setWebChromeClient(initializer.initWebChromeClient());
                 final String name = Latte.getConfiguration(ConfigKeys.JAVASCRIPT_INTERFACE);
-                mWebView.addJavascriptInterface(LatteWebInterface.create(this),name);
+                mWebView.addJavascriptInterface(LatteWebInterface.create(this), name);
                 mIsWebAvailable = true;
             } else {
                 throw new NullPointerException("Initializer is null!");
