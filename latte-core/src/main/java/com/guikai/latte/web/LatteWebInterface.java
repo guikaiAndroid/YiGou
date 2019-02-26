@@ -25,7 +25,7 @@ public class LatteWebInterface  {
     public String event(String params) {
         final String action = JSON.parseObject(params).getString("action");
         final Event event = EventManager.getInstance().createEvent(action);
-        LogUtils.d("WEB_EVENT",params);
+        LogUtils.e("WEB_EVENT",params);
         if (event != null) {
             event.setAction(action);
             event.setFragment(FRAGMENT);

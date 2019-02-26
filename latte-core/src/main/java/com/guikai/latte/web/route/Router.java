@@ -32,10 +32,16 @@ public class Router {
             callPhone(fragment.getContext(), url);
             return true;
         }
-
+//        final LatteFragment parentFragment = fragment.getParentFragments();
+//        final WebFragmentImpl webFragment = WebFragmentImpl.create(url);
+//        if (parentFragment == null) {
+//            fragment.start(webFragment);
+//        } else {
+//            parentFragment.start(webFragment);
+//        }
         final LatteFragment topFragment = fragment.getTopFragment();
         final WebFragmentImpl webFragment = WebFragmentImpl.create(url);
-        topFragment.getParentFragments().getSupportDelegate().start(webFragment);
+        topFragment.getSupportDelegate().start(webFragment);
         return true;
     }
 

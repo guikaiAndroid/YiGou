@@ -25,7 +25,6 @@ public abstract class WebFragment extends LatteFragment implements IWebViewIniti
     private LatteFragment mTopFragment = null;
 
     public WebFragment() {
-
     }
 
     public abstract IWebViewInitializer setInitializer();
@@ -70,8 +69,8 @@ public abstract class WebFragment extends LatteFragment implements IWebViewIniti
     }
 
     public LatteFragment getTopFragment() {
-        if (mTopFragment != null) {
-            mTopFragment = this.getParentFragments();
+        if (mTopFragment == null) {
+            mTopFragment = this;
         }
         return mTopFragment;
     }

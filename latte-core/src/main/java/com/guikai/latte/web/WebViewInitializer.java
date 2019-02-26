@@ -9,7 +9,7 @@ import android.webkit.WebView;
 
 public class WebViewInitializer {
 
-    @SuppressLint({"SetJavaScriptEnabled", "NewApi"})
+    @SuppressLint("SetJavaScriptEnabled")
     public WebView createWebView(WebView webView) {
         WebView.setWebContentsDebuggingEnabled(true);
 

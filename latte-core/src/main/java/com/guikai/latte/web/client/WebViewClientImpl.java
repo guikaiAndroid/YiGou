@@ -26,9 +26,10 @@ public class WebViewClientImpl extends WebViewClient {
         this.FRAGMENT = fragment;
     }
 
+    //拦截关键方法，当点击WebView链接时，我们打开新的fragment加载
     @Override
     public boolean shouldOverrideUrlLoading(WebView view, String url) {
-        LogUtils.d("shouldOverrideUrlLoading", url);
+        LogUtils.e("shouldOverrideUrlLoading", url);
         return Router.getInstance().handleWebUrl(FRAGMENT,url);
     }
 

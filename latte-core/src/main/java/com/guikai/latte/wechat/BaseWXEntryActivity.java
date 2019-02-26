@@ -37,7 +37,7 @@ public abstract class BaseWXEntryActivity extends BaseWXActivity {
                 .append(code)
                 .append("&grant_type=authorization_code");
 
-        LogUtils.d("authUrl", authUrl.toString());
+        LogUtils.e("authUrl", authUrl.toString());
         getAuth(authUrl.toString());
     }
 
@@ -62,7 +62,7 @@ public abstract class BaseWXEntryActivity extends BaseWXActivity {
                                 .append("&lang=")
                                 .append("zh_CN");
 
-                        LogUtils.d("userInfoUrl", userInfoUrl.toString());
+                        LogUtils.e("userInfoUrl", userInfoUrl.toString());
                         getUserInfo(userInfoUrl.toString());
                     }
                 })
