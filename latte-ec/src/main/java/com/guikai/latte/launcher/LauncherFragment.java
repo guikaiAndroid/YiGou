@@ -115,4 +115,9 @@ public class LauncherFragment extends LatteFragment implements ITimerListener {
             }
         });
     }
+
+    @Override
+    public boolean onBackPressedSupport() {
+        return true;
+    }
 }
