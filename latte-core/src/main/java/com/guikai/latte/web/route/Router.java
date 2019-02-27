@@ -10,6 +10,7 @@ import android.webkit.WebView;
 import com.guikai.latte.fragments.LatteFragment;
 import com.guikai.latte.web.WebFragment;
 import com.guikai.latte.web.WebFragmentImpl;
+import com.guikai.latte.web.WebViewFragment;
 
 public class Router {
 
@@ -32,16 +33,12 @@ public class Router {
             callPhone(fragment.getContext(), url);
             return true;
         }
-//        final LatteFragment parentFragment = fragment.getParentFragments();
+//        final LatteFragment topFragment = fragment.getTopFragment();
 //        final WebFragmentImpl webFragment = WebFragmentImpl.create(url);
-//        if (parentFragment == null) {
-//            fragment.start(webFragment);
-//        } else {
-//            parentFragment.start(webFragment);
-//        }
+//        topFragment.getSupportDelegate().start(webFragment);
         final LatteFragment topFragment = fragment.getTopFragment();
-        final WebFragmentImpl webFragment = WebFragmentImpl.create(url);
-        topFragment.getSupportDelegate().start(webFragment);
+        final WebViewFragment secondActivity = WebViewFragment.newInstance(url);
+        topFragment.getSupportDelegate().start(secondActivity);
         return true;
     }
 

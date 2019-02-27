@@ -10,9 +10,6 @@ import com.guikai.latte.fragments.bottom.BottomItemFragment;
 import com.guikai.latte.web.WebFragmentImpl;
 import com.guikai.latteec.R;
 
-import me.yokeyword.fragmentation.anim.DefaultHorizontalAnimator;
-import me.yokeyword.fragmentation.anim.FragmentAnimator;
-
 import static com.blankj.utilcode.util.BarUtils.getStatusBarHeight;
 
 /**
