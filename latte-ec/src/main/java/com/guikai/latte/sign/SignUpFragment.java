@@ -71,7 +71,7 @@ public class SignUpFragment extends LatteFragment {
     private void onClickSignUp() {
         if (checkForm()) {
             RestClient.builder()
-                    .url("http://mock.fulingjie.com/mock/data/user_profile.json")
+                    .url("http://mock.fulingjie.com/mock-android/data/user_profile.json")
                     .params("name", mName.getText().toString())
                     .params("email", mEmail.getText().toString())
                     .params("phone", mPhone.getText().toString())
