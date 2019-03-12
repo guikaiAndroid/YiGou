@@ -26,7 +26,7 @@ public class DiscoverFragment extends BottomItemFragment {
     @Override
     public void onBindView(@Nullable Bundle savedInstanceState, @NonNull View root) {
         Toolbar mToolbar = $(R.id.tb_discover);
-        mToolbar.setPadding(0, getStatusBarHeight(),0,0);
+        mToolbar.setPadding(0, getStatusBarHeight(), 0, 0);
     }
 
     @Override
@@ -35,6 +35,6 @@ public class DiscoverFragment extends BottomItemFragment {
         final WebFragmentImpl fragment = WebFragmentImpl.create("index.html");
 //        final WebFragmentImpl fragment = WebFragmentImpl.create("https://www.csdn.net/");
         fragment.setTopFragment(this.getParentFragments());
-        getSupportDelegate().loadRootFragment(R.id.web_discovery_container,fragment);
+        getSupportDelegate().loadRootFragment(R.id.web_discovery_container, fragment);
     }
 }

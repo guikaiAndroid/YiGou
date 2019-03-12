@@ -99,7 +99,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="{fa-check-circle}"
-                android:textColor="@android:color/darker_gray"
+                android:textColor="@color/app_main"
                 android:textSize="22sp" />
 
             <android.support.v7.widget.AppCompatTextView
@@ -127,7 +127,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="合计:"
-                android:textSize="14sp"
+                android:textSize="16sp"
                 android:textColor="@android:color/darker_gray"
                 tools:ignore="HardcodedText" />
 
@@ -139,7 +139,8 @@
                 android:gravity="center|left"
                 android:text="￥99.99"
                 android:textColor="@color/app_main"
-                android:textSize="14sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
                 tools:ignore="HardcodedText,RtlHardcoded" />
 
         </android.support.v7.widget.LinearLayoutCompat>

@@ -49,9 +49,9 @@ public class IndexFragment extends BottomItemFragment {
         final AppCompatEditText mSearch = $(R.id.et_search_view);
 
         mToolbar.getBackground().mutate().setAlpha(0);
-        mToolbar.setPadding(0, getStatusBarHeight(),0,0);
+        mToolbar.setPadding(0, getStatusBarHeight(), 0, 0);
 
-        mRefreshHandler = RefreshHandler.create(mSwipeRefreshLayout,mRecyclerView,
+        mRefreshHandler = RefreshHandler.create(mSwipeRefreshLayout, mRecyclerView,
                 new IndexDataConverter());
 
     }
@@ -70,8 +70,8 @@ public class IndexFragment extends BottomItemFragment {
         final Context context = getContext();
         mRecyclerView.setLayoutManager(manager);
         if (context != null)
-        mRecyclerView.addItemDecoration(BaseDecoration.create(ContextCompat.getColor(context,
-        R.color.app_background),5));
+            mRecyclerView.addItemDecoration(BaseDecoration.create(ContextCompat.getColor(context,
+                    R.color.app_background), 5));
         final EcBottomFragment ecBottomFragment = getParentFragments();
         mRecyclerView.addOnItemTouchListener(IndexItemClickListener.create(ecBottomFragment));
     }

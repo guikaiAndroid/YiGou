@@ -42,6 +42,10 @@ public abstract class BaseBottomFragment extends LatteFragment implements View.O
         return R.layout.fragment_bottom;
     }
 
+    public ArrayList<BottomItemFragment> getItemFragments() {
+        return ITEM_FRAGMENTS;
+    }
+
     public abstract LinkedHashMap<BottomTabBean, BottomItemFragment> setItems(BottomItemBuilder builder);
 
     public abstract int setIndexFragment();
@@ -123,5 +127,9 @@ public abstract class BaseBottomFragment extends LatteFragment implements View.O
             //注意先后顺序
             mCurrentFragment = tabIndex;
         }
+    }
+
+    public void setCurrentFragment(int currentFragment) {
+        mCurrentFragment = currentFragment;
     }
 }

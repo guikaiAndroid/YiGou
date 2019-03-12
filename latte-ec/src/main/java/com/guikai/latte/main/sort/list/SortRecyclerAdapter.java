@@ -47,11 +47,11 @@ public class SortRecyclerAdapter extends MultipleRecyclerAdapter {
                         final int currentPosition = holder.getAdapterPosition();
                         if (mPrePosition != currentPosition) {
                             //还原上一个
-                            getData().get(mPrePosition).setFields(MultipleFields.TAG, false);
+                            getData().get(mPrePosition).setField(MultipleFields.TAG, false);
                             notifyItemChanged(mPrePosition);
 
                             //更新选中的item
-                            item.setFields(MultipleFields.TAG, true);
+                            item.setField(MultipleFields.TAG, true);
                             notifyItemChanged(currentPosition);
                             mPrePosition = currentPosition;
 

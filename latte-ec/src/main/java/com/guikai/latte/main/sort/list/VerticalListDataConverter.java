@@ -36,9 +36,8 @@ public final class VerticalListDataConverter extends DataConverter {
 
             dataList.add(entity);
             //设置第一个被选中 标记为true
-            dataList.get(0).setFields(MultipleFields.TAG, true);
+            dataList.get(0).setField(MultipleFields.TAG, true);
         }
-
         return dataList;
     }
 }
