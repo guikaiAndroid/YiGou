@@ -56,7 +56,7 @@ public class ShopCartAdapter extends
         this.mCartItemListener = listener;
     }
 
-    public double getmTotalPrice() {
+    public double getTotalPrice() {
         return mTotalPrice;
     }
 

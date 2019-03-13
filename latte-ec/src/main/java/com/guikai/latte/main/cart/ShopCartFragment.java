@@ -13,6 +13,8 @@ import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.ViewStubCompat;
 import android.view.View;
 
+import com.alibaba.fastjson.JSON;
+import com.blankj.utilcode.util.LogUtils;
 import com.blankj.utilcode.util.ToastUtils;
 import com.guikai.latte.fragments.bottom.BottomItemFragment;
 import com.guikai.latte.main.EcBottomFragment;
@@ -24,6 +26,7 @@ import com.joanzapata.iconify.widget.IconTextView;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.WeakHashMap;
 
 import static com.blankj.utilcode.util.BarUtils.getStatusBarHeight;
 
@@ -88,7 +91,7 @@ public class ShopCartFragment extends BottomItemFragment
         final LinearLayoutManager manager = new LinearLayoutManager(getContext());
         mRecyclerView.setLayoutManager(manager);
         mRecyclerView.setAdapter(mAdapter);
-        mTotalPrice = mAdapter.getmTotalPrice();
+        mTotalPrice = mAdapter.getTotalPrice();
         mTvTotalPrice.setText(String.valueOf(mTotalPrice));
         checkItemCount();
     }
@@ -123,7 +126,7 @@ public class ShopCartFragment extends BottomItemFragment
 
     @Override
     public void onItemClick(double itemTotalPrice) {
-        final double price = mAdapter.getmTotalPrice();
+        final double price = mAdapter.getTotalPrice();
         mTvTotalPrice.setText(String.valueOf(price));
     }
 
@@ -143,6 +146,8 @@ public class ShopCartFragment extends BottomItemFragment
             //清空
             onClickClear();
 
+        } else if (i == R.id.tv_shop_cart_pay) {
+            createOrder();
         }
     }
 
@@ -187,6 +192,29 @@ public class ShopCartFragment extends BottomItemFragment
         } else {
             ToastUtils.showShort("空空如也，赶紧购物吧！");
         }
+    }
+
+    //创建订单，这里和支付是没有关系的 C端发送订单给服务端，服务端响应拼接Url给C端
+    private void createOrder() {
+        final String orderUrl = "服务端拼接订单信息的Url";
+        final WeakHashMap<String,Object> orderParams = new WeakHashMap<>();
+        //加入你的订单信息 购物车中的物品等等 封装进orderParams里
+        RestClient.builder()
+                .url(orderUrl)
+                .loader(getContext())
+                .params(orderParams)
+                .success(new ISuccess() {
+                    @Override
+                    public void onSuccess(String response) {
+                        //获取到服务端数据 调用支付宝SDK 发起支付
+                        LogUtils.d("ORDER",response);
+                        final int orderId = JSON.parseObject(response).getInteger("result");
+
+                    }
+                })
+                .build()
+                .post();
+
     }
 
     private void onClickSelectAll() {
