@@ -24,6 +24,7 @@ import com.guikai.latte.ui.recycler.MultipleItemEntity;
 import com.guikai.latteec.R;
 import com.joanzapata.iconify.widget.IconTextView;
 
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.WeakHashMap;
