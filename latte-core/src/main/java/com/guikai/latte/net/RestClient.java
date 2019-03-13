@@ -30,7 +30,7 @@ public class RestClient {
 
     //创建一个网络请求需要的参数
     private final String URL;
-    private static final WeakHashMap<String, Object> PARAMS = RestCreator.getParams();
+    private final WeakHashMap<String, Object> PARAMS;
     private final IRequest REQUEST;
     private final String DOWNLOAD_DIR;
     private final String EXTENSION;
@@ -57,7 +57,7 @@ public class RestClient {
                       Context context,
                       LoaderStyle loaderStyle) {
         this.URL = url;
-        PARAMS.putAll(params);
+        this.PARAMS = params;
         this.REQUEST = request;
         this.DOWNLOAD_DIR = downloadDir;
         this.EXTENSION = extension;
@@ -104,8 +104,8 @@ public class RestClient {
                 call = service.putRaw(URL, BODY);
                 break;
             case UPLOAD:
-                final RequestBody requestBody = RequestBody.create(MediaType.parse(MultipartBody.FORM.toString()),FILE);
-                final MultipartBody.Part body = MultipartBody.Part.createFormData("file",FILE.getName(), requestBody);
+                final RequestBody requestBody = RequestBody.create(MediaType.parse(MultipartBody.FORM.toString()), FILE);
+                final MultipartBody.Part body = MultipartBody.Part.createFormData("file", FILE.getName(), requestBody);
                 call = RestCreator.getRestService().upload(URL, body);
                 break;
             case DELETE:
@@ -165,6 +165,6 @@ public class RestClient {
     }
 
     public final void download() {
-        new DownloadHandler(URL, REQUEST, DOWNLOAD_DIR, EXTENSION,NAME, SUCCESS, FAILURE, ERROR).handleDownload();
+        new DownloadHandler(URL, REQUEST, DOWNLOAD_DIR, EXTENSION, NAME, SUCCESS, FAILURE, ERROR).handleDownload();
     }
 }

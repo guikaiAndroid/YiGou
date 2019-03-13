@@ -52,8 +52,8 @@ public class SignInFragment extends LatteFragment implements View.OnClickListene
         if (checkFrom()) {
             RestClient.builder()
                     .url("http://mock.fulingjie.com/mock-android/data/user_profile.json")
-                    .params("name", mEmail.getText().toString())
-                    .params("email", mPassword.getText().toString())
+                    .params("email", mEmail.getText().toString())
+                    .params("password", mPassword.getText().toString())
                     .success(new ISuccess() {
                         @Override
                         public void onSuccess(String response) {
@@ -85,7 +85,7 @@ public class SignInFragment extends LatteFragment implements View.OnClickListene
             mPassword.setError("请填写至少6位数的密码");
             isPass = false;
         } else {
-            mEmail.setError(null);
+            mPassword.setError(null);
         }
 
         return isPass;

@@ -19,7 +19,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class RestCreator {
 
-    private static final  class  ParamsHolder {
+    private static final class ParamsHolder {
         public static final WeakHashMap<String, Object> PARAMS = new WeakHashMap<>();
     }
 
@@ -46,7 +46,7 @@ public class RestCreator {
 
         private static OkHttpClient.Builder addInterceptor() {
             if (INTERCEPTORS != null || !INTERCEPTORS.isEmpty()) {
-                for (Interceptor interceptor :  INTERCEPTORS) {
+                for (Interceptor interceptor : INTERCEPTORS) {
                     BUILDER.addInterceptor(interceptor);
                 }
             }

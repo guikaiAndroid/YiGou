@@ -25,7 +25,7 @@ import retrofit2.Call;
 public class RestClientBuilder {
 
     private String mUrl = null;
-    private static final WeakHashMap<String, Object> PARAMS = RestCreator.getParams();
+    private final WeakHashMap<String, Object> PARAMS = RestCreator.getParams();
     private IRequest mIRequest = null;
     private ISuccess mISuccess = null;
     private IFailure mIFailure = null;
@@ -40,7 +40,7 @@ public class RestClientBuilder {
     private String mName = null;
 
     RestClientBuilder() {
-
+        PARAMS.clear();
     }
 
     public final RestClientBuilder url(String url) {
