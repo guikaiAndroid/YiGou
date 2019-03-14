@@ -5,13 +5,13 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
 
+import com.chad.library.adapter.base.BaseMultiItemQuickAdapter;
 import com.guikai.latte.fragments.LatteFragment;
 import com.guikai.latte.main.sort.SortFragment;
 import com.guikai.latte.main.sort.content.ContentFragment;
 import com.guikai.latte.ui.recycler.ItemType;
 import com.guikai.latte.ui.recycler.MultipleFields;
 import com.guikai.latte.ui.recycler.MultipleItemEntity;
-import com.guikai.latte.ui.recycler.MultipleRecyclerAdapter;
 import com.guikai.latte.ui.recycler.MultipleViewHolder;
 import com.guikai.latteec.R;
 
@@ -19,7 +19,8 @@ import java.util.List;
 
 import me.yokeyword.fragmentation.SupportHelper;
 
-public class SortRecyclerAdapter extends MultipleRecyclerAdapter {
+public class SortRecyclerAdapter extends
+        BaseMultiItemQuickAdapter<MultipleItemEntity, MultipleViewHolder> {
 
     private final SortFragment FRAGMENT;
     private int mPrePosition = 0;
@@ -33,7 +34,6 @@ public class SortRecyclerAdapter extends MultipleRecyclerAdapter {
 
     @Override
     protected void convert(MultipleViewHolder holder, MultipleItemEntity item) {
-        super.convert(holder, item);
         switch (holder.getItemViewType()) {
             case ItemType.VERTICAL_MENU_LIST:
                 final String text = item.getField(MultipleFields.TEXT);

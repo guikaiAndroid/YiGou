@@ -37,12 +37,14 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    //圆角图片
-    implementation 'de.hdodenhof:circleimageview:2.2.0'
 
     api project(':latte-ui')
     compileOnly project(':latte-annotations')
     annotationProcessor project(':latte-compiler')
 
+    //圆角图片
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    //支付宝SDK
+    implementation files('libs/alipaySdk-20170922.jar')
 
 }

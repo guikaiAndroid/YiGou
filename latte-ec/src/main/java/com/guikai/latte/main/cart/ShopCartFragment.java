@@ -18,7 +18,11 @@ import com.blankj.utilcode.util.LogUtils;
 import com.blankj.utilcode.util.ToastUtils;
 import com.guikai.latte.fragments.bottom.BottomItemFragment;
 import com.guikai.latte.main.EcBottomFragment;
+import com.guikai.latte.main.cart.pay.FastPay;
+import com.guikai.latte.main.cart.pay.IAlPayResultListener;
 import com.guikai.latte.net.RestClient;
+import com.guikai.latte.net.callback.IError;
+import com.guikai.latte.net.callback.IFailure;
 import com.guikai.latte.net.callback.ISuccess;
 import com.guikai.latte.ui.recycler.MultipleItemEntity;
 import com.guikai.latteec.R;
@@ -37,7 +41,7 @@ import static com.blankj.utilcode.util.BarUtils.getStatusBarHeight;
  */
 
 public class ShopCartFragment extends BottomItemFragment
-        implements ISuccess, ICartItemListener, View.OnClickListener {
+        implements ISuccess, ICartItemListener, View.OnClickListener, IAlPayResultListener {
 
     private ShopCartAdapter mAdapter = null;
     //购物车数量标记
@@ -58,16 +62,16 @@ public class ShopCartFragment extends BottomItemFragment
     @Override
     public void onBindView(@Nullable Bundle savedInstanceState, @NonNull View root) {
         Toolbar mToolbar = $(R.id.tb_cart);
+        mToolbar.setPadding(0, getStatusBarHeight(), 0, 0);
         mRecyclerView = $(R.id.rv_shop_cart);
         mIconSelectAll = $(R.id.icon_shop_cart_select_all);
         mStubNoItem = $(R.id.stub_no_item);
         mTvTotalPrice = $(R.id.tv_shop_cart_total_price);
-        mIconSelectAll.setTag(0);
+        mIconSelectAll.setTag(1);
         $(R.id.icon_shop_cart_select_all).setOnClickListener(this);
         $(R.id.tv_top_shop_cart_remove_selected).setOnClickListener(this);
         $(R.id.tv_top_shop_cart_clear).setOnClickListener(this);
         $(R.id.tv_shop_cart_pay).setOnClickListener(this);
-        mToolbar.setPadding(0, getStatusBarHeight(), 0, 0);
     }
 
     @Override
@@ -195,11 +199,19 @@ public class ShopCartFragment extends BottomItemFragment
         }
     }
 
-    //创建订单，这里和支付是没有关系的 C端发送订单给服务端，服务端响应拼接Url给C端
+    //创建订单，这里和支付是没有关系的 C端发送订单给服务端，服务端响应给C端秘钥
     private void createOrder() {
         final String orderUrl = "服务端拼接订单信息的Url";
-        final WeakHashMap<String,Object> orderParams = new WeakHashMap<>();
+//        final String orderUrl = "http://app.api.zanzuanshi.com/api/v1/peyment";
+        final WeakHashMap<String, Object> orderParams = new WeakHashMap<>();
         //加入你的订单信息 购物车中的物品等等 封装进orderParams里
+//        orderParams.put("userid", 264392);
+//        orderParams.put("amount", 0.01);
+//        orderParams.put("comment", "测试支付");
+//        orderParams.put("type", 1);
+//        orderParams.put("ordertype", 0);
+//        orderParams.put("isanonymous", true);
+//        orderParams.put("followeduser", 0);
         RestClient.builder()
                 .url(orderUrl)
                 .loader(getContext())
@@ -208,9 +220,25 @@ public class ShopCartFragment extends BottomItemFragment
                     @Override
                     public void onSuccess(String response) {
                         //获取到服务端数据 调用支付宝SDK 发起支付
-                        LogUtils.d("ORDER",response);
+                        LogUtils.d("ORDER", response);
                         final int orderId = JSON.parseObject(response).getInteger("result");
-
+                        FastPay.create(ShopCartFragment.this)
+                                .setPayResultListener(ShopCartFragment.this)
+                                .setOrderId(orderId)
+                                .beginPayDialog();
+                    }
+                })
+                .failure(new IFailure() {
+                    @Override
+                    public void onFailure() {
+                        ToastUtils.showShort("需要服务端支持！");
+                        LogUtils.d("PAY_SIGN", "支付服务端请求失败");
+                    }
+                })
+                .error(new IError() {
+                    @Override
+                    public void onError(int code, String msg) {
+                        LogUtils.d("PAY_SIGN", "支付服务端请求错误");
                     }
                 })
                 .build()
@@ -236,5 +264,30 @@ public class ShopCartFragment extends BottomItemFragment
             mAdapter.setIsSelectedAll(false);
             mAdapter.notifyItemRangeChanged(0, mAdapter.getItemCount());
         }
+    }
+
+    @Override
+    public void onPaySuccess() {
+
+    }
+
+    @Override
+    public void onPaying() {
+
+    }
+
+    @Override
+    public void onPayFail() {
+
+    }
+
+    @Override
+    public void onPayCancel() {
+
+    }
+
+    @Override
+    public void onPayConnectError() {
+
     }
 }
