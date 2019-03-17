@@ -9,6 +9,7 @@ import com.guikai.latte.fragments.bottom.BottomItemBuilder;
 import com.guikai.latte.main.discover.DiscoverFragment;
 import com.guikai.latte.main.index.IndexFragment;
 import com.guikai.latte.main.cart.ShopCartFragment;
+import com.guikai.latte.main.personal.PersonalFragment;
 import com.guikai.latte.main.sort.SortFragment;
 
 import java.util.LinkedHashMap;
@@ -27,7 +28,7 @@ public class EcBottomFragment extends BaseBottomFragment{
         items.put(new BottomTabBean("{fa-sort}","分类"), new SortFragment());
         items.put(new BottomTabBean("{fa-compass}","发现"), new DiscoverFragment());
         items.put(new BottomTabBean("{fa-shopping-cart}","购物车"), new ShopCartFragment());
-        items.put(new BottomTabBean("{fa-user}","我的"), new IndexFragment());
+        items.put(new BottomTabBean("{fa-user}","我的"), new PersonalFragment());
         return builder.addItems(items).build();
     }
 

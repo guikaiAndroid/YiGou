@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.view.View;
 
 import com.guikai.latte.fragments.bottom.BottomItemFragment;
+import com.guikai.latteec.R;
 
 /**
  * Created by Anding on 2019/1/27 18:22
@@ -15,7 +16,7 @@ import com.guikai.latte.fragments.bottom.BottomItemFragment;
 public class PersonalFragment extends BottomItemFragment {
     @Override
     public Object setLayout() {
-        return null;
+        return R.layout.fragment__personal;
     }
 
     @Override
