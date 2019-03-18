@@ -12,6 +12,7 @@ import com.guikai.latte.main.personal.address.AddressFragment;
 import com.guikai.latte.main.personal.list.ListAdapter;
 import com.guikai.latte.main.personal.list.ListBean;
 import com.guikai.latte.main.personal.list.ListItemType;
+import com.guikai.latte.main.personal.order.OrderListFragment;
 import com.guikai.latte.main.personal.settings.SettingsFragment;
 import com.guikai.latteec.R;
 
@@ -24,9 +25,31 @@ import java.util.List;
  */
 
 public class PersonalFragment extends BottomItemFragment {
+
+    public static final String ORDER_TYPE = "ORDER_TYPE";
+    private Bundle mArgs = null;
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mArgs = new Bundle();
+    }
+
+    private void onClickAllOrder() {
+        mArgs.putString(ORDER_TYPE,"all");
+        startOrderListByType();
+    }
+
+    private void startOrderListByType() {
+        final OrderListFragment fragment = new OrderListFragment();
+        fragment.setArguments(mArgs);
+        getParentFragments().getSupportDelegate().start(fragment);
+    }
+
+
     @Override
     public Object setLayout() {
-        return R.layout.fragment__personal;
+        return R.layout.fragment_personal;
     }
 
     @Override
@@ -71,10 +94,6 @@ public class PersonalFragment extends BottomItemFragment {
         rvSettings.addOnItemTouchListener(new PersonalClickListener(this));
     }
 
-
-    private void onClickAllOrder() {
-
-    }
 
     private void onClickAvatar() {
 
