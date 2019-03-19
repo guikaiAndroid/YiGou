@@ -13,6 +13,7 @@ import com.guikai.latte.main.personal.list.ListAdapter;
 import com.guikai.latte.main.personal.list.ListBean;
 import com.guikai.latte.main.personal.list.ListItemType;
 import com.guikai.latte.main.personal.order.OrderListFragment;
+import com.guikai.latte.main.personal.profile.UserProfileFragment;
 import com.guikai.latte.main.personal.settings.SettingsFragment;
 import com.guikai.latteec.R;
 
@@ -95,6 +96,6 @@ public class PersonalFragment extends BottomItemFragment {
     }
 
     private void onClickAvatar() {
-
+        getParentFragments().getSupportDelegate().start(new UserProfileFragment());
     }
 }
