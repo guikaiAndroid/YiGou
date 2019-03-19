@@ -32,8 +32,4 @@ public class GoodsDetailFragment extends LatteFragment {
 
     }
 
-    @Override
-    public FragmentAnimator onCreateFragmentAnimator() {
-        return new DefaultHorizontalAnimator();
-    }
 }

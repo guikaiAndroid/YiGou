@@ -57,8 +57,4 @@ public class WebViewFragment extends LatteFragment {
         getSupportDelegate().loadRootFragment(R.id.web_discovery_container,fragment);
     }
 
-    @Override
-    public FragmentAnimator onCreateFragmentAnimator() {
-        return new DefaultHorizontalAnimator();
-    }
 }

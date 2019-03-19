@@ -94,7 +94,6 @@ public class PersonalFragment extends BottomItemFragment {
         rvSettings.addOnItemTouchListener(new PersonalClickListener(this));
     }
 
-
     private void onClickAvatar() {
 
     }

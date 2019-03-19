@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@android:color/white"
+    android:padding="5dp">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/image_order_list"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/image_order_list"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_order_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            tools:ignore="NestedWeights" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_order_list_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="price"
+            android:textColor="@android:color/holo_red_dark"
+            tools:ignore="RtlHardcoded" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_order_list_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|bottom"
+            android:gravity="bottom"
+            android:text="time"
+            tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+
+</RelativeLayout>
