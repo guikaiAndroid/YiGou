@@ -69,8 +69,8 @@ dependencies {
         exclude module: 'support-v13'
     }
     annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:3.2.0'
-    //剪裁
-    implementation 'com.github.yalantis:ucrop:2.2.2-native'
+    //图片剪裁
+    api 'com.github.yalantis:ucrop:2.2.2-native'
     //二维码
     implementation('me.dm7.barcodescanner:zbar:1.9.8') {
         exclude group: 'com.android.support'

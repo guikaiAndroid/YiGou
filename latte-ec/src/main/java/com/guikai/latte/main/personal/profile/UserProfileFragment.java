@@ -53,7 +53,7 @@ public class UserProfileFragment extends LatteFragment {
                 .setItemType(ListItemType.ITEM_NORMAL)
                 .setId(4)
                 .setText("生日")
-                .setText("未设置生日")
+                .setValue("未设置生日")
                 .build();
 
         final List<ListBean> data = new ArrayList<>();
