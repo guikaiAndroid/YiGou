@@ -33,11 +33,7 @@ android {
 }
 
 dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    api fileTree(include: ['*.jar'], dir: 'libs')
 
     api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40'
     api('com.choices.divider:RecyclerView_Divider:1.0.0') {

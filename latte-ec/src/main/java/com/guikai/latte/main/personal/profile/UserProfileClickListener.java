@@ -39,48 +39,50 @@ public class UserProfileClickListener extends SimpleClickListener {
         final int id = bean.getId();
         switch (id) {
             case 1:
+                FRAGMENT.startCameraWithCheck();
                 //开始打开照相或者选择图片
-                CallbackManager.getInstance()
-                        .addCallback(CallbackType.ON_CROP, new IGlobalCallback<Uri>() {
-                            @Override
-                            public void executeCallback(@NonNull Uri args) {
-                                LogUtils.d("ON_CROP",args);
-                                final ImageView avatar = view.findViewById(R.id.img_arrow_avatar);
-                                Glide.with(FRAGMENT)
-                                        .load(args)
-                                        .into(avatar);
 
-                                RestClient.builder()
-                                        .url(UploadConfig.UPLOAD_IMG)
-                                        .loader(FRAGMENT.getContext())
-                                        .file(args.getPath())
-                                        .success(new ISuccess() {
-                                            @Override
-                                            public void onSuccess(String response) {
-                                                LogUtils.d("ON_CROP_UPLOAD",response);
-                                                final String path = JSON.parseObject(response).getJSONObject("result")
-                                                        .getString("path");
-
-                                                //通过服务器更新消息
-                                                RestClient.builder()
-                                                        .url("user_profile.php")
-                                                        .params("avatar",path)
-                                                        .loader(FRAGMENT.getContext())
-                                                        .success(new ISuccess() {
-                                                            @Override
-                                                            public void onSuccess(String response) {
-
-                                                            }
-                                                        })
-                                                        .build()
-                                                        .post();
-                                            }
-                                        })
-                                        .build()
-                                        .upload();
-                            }
-                        });
-//                FRAGMENT.start;
+//                CallbackManager.getInstance()
+//                        .addCallback(CallbackType.ON_CROP, new IGlobalCallback<Uri>() {
+//                            @Override
+//                            public void executeCallback(@NonNull Uri args) {
+//                                LogUtils.d("ON_CROP",args);
+//                                final ImageView avatar = view.findViewById(R.id.img_arrow_avatar);
+//                                Glide.with(FRAGMENT)
+//                                        .load(args)
+//                                        .into(avatar);
+//
+//                                RestClient.builder()
+//                                        .url(UploadConfig.UPLOAD_IMG)
+//                                        .loader(FRAGMENT.getContext())
+//                                        .file(args.getPath())
+//                                        .success(new ISuccess() {
+//                                            @Override
+//                                            public void onSuccess(String response) {
+//                                                LogUtils.d("ON_CROP_UPLOAD",response);
+//                                                final String path = JSON.parseObject(response).getJSONObject("result")
+//                                                        .getString("path");
+//
+//                                                //通过服务器更新消息
+//                                                RestClient.builder()
+//                                                        .url("user_profile.php")
+//                                                        .params("avatar",path)
+//                                                        .loader(FRAGMENT.getContext())
+//                                                        .success(new ISuccess() {
+//                                                            @Override
+//                                                            public void onSuccess(String response) {
+//
+//                                                            }
+//                                                        })
+//                                                        .build()
+//                                                        .post();
+//                                            }
+//                                        })
+//                                        .build()
+//                                        .upload();
+//                            }
+//                        });
+////                FRAGMENT.start;
                 break;
             case 2:
                 final LatteFragment nameFragment = bean.getFragment();

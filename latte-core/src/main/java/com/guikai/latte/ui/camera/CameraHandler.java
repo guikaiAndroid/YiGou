@@ -80,7 +80,7 @@ public class CameraHandler implements View.OnClickListener {
             CameraImageBean.getInstance().setPath(fileUri);
             intent.putExtra(MediaStore.EXTRA_OUTPUT, fileUri);
         }
-        FRAGMENT.startActivityForResult(intent,RequestCodes.TAKE_PHOTO);
+        FRAGMENT.startActivityForResult(intent, RequestCodes.TAKE_PHOTO);
     }
 
     //头像-相册选择

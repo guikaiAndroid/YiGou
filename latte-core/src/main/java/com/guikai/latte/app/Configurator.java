@@ -4,10 +4,13 @@ import android.app.Activity;
 import android.os.Handler;
 import android.support.annotation.NonNull;
 
+import com.blankj.utilcode.util.Utils;
 import com.guikai.latte.web.event.Event;
 import com.guikai.latte.web.event.EventManager;
 import com.joanzapata.iconify.IconFontDescriptor;
 import com.joanzapata.iconify.Iconify;
+import com.orhanobut.logger.AndroidLogAdapter;
+import com.orhanobut.logger.Logger;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -40,7 +43,9 @@ public class Configurator {
 
     public final void configure() {
         initIcons();
+        Logger.addLogAdapter(new AndroidLogAdapter());
         LATTE_CONFIGS.put(ConfigKeys.CONFIG_READY, true);
+        Utils.init(Latte.getApplicationContext());
     }
 
     public final Configurator withApiHost(String host) {
