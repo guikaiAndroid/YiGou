@@ -2,6 +2,8 @@ package com.guikai.latte.ui.camera;
 
 import android.content.ContentValues;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.MediaStore;
@@ -40,11 +42,13 @@ public class CameraHandler implements View.OnClickListener {
             window.setContentView(R.layout.diglog_camera_panel);
             window.setGravity(Gravity.BOTTOM);
             window.setWindowAnimations(R.style.anim_panel_up_from_bottom);
+            window.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
             //设置属性
             final WindowManager.LayoutParams params = window.getAttributes();
             params.width = WindowManager.LayoutParams.MATCH_PARENT;
             params.flags = WindowManager.LayoutParams.FLAG_DIM_BEHIND;
             params.dimAmount = 0.5f;
+            window.setAttributes(params);
 
             window.findViewById(R.id.photo_dialog_btn_cancel).setOnClickListener(this);
             window.findViewById(R.id.photo_dialog_btn_take).setOnClickListener(this);
