@@ -39,50 +39,51 @@ public class UserProfileClickListener extends SimpleClickListener {
         final int id = bean.getId();
         switch (id) {
             case 1:
-                FRAGMENT.startCameraWithCheck();
-                //开始打开照相或者选择图片
+//           开始打开相机或者选择图片 =>  然后裁剪图片  => 产生回调(图片存储的地址URI)
+                CallbackManager.getInstance()
+                        .addCallback(CallbackType.ON_CROP, new IGlobalCallback<Uri>() {
+                            @Override
+                            public void executeCallback(@NonNull Uri args) {
+                                LogUtils.d("ON_CROP", args);
+                                //首先显示裁剪后存储好的图片作为头像
+                                final ImageView avatar = view.findViewById(R.id.img_arrow_avatar);
+                                Glide.with(FRAGMENT)
+                                        .load(args)
+                                        .into(avatar);
+                                //上传图片到服务器
+                                RestClient.builder()
+                                        .url(UploadConfig.UPLOAD_IMG)
+                                        .loader(FRAGMENT.getContext())
+                                        .file(args.getPath())
+                                        .success(new ISuccess() {
+                                            @Override
+                                            public void onSuccess(String response) {
+                                                //图片上传返回结果值
+                                                LogUtils.d("ON_CROP_UPLOAD", response);
+                                                final String path = JSON.parseObject(response).getJSONObject("result")
+                                                        .getString("path");
 
-//                CallbackManager.getInstance()
-//                        .addCallback(CallbackType.ON_CROP, new IGlobalCallback<Uri>() {
-//                            @Override
-//                            public void executeCallback(@NonNull Uri args) {
-//                                LogUtils.d("ON_CROP",args);
-//                                final ImageView avatar = view.findViewById(R.id.img_arrow_avatar);
-//                                Glide.with(FRAGMENT)
-//                                        .load(args)
-//                                        .into(avatar);
-//
-//                                RestClient.builder()
-//                                        .url(UploadConfig.UPLOAD_IMG)
-//                                        .loader(FRAGMENT.getContext())
-//                                        .file(args.getPath())
-//                                        .success(new ISuccess() {
-//                                            @Override
-//                                            public void onSuccess(String response) {
-//                                                LogUtils.d("ON_CROP_UPLOAD",response);
-//                                                final String path = JSON.parseObject(response).getJSONObject("result")
-//                                                        .getString("path");
-//
-//                                                //通过服务器更新消息
-//                                                RestClient.builder()
-//                                                        .url("user_profile.php")
-//                                                        .params("avatar",path)
-//                                                        .loader(FRAGMENT.getContext())
-//                                                        .success(new ISuccess() {
-//                                                            @Override
-//                                                            public void onSuccess(String response) {
-//
-//                                                            }
-//                                                        })
-//                                                        .build()
-//                                                        .post();
-//                                            }
-//                                        })
-//                                        .build()
-//                                        .upload();
-//                            }
-//                        });
-////                FRAGMENT.start;
+                                                //通知服务器 更新信息
+                                                RestClient.builder()
+                                                        .url("user_profile.php")
+                                                        .params("avatar", path)
+                                                        .loader(FRAGMENT.getContext())
+                                                        .success(new ISuccess() {
+                                                            @Override
+                                                            public void onSuccess(String response) {
+                                                                //获取更新后的用户信息，然后更新本地数据库
+                                                                //没有本地数据的APP，每次打开APP都请求API，获取信息
+                                                            }
+                                                        })
+                                                        .build()
+                                                        .post();
+                                            }
+                                        })
+                                        .build()
+                                        .upload();
+                            }
+                        });
+                FRAGMENT.startCameraWithCheck();
                 break;
             case 2:
                 final LatteFragment nameFragment = bean.getFragment();
