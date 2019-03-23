@@ -39,7 +39,8 @@ public class UserProfileClickListener extends SimpleClickListener {
         final int id = bean.getId();
         switch (id) {
             case 1:
-//           开始打开相机或者选择图片 =>  然后裁剪图片  => 产生回调(图片存储的地址URI)
+                //开始打开相机或者选择图片 =>  然后裁剪图片  => 产生回调(图片存储的地址URI)
+                //1.保存一个回调，给activity for result
                 CallbackManager.getInstance()
                         .addCallback(CallbackType.ON_CROP, new IGlobalCallback<Uri>() {
                             @Override
