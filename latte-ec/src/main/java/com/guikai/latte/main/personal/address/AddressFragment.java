@@ -35,7 +35,7 @@ public class AddressFragment extends LatteFragment implements ISuccess {
         mRecyclerView = $(R.id.rv_address);
         RestClient.builder()
                 .url("address.php")
-                .loader(getContext())
+//                .loader(getContext())
                 .success(this)
                 .build()
                 .get();

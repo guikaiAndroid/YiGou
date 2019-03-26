@@ -50,7 +50,7 @@ public class OrderListFragment extends LatteFragment {
     public void onLazyInitView(@Nullable Bundle savedInstanceState) {
         super.onLazyInitView(savedInstanceState);
         RestClient.builder()
-                .loader(getContext())
+//                .loader(getContext())
                 .url("order_list.php")
                 .params("type", mType)
                 .success(new ISuccess() {
