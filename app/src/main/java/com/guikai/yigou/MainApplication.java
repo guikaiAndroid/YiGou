@@ -8,6 +8,8 @@ import com.guikai.latte.net.interceptors.DebugInterceptor;
 import com.guikai.yigou.event.TestEvent;
 import com.joanzapata.iconify.fonts.FontAwesomeModule;
 
+import cn.jpush.android.api.JPushInterface;
+
 public class MainApplication extends Application {
 
     @Override
@@ -23,5 +25,9 @@ public class MainApplication extends Application {
                 .withJavascriptInterface("latte")
                 .withWebEvent("test",new TestEvent())
                 .configure();
+
+        //开启极光推送
+        JPushInterface.setDebugMode(true);
+        JPushInterface.init(this);
     }
 }

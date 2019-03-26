@@ -19,7 +19,7 @@ android {
         //极光推送
         manifestPlaceholders = [
                 JPUSH_PKGNAME: applicationId,
-                JPUSH_APPKEY : "26a34a494a1d5dc03b133b24",
+                JPUSH_APPKEY : "4094b077115fb210c87b2224",
                 JPUSH_CHANNEL: "developer-default",
         ]
     }
