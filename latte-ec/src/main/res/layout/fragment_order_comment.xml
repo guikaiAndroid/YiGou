@@ -31,5 +31,35 @@
             android:textSize="16sp" />
     </android.support.v7.widget.Toolbar>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/img_order_comment"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/tv_comment_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img_order_comment"
+            android:text="评分"
+            android:textColor="#323232" />
+
+        <com.guikai.latte.ui.widget.StarLayout
+            android:id="@+id/custom_star_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv_comment_title"
+            android:layout_toRightOf="@id/img_order_comment" />
+
+    </RelativeLayout>
+
 
 </LinearLayout>
