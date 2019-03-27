@@ -77,7 +77,6 @@
         app:icon_size="10sp"
         app:item_margin="3"
         app:line_count="5"
-        app:max_count="5"/>
-
+        app:max_count="10"/>
 
 </LinearLayout>
