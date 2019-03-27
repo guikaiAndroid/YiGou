@@ -23,7 +23,7 @@ public class StarLayout extends LinearLayoutCompat implements View.OnClickListen
     private static final CharSequence ICON_UN_SELECT = "{fa-star-o}";
     private static final CharSequence ICON_SELECTED = "{fa-star}";
     private static final int STAR_TOTAL_COUNT = 5;
-    private static final ArrayList<IconTextView> STARS = new ArrayList<>();
+    private final ArrayList<IconTextView> STARS = new ArrayList<>();
 
     public StarLayout(Context context) {
         this(context, null);
@@ -70,12 +70,10 @@ public class StarLayout extends LinearLayoutCompat implements View.OnClickListen
 
     private void selectStar(int count) {
         for (int i = 0; i <= count; i++) {
-            if (i <= count) {
                 final IconTextView star = STARS.get(i);
                 star.setText(ICON_SELECTED);
                 star.setTextColor(Color.RED);
                 star.setTag(R.id.star_is_select, true);
-            }
         }
     }
 
