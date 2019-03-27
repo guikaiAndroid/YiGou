@@ -61,5 +61,23 @@
 
     </RelativeLayout>
 
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_order_comment"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@android:color/white"
+        android:gravity="top|left"
+        android:hint="写下评论"
+        android:padding="10dp"/>
+
+    <com.guikai.latte.ui.widget.AutoPhotoLayout
+        android:id="@+id/custom_auto_photo_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon_size="10sp"
+        app:item_margin="3"
+        app:line_count="5"
+        app:max_count="5"/>
+
 
 </LinearLayout>
