@@ -11,6 +11,7 @@ import com.blankj.utilcode.util.ToastUtils;
 import com.guikai.latte.ui.camera.CameraImageBean;
 import com.guikai.latte.ui.camera.LatteCamera;
 import com.guikai.latte.ui.camera.RequestCodes;
+import com.guikai.latte.ui.scanner.ScannerFragment;
 import com.guikai.latte.util.callback.CallbackManager;
 import com.guikai.latte.util.callback.CallbackType;
 import com.guikai.latte.util.callback.IGlobalCallback;
@@ -41,6 +42,16 @@ public abstract class PermissionCheckFragment extends BaseFragment {
     //这个是真正调用的方法
     public void startCameraWithCheck() {
         PermissionCheckFragmentPermissionsDispatcher.startCameraWithPermissionCheck(this);
+    }
+
+    //扫描二维码(不直接调用)
+    @NeedsPermission(Manifest.permission.CAMERA)
+    void startScan(BaseFragment fragment) {
+        fragment.getSupportDelegate().startForResult(new ScannerFragment(),RequestCodes.SCAN);
+    }
+
+    public void startScanWithCheck(BaseFragment fragment) {
+        PermissionCheckFragmentPermissionsDispatcher.startScanWithPermissionCheck(this,fragment);
     }
 
     @OnPermissionDenied((Manifest.permission.CAMERA))

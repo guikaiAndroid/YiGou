@@ -12,10 +12,14 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.blankj.utilcode.util.ToastUtils;
 import com.guikai.latte.fragments.bottom.BottomItemFragment;
 import com.guikai.latte.main.EcBottomFragment;
 import com.guikai.latte.ui.recycler.BaseDecoration;
 import com.guikai.latte.ui.refresh.RefreshHandler;
+import com.guikai.latte.util.callback.CallbackManager;
+import com.guikai.latte.util.callback.CallbackType;
+import com.guikai.latte.util.callback.IGlobalCallback;
 import com.guikai.latteec.R;
 import com.joanzapata.iconify.widget.IconTextView;
 
@@ -53,7 +57,20 @@ public class IndexFragment extends BottomItemFragment {
 
         mRefreshHandler = RefreshHandler.create(mSwipeRefreshLayout, mRecyclerView,
                 new IndexDataConverter());
+        CallbackManager.getInstance()
+                .addCallback(CallbackType.ON_SCAN, new IGlobalCallback() {
+                    @Override
+                    public void executeCallback(@NonNull Object args) {
+                        ToastUtils.showShort("得到的二维码是"+args);
+                    }
+                });
 
+        mIconScan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startScanWithCheck(getParentFragments());
+            }
+        });
     }
 
     private void initRefreshLayout() {
