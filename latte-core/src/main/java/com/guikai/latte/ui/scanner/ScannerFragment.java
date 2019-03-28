@@ -71,6 +71,6 @@ public class ScannerFragment extends LatteFragment implements ZBarScannerView.Re
 
     @Override
     public FragmentAnimator onCreateFragmentAnimator() {
-        return new DefaultNoAnimator();
+        return null;
     }
 }

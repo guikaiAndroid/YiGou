@@ -8,7 +8,7 @@ import me.dm7.barcodescanner.zbar.ZBarScannerView;
 
 public class ScanView extends ZBarScannerView {
     public ScanView(Context context) {
-        super(context,null);
+        this(context,null);
     }
 
     public ScanView(Context context, AttributeSet attributeSet) {

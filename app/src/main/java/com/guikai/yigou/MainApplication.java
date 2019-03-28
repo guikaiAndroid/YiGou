@@ -10,8 +10,10 @@ import com.guikai.latte.net.interceptors.DebugInterceptor;
 import com.guikai.latte.util.callback.CallbackManager;
 import com.guikai.latte.util.callback.CallbackType;
 import com.guikai.latte.util.callback.IGlobalCallback;
+import com.guikai.yigou.event.ShareEvent;
 import com.guikai.yigou.event.TestEvent;
 import com.joanzapata.iconify.fonts.FontAwesomeModule;
+import com.mob.MobSDK;
 
 import cn.jpush.android.api.JPushInterface;
 
@@ -29,11 +31,15 @@ public class MainApplication extends Application {
                 .withWeChatAppSecret("Your apply Secret_id")
                 .withJavascriptInterface("latte")
                 .withWebEvent("test",new TestEvent())
+                .withWebEvent("share",new ShareEvent())
                 .configure();
 
         //开启极光推送
         JPushInterface.setDebugMode(true);
         JPushInterface.init(this);
+
+        //一键分享初始化
+        MobSDK.init(this);
 
         //子模块关闭推送 反向控制主模块关闭推送 接口实现
         CallbackManager.getInstance()
