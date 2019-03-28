@@ -8,11 +8,10 @@ import com.guikai.latte.net.callback.IRequest;
 import com.guikai.latte.net.callback.ISuccess;
 import com.guikai.latte.net.callback.RequestCallbacks;
 import com.guikai.latte.net.download.DownloadHandler;
-import com.guikai.latte.ui.FragmentLoader;
-import com.guikai.latte.ui.LoaderStyle;
+import com.guikai.latte.ui.loader.FragmentLoader;
+import com.guikai.latte.ui.loader.LoaderStyle;
 
 import java.io.File;
-import java.util.Map;
 import java.util.WeakHashMap;
 
 import okhttp3.MediaType;

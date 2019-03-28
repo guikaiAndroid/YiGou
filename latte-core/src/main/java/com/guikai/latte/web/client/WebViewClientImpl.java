@@ -6,7 +6,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import com.guikai.latte.app.Latte;
-import com.guikai.latte.ui.FragmentLoader;
+import com.guikai.latte.ui.loader.FragmentLoader;
 import com.guikai.latte.util.log.LogUtils;
 import com.guikai.latte.web.IPageLoadListener;
 import com.guikai.latte.web.WebFragment;

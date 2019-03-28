@@ -1,4 +1,4 @@
-package com.guikai.latte.ui;
+package com.guikai.latte.ui.loader;
 
 /**
  * Created by Anding on 2019/1/14 22:10

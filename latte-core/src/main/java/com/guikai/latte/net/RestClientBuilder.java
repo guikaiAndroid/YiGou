@@ -7,15 +7,13 @@ import com.guikai.latte.net.callback.IFailure;
 import com.guikai.latte.net.callback.IRequest;
 import com.guikai.latte.net.callback.ISuccess;
 import com.guikai.latte.net.download.DownloadHandler;
-import com.guikai.latte.ui.LoaderStyle;
+import com.guikai.latte.ui.loader.LoaderStyle;
 
 import java.io.File;
-import java.util.Map;
 import java.util.WeakHashMap;
 
 import okhttp3.MediaType;
 import okhttp3.RequestBody;
-import retrofit2.Call;
 
 /**
  * Created by Anding on 2019/1/13 22:09

@@ -5,7 +5,7 @@ import android.os.AsyncTask;
 
 import com.alipay.sdk.app.PayTask;
 import com.blankj.utilcode.util.LogUtils;
-import com.guikai.latte.ui.FragmentLoader;
+import com.guikai.latte.ui.loader.FragmentLoader;
 
 
 public class PayAsyncTask extends AsyncTask<String, Void, String> {

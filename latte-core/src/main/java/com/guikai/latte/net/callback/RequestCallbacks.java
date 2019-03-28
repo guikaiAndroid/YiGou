@@ -1,7 +1,7 @@
 package com.guikai.latte.net.callback;
 
-import com.guikai.latte.ui.FragmentLoader;
-import com.guikai.latte.ui.LoaderStyle;
+import com.guikai.latte.ui.loader.FragmentLoader;
+import com.guikai.latte.ui.loader.LoaderStyle;
 
 import retrofit2.Call;
 import retrofit2.Callback;

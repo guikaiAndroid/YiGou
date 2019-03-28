@@ -1,4 +1,4 @@
-package com.guikai.latte.ui;
+package com.guikai.latte.ui.loader;
 
 import android.content.Context;
 

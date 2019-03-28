@@ -25,7 +25,6 @@
         android:background="@android:color/transparent"
         android:gravity="center" />
 
-
     <Button
         android:id="@+id/dialog_image_clicked_btn_undetermined"
         android:layout_width="match_parent"
