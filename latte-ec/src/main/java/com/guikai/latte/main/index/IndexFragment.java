@@ -15,6 +15,7 @@ import android.view.View;
 import com.blankj.utilcode.util.ToastUtils;
 import com.guikai.latte.fragments.bottom.BottomItemFragment;
 import com.guikai.latte.main.EcBottomFragment;
+import com.guikai.latte.main.index.search.SearchFragment;
 import com.guikai.latte.ui.recycler.BaseDecoration;
 import com.guikai.latte.ui.refresh.RefreshHandler;
 import com.guikai.latte.util.callback.CallbackManager;
@@ -32,7 +33,7 @@ import static com.blankj.utilcode.util.BarUtils.getStatusBarHeight;
  * Note: 主页fragment
  */
 
-public class IndexFragment extends BottomItemFragment {
+public class IndexFragment extends BottomItemFragment implements View.OnFocusChangeListener {
 
     private RecyclerView mRecyclerView = null;
     private SwipeRefreshLayout mSwipeRefreshLayout = null;
@@ -71,6 +72,7 @@ public class IndexFragment extends BottomItemFragment {
                 startScanWithCheck(getParentFragments());
             }
         });
+        mSearch.setOnFocusChangeListener(this);
     }
 
     private void initRefreshLayout() {
@@ -100,5 +102,12 @@ public class IndexFragment extends BottomItemFragment {
         initRefreshLayout();
         initRecyclerView();
         mRefreshHandler.firstPage("index.php");
+    }
+
+    @Override
+    public void onFocusChange(View v, boolean hasFocus) {
+        if (hasFocus) {
+            getParentFragments().start(new SearchFragment());
+        }
     }
 }
