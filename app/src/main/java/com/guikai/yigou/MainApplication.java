@@ -28,8 +28,8 @@ public class MainApplication extends Application {
                 .withWeChatAppId("Your apply App_id")
                 .withWeChatAppSecret("Your apply Secret_id")
                 .withJavascriptInterface("latte")
-                .withWebEvent("test",new TestEvent())
-                .withWebEvent("share",new ShareEvent())
+                .withWebEvent("test", new TestEvent())
+                .withWebEvent("share", new ShareEvent())
                 .configure();
 
         //开启极光推送

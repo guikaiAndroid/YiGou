@@ -13,7 +13,7 @@ public class PagingBean {
     //加载延迟
     private int mDelayed = 0;
 
-    private int getPageIndex() {
+    public int getPageIndex() {
         return mPageIndex;
     }
 

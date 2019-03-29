@@ -29,7 +29,7 @@ import static com.blankj.utilcode.util.BarUtils.getStatusBarHeight;
 
 /**
  * Created by Anding on 2019/1/27 18:22
- * Note:
+ * Note: 主页fragment
  */
 
 public class IndexFragment extends BottomItemFragment {
