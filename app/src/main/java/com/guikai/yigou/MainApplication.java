@@ -1,12 +1,10 @@
 package com.guikai.yigou;
 
 import android.app.Application;
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import com.guikai.latte.app.Latte;
 import com.guikai.latte.icon.FontEcModule;
-import com.guikai.latte.net.interceptors.DebugInterceptor;
 import com.guikai.latte.util.callback.CallbackManager;
 import com.guikai.latte.util.callback.CallbackType;
 import com.guikai.latte.util.callback.IGlobalCallback;
