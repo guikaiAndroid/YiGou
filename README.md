@@ -8,7 +8,6 @@
 
 慕课网实现项目链接:
 
-
 # screenshot
 ![](https://github.com/aa112901/remusic/blob/master/screenshot/1%20(2).png)
 ![](https://github.com/aa112901/remusic/blob/master/screenshot/device-2016-11-01-103226.png)
