@@ -25,7 +25,7 @@ public class IndexItemClickListener extends SimpleClickListener {
     public void onItemClick(BaseQuickAdapter adapter, View view, int position) {
         final MultipleItemEntity entity = (MultipleItemEntity) baseQuickAdapter.getData().get(position);
         final int goodsId = entity.getField(MultipleFields.ID);
-        final GoodsDetailFragment fragment = GoodsDetailFragment.create();
+        final GoodsDetailFragment fragment = GoodsDetailFragment.create(1);
         FRAGMENT.getSupportDelegate().start(fragment);
     }
 
