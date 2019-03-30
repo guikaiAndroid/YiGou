@@ -2,11 +2,11 @@
 
 <img src="./app/src/main/res/drawable/logo.png" width="128" alt="logo">
 
-这是一个仿小米商城Android客户端，本项目是由慕课网电商实战项目的开源版，相比旧版的话修复了若干Bug,优化一些UI界面，但还是有改进的地方，希望各位小伙伴多多提issues和Pull Requests!
+这是一个仿小米商城的Android客户端，本项目是由慕课网电商实战项目的开源版，相比旧版的话修复了若干Bug,优化一些UI界面，但还是有改进的地方，希望各位小伙伴多多提issues和Pull Requests!
 
 我也会持续关注并改进这个项目。
 
-慕课网实现项目链接:
+[慕课网电商实战项目](https://coding.imooc.com/class/116.html)
 
 # screenshot
 ![](https://github.com/aa112901/remusic/blob/master/screenshot/1%20(2).png)
