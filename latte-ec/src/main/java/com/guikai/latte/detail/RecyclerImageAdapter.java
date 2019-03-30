@@ -36,6 +36,7 @@ public class RecyclerImageAdapter extends
                 final String url = item.getField(MultipleFields.IMAGE_URL);
                 Glide.with(mContext)
                         .load(url)
+                        .apply(OPTIONS)
                         .into(imageView);
                 break;
             default:

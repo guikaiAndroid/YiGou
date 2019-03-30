@@ -67,7 +67,7 @@ public class MainActivity extends ProxyActivity implements
                 getSupportDelegate().startWithPop(new EcBottomFragment());
                 break;
             case NOT_SIGNED:
-                Toast.makeText(this, "亲，请先登录！", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "亲，您还没有登录！", Toast.LENGTH_LONG).show();
                 getSupportDelegate().startWithPop(new SignInFragment());
                 break;
             default:

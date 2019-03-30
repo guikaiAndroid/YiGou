@@ -20,6 +20,8 @@ import com.guikai.latte.wechat.LatteWeChat;
 import com.guikai.latte.wechat.callbacks.IWeChatSignInCallback;
 import com.guikai.latteec.R;
 
+import static com.blankj.utilcode.util.BarUtils.getStatusBarHeight;
+
 public class SignInFragment extends LatteFragment implements View.OnClickListener {
 
     private TextInputEditText mEmail = null;
@@ -46,6 +48,7 @@ public class SignInFragment extends LatteFragment implements View.OnClickListene
         $(R.id.btn_sign_in).setOnClickListener(this);
         $(R.id.tv_link_sign_up).setOnClickListener(this);
         $(R.id.icon_sign_in_wechat).setOnClickListener(this);
+        $(R.id.tb_sign_in).setPadding(0, getStatusBarHeight(), 0, 0);
     }
 
     private void onClickSignIn() {

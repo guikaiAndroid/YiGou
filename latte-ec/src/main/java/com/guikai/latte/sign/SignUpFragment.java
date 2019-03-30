@@ -17,6 +17,8 @@ import com.guikai.latte.net.callback.ISuccess;
 import com.guikai.latte.util.log.LogUtils;
 import com.guikai.latteec.R;
 
+import static com.blankj.utilcode.util.BarUtils.getStatusBarHeight;
+
 /**
  * Created by Anding on 2019/1/23 22:38
  * Note:注册界面
@@ -52,6 +54,7 @@ public class SignUpFragment extends LatteFragment {
         mPhone = $(R.id.edit_sign_up_phone);
         mPassword = $(R.id.edit_sign_up_password);
         mRePassword = $(R.id.edit_sign_up_re_password);
+        $(R.id.tb_sign_up).setPadding(0, getStatusBarHeight(), 0, 0);
 
         $(R.id.btn_sign_up).setOnClickListener(new View.OnClickListener() {
             @Override

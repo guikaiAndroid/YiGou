@@ -11,12 +11,13 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:textColor="@android:color/white"
         android:gravity="center"
         android:textSize="16sp"
+        android:alpha="0.8"
         android:background="@drawable/border_circle_timer"/>
 
 
