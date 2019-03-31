@@ -8,6 +8,8 @@
 
 [慕课网电商实战项目](https://coding.imooc.com/class/116.html)
 
+与此同时，该项目正在重构，各位小伙伴请火速入手此课程，猿猿老师的良心之作！
+
 # screenshot
 ![](https://github.com/aa112901/remusic/blob/master/screenshot/1%20(2).png)
 ![](https://github.com/aa112901/remusic/blob/master/screenshot/device-2016-11-01-103226.png)
