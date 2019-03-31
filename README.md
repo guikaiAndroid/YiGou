@@ -1,12 +1,14 @@
 # YiGou
 
-<img src="./app/src/main/res/drawable/logo.png" width="128" alt="logo">
+<img src="picture/logo.png" width="128" alt="logo">
 
 这是一个仿小米商城的Android客户端，本项目是由慕课网电商实战项目的开源版，相比旧版的话修复了若干Bug,优化一些UI界面，但还是有改进的地方，希望各位小伙伴多多提issues和Pull Requests!
 
 我也会持续关注并改进这个项目。
 
 [慕课网电商实战项目](https://coding.imooc.com/class/116.html)
+
+<img src="picture/mooc.png" width="128" alt="logo">
 
 与此同时，该项目正在重构，各位小伙伴请火速入手此课程，猿猿老师的良心之作！
 
