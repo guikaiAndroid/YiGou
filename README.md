@@ -20,7 +20,7 @@
 * 第三方支付(微信、支付宝)
 * 极光推送 MOB分享一键式集成
 * 自定义第三方控件
-* CoordinatorLayout
+* CoordinatorLayout、透明渐变ToolBar
 * 二维码、搜索、一键式6.0权限集成
 * 缓存、文件、动态权限、Log等处理工具
 
@@ -45,4 +45,10 @@
 
 ## Statement
 以下所有 API 均由 小米商城 提供, 本人采取非正常手段获取. 本程序仅供学习交流, 不可用于任何商业用途！
+
+## 协议
+
+<img alt="Apache-2.0 license" src="https://lucene.apache.org/images/mantle-power.png" width="128">
+
+DoraemonKit 基于 Apache-2.0 协议进行分发和使用，更多信息参见 [协议文件](LICENSE)。
 
