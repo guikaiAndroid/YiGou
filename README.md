@@ -22,18 +22,13 @@
 
 * [RxJava](https://github.com/ReactiveX/RxJava)
 * [RxAndroid](https://github.com/ReactiveX/RxAndroid)
-* [RxBinding](https://github.com/JakeWharton/RxBinding)
-* [RxLifecycle](https://github.com/trello/RxLifecycle)
 * [okhttp](https://github.com/square/okhttp)
 * [retrofit](https://github.com/square/retrofit)
-* [ijkplayer](https://github.com/Bilibili/ijkplayer)
 * [DanmakuFlameMaster](https://github.com/Bilibili/DanmakuFlameMaster)
 * [butterknife](https://github.com/JakeWharton/butterknife)
 * [glide](https://github.com/bumptech/glide)
-* [MaterialSearchView](https://github.com/MiguelCatalan/MaterialSearchView)
-* [FlycoTabLayout](https://github.com/H07000223/FlycoTabLayout)
-* [MagicaSakura](https://github.com/Bilibili/MagicaSakura)
-* [FlowLayout](https://github.com/hongyangAndroid/FlowLayout)
+...
 
-Statement
+## Statement
 以下所有 API 均由 小米商城 提供, 本人采取非正常手段获取. 本程序仅供学习交流, 不可用于任何商业用途！
+
