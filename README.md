@@ -23,6 +23,7 @@
 * CoordinatorLayout、透明渐变ToolBar
 * 二维码、搜索、一键式6.0权限集成
 * 缓存、文件、动态权限、Log等处理工具
+* ...
 
 # screenshot
 ![](https://github.com/aa112901/remusic/blob/master/screenshot/1%20(2).png)
