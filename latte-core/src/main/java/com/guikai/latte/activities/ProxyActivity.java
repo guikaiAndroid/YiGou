@@ -16,7 +16,8 @@ import me.yokeyword.fragmentation.anim.FragmentAnimator;
 
 /**
  * Created by Anding on 2019/1/12 15:20
- * Note: 全局的Activity 因项目采用单Activity,多fragment，所有Activity只是一个容器而已
+ * Note: 全局的Activity 因项目采用单Activity,多fragment，所以Activity只是一个容器而已
+ * 这里借助 Fragmentation
  */
 
 public abstract class ProxyActivity extends AppCompatActivity
