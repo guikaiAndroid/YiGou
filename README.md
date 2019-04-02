@@ -26,7 +26,7 @@
 * ...
 
 # screenshot
-![](https://github.com/aa112901/remusic/blob/master/screenshot/1%20(2).png)
+![](picture/home.png)
 ![](https://github.com/aa112901/remusic/blob/master/screenshot/device-2016-11-01-103226.png)
 ![](https://github.com/aa112901/remusic/blob/master/screenshot/1%20(3).png)
 ![](https://github.com/aa112901/remusic/blob/master/screenshot/device-2016-08-18-213206.png)
