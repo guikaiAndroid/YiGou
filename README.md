@@ -2,6 +2,20 @@
 
 这是一个仿小米商城的Android客户端，本项目是由慕课网电商实战项目的开源版，相比旧版的话修复了若干Bug,优化一些UI界面，但还是有改进的地方，希望各位小伙伴多多提issues和Pull Requests!
 
+# screenshot
+![](picture/splash.png)
+![](picture/home.png)
+![](picture/person.png)
+![](picture/sort.png)
+![](picture/shopcart.png)
+![](picture/faxian.png)
+![](picture/detail.png)
+![](picture/fenlei.png)
+![](picture/login.png)
+![](picture/pinfen.png)
+![](picture/sacn.png)
+![](picture/search.png)
+
 我也会持续关注并改进这个项目。
 
 <img src="picture/mooc.png">
@@ -24,21 +38,6 @@
 * 二维码、搜索、一键式6.0权限集成
 * 缓存、文件、动态权限、Log等处理工具
 * ...
-
-# screenshot
-![](picture/splash.png)
-![](picture/home.png)
-![](picture/person.png)
-![](picture/sort.png)
-![](picture/shopcart.png)
-![](picture/faxian.png)
-![](picture/detail.png)
-![](picture/fenlei.png)
-![](picture/login.png)
-![](picture/pinfen.png)
-![](picture/sacn.png)
-![](picture/search.png)
-![](picture/status.png)
 
 ## Thanks to the open source project
 
