@@ -36,6 +36,9 @@
 ![](picture/fenlei.png)
 ![](picture/login.png)
 ![](picture/pinfen.png)
+![](picture/sacn.png)
+![](picture/search.png)
+![](picture/status.png)
 
 ## Thanks to the open source project
 
