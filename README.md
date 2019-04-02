@@ -1,7 +1,6 @@
 # YiGou
 
 <img src="picture/logo.png">
-
 这是一个仿小米商城的Android客户端，本项目是由慕课网电商实战项目的开源版，相比旧版的话修复了若干Bug,优化一些UI界面，但还是有改进的地方，希望各位小伙伴多多提issues和Pull Requests!
 
 # screenshot
