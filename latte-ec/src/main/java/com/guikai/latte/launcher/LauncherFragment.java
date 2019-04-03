@@ -50,7 +50,6 @@ public class LauncherFragment extends LatteFragment implements ITimerListener {
         mTimer.schedule(task, 0, 1000);
     }
 
-
     @Override
     public Object setLayout() {
         return R.layout.fragment_launcher;

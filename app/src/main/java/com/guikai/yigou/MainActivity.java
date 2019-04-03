@@ -64,7 +64,7 @@ public class MainActivity extends ProxyActivity implements
                 break;
             case NOT_SIGNED:
                 Toast.makeText(this, "亲，您还没有登录！", Toast.LENGTH_LONG).show();
-                getSupportDelegate().startWithPop(new SignInFragment());
+                getSupportDelegate().startWithPop(new EcBottomFragment());
                 break;
             default:
                 break;
