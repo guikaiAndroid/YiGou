@@ -10,12 +10,15 @@ import android.support.v7.widget.AppCompatEditText;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.AndroidException;
 import android.view.View;
 
 import com.blankj.utilcode.util.ToastUtils;
 import com.guikai.latte.fragments.bottom.BottomItemFragment;
 import com.guikai.latte.main.EcBottomFragment;
 import com.guikai.latte.main.index.search.SearchFragment;
+import com.guikai.latte.net.RestCreator;
+import com.guikai.latte.net.rx.RxRestClient;
 import com.guikai.latte.ui.recycler.BaseDecoration;
 import com.guikai.latte.ui.refresh.RefreshHandler;
 import com.guikai.latte.util.callback.CallbackManager;
@@ -24,6 +27,14 @@ import com.guikai.latte.util.callback.IGlobalCallback;
 import com.guikai.latteec.R;
 import com.joanzapata.iconify.widget.IconTextView;
 
+import java.util.WeakHashMap;
+
+import io.reactivex.Observable;
+import io.reactivex.Observer;
+import io.reactivex.Scheduler;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.Disposable;
+import io.reactivex.schedulers.Schedulers;
 import qiu.niorgai.StatusBarCompat;
 
 import static com.blankj.utilcode.util.BarUtils.getStatusBarHeight;
@@ -73,6 +84,72 @@ public class IndexFragment extends BottomItemFragment implements View.OnFocusCha
             }
         });
         mSearch.setOnFocusChangeListener(this);
+
+//        onCallRxGet();
+//        onCallRxRestClient();
+    }
+
+    //TODO:第一种RX+Retrofit网络请求测试
+    void onCallRxGet() {
+        final String url = "index.php";
+        final WeakHashMap<String,Object> params = new WeakHashMap<>();
+
+        final Observable<String> observable = RestCreator.getRxRestService().get(url,params);
+        observable.subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new Observer<String>() {
+                    @Override
+                    public void onSubscribe(Disposable d) {
+
+                    }
+
+                    @Override
+                    public void onNext(String s) {
+                       ToastUtils.showLong(s);
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+
+                    }
+
+                    @Override
+                    public void onComplete() {
+
+                    }
+                });
+    }
+
+    //TODO:第二种RX+Retrofit网络请求测试
+    private void onCallRxRestClient() {
+        final String url = "index.php";
+        RxRestClient.builder()
+                .url(url)
+                .build()
+                .get()
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new Observer<String>() {
+                    @Override
+                    public void onSubscribe(Disposable d) {
+
+                    }
+
+                    @Override
+                    public void onNext(String s) {
+                        ToastUtils.showLong(s);
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+
+                    }
+
+                    @Override
+                    public void onComplete() {
+
+                    }
+                });
     }
 
     private void initRefreshLayout() {

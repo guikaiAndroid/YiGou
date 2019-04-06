@@ -2,6 +2,7 @@ package com.guikai.latte.net;
 
 import com.guikai.latte.app.ConfigKeys;
 import com.guikai.latte.app.Latte;
+import com.guikai.latte.net.rx.RxRestService;
 
 import java.util.ArrayList;
 import java.util.WeakHashMap;
@@ -10,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
+import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 /**
@@ -31,11 +33,15 @@ public class RestCreator {
         return RestServiceHolder.REST_SERVICE;
     }
 
+    /**
+     * 构建全局Retrofit客户端
+     */
     private static final class RetrofitHolder {
         private static final String BASE_URL = (String) Latte.getConfiguration(ConfigKeys.API_HOST);
         private static final Retrofit RETROFIT_CLIENT = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(ScalarsConverterFactory.create())
+                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .build();
     }
 
@@ -63,4 +69,15 @@ public class RestCreator {
                 RetrofitHolder.RETROFIT_CLIENT.create(RestService.class);
 
     }
+
+    private static final class RxRestServiceHolder {
+        private static final RxRestService REST_SERVICE =
+                RetrofitHolder.RETROFIT_CLIENT.create(RxRestService.class);
+
+    }
+
+    public static RxRestService getRxRestService() {
+        return RxRestServiceHolder.REST_SERVICE;
+    }
+
 }
