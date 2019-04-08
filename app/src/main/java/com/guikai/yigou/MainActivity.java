@@ -60,7 +60,7 @@ public class MainActivity extends ProxyActivity implements
         switch (tag) {
             case SIGNED:
 //                Toast.makeText(this, "您已登陆了哟！", Toast.LENGTH_LONG).show();
-                getSupportDelegate().startWithPop(new EcBottomFragment());
+                getSupportDelegate().startWithPop(new SignInFragment());
                 break;
             case NOT_SIGNED:
                 Toast.makeText(this, "亲，您还没有登录！", Toast.LENGTH_LONG).show();
