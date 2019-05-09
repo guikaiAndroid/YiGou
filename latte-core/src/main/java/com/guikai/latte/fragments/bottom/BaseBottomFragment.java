@@ -86,7 +86,7 @@ public abstract class BaseBottomFragment extends LatteFragment implements View.O
             final IconTextView itemIcon = (IconTextView) item.getChildAt(0);
             final AppCompatTextView itemTitle = (AppCompatTextView) item.getChildAt(1);
             final BottomTabBean bean = TAB_BEANS.get(i);
-            //初始化数据
+            //初始化底部数据
             itemIcon.setText(bean.getIcon());
             itemTitle.setText(bean.getTitle());
             if (i == mIndexFragment) {
@@ -112,8 +112,10 @@ public abstract class BaseBottomFragment extends LatteFragment implements View.O
     public void changeColor(int tabIndex) {
         resetColor();
         final RelativeLayout item = (RelativeLayout) mBottomBar.getChildAt(tabIndex);
+        //获取底部icon
         final IconTextView itemIcon = (IconTextView) item.getChildAt(0);
         itemIcon.setTextColor(mClickedColor);
+        //获取底部导航文字
         final AppCompatTextView itemTitle = (AppCompatTextView) item.getChildAt(1);
         itemTitle.setTextColor(mClickedColor);
     }
