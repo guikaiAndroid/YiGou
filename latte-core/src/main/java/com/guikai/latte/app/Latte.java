@@ -17,6 +17,7 @@ public final class Latte {
         return Configurator.getInstance();
     }
 
+    //通get方法过key获取全局HashMap中的对象
     public static <T> T getConfiguration(Object key) {
         return getConfigurator().getConfiguration(key);
     }

@@ -37,14 +37,17 @@ public class Configurator {
         return LATTE_CONFIGS;
     }
 
+    //惰性单例
     private static class Holder {
         private static final Configurator INSTANCE = new Configurator();
     }
 
     public final void configure() {
         initIcons();
+        //log第三方库
         Logger.addLogAdapter(new AndroidLogAdapter());
         LATTE_CONFIGS.put(ConfigKeys.CONFIG_READY, true);
+        //初始化util code第三方开源
         Utils.init(Latte.getApplicationContext());
     }
 

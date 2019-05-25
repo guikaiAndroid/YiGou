@@ -21,14 +21,14 @@ public class MainApplication extends Application {
     public void onCreate() {
         super.onCreate();
         Latte.init(this)
-                .withIcon(new FontAwesomeModule())
-                .withIcon(new FontEcModule())
+                .withIcon(new FontAwesomeModule())                       //Awesome风格图片
+                .withIcon(new FontEcModule())                            //自定义IconText
 //                .withApiHost("http://192.168.0.109/RestServer/data/")
                 .withApiHost("http://mock.fulingjie.com/mock-android/api/")
-                .withWeChatAppId("Your apply App_id")
+                .withWeChatAppId("Your apply App_id")                    //微信开放平台Id
                 .withWeChatAppSecret("Your apply Secret_id")
                 .withJavascriptInterface("latte")
-                .withWebEvent("test", new TestEvent())
+                .withWebEvent("test", new TestEvent())                   //Js和原生交互
                 .withWebEvent("share", new ShareEvent())
                 .configure();
 
