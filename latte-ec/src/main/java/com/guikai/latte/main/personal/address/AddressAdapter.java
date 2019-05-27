@@ -38,7 +38,7 @@ public class AddressAdapter extends BaseMultiItemQuickAdapter<MultipleItemEntity
                     @Override
                     public void onClick(View v) {
                         RestClient.builder()
-                                .url("address.php")
+                                .url("address.json")
                                 .params("id", id)
                                 .success(new ISuccess() {
                                     @Override

@@ -27,7 +27,7 @@ public class AboutFragment extends LatteFragment {
         final Toolbar mToolbar = $(R.id.tb_about);
         mToolbar.setPadding(0, getStatusBarHeight(), 0, 0);
         RestClient.builder()
-                .url("about.php")
+                .url("about.json")
                 .success(new ISuccess() {
                     @Override
                     public void onSuccess(String response) {

@@ -51,7 +51,7 @@ public class OrderListFragment extends LatteFragment {
         super.onLazyInitView(savedInstanceState);
         RestClient.builder()
 //                .loader(getContext())
-                .url("order_list.php")
+                .url("order_list.json")
                 .params("type", mType)
                 .success(new ISuccess() {
                     @Override

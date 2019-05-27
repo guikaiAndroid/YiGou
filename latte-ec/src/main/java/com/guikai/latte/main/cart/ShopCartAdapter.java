@@ -122,7 +122,7 @@ public class ShopCartAdapter extends
                         final int currentCount = item.getField(ShopCartItemFields.COUNT);
                         if (Integer.parseInt(tvCount.getText().toString()) > 1) {
                             RestClient.builder()
-                                    .url("shop_cart_count.php")
+                                    .url("shop_cart_data.json")
                                     .loader(mContext)
                                     .params("count", currentCount)
                                     .success(new ISuccess() {
@@ -153,7 +153,7 @@ public class ShopCartAdapter extends
                     public void onClick(View v) {
                         final int currentCount = item.getField(ShopCartItemFields.COUNT);
                         RestClient.builder()
-                                .url("shop_cart_count.php")
+                                .url("shop_cart_data.json")
                                 .loader(mContext)
                                 .params("count", currentCount)
                                 .success(new ISuccess() {

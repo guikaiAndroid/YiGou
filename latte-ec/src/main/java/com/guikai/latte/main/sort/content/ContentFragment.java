@@ -46,7 +46,8 @@ public class ContentFragment extends LatteFragment {
 
     private void initData() {
         RestClient.builder()
-                .url("sort_content_list.php?contentId=" + mContentId)
+//                .url("sort_content_list.php?contentId=" + mContentId)
+                .url("sort_content_data_1.json")
                 .success(new ISuccess() {
                     @Override
                     public void onSuccess(String response) {

@@ -141,7 +141,7 @@ public class GoodsDetailFragment extends LatteFragment
 
     private void initData() {
         RestClient.builder()
-                .url("goods_detail.php")
+                .url("goods_detail_data_1.json")
                 .params("goods_id", mGoodsId)
                 .loader(getContext())
                 .success(new ISuccess() {
@@ -201,7 +201,7 @@ public class GoodsDetailFragment extends LatteFragment
                 .duration(500)
                 .playOn(mIconShopCart);
         RestClient.builder()
-                .url("add_shop_cart_count.php")
+                .url("add_shop_cart.json")
                 .success(new ISuccess() {
                     @Override
                     public void onSuccess(String response) {

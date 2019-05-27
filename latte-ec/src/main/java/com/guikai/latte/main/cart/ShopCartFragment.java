@@ -78,7 +78,7 @@ public class ShopCartFragment extends BottomItemFragment
     public void onLazyInitView(@Nullable Bundle savedInstanceState) {
         super.onLazyInitView(savedInstanceState);
         RestClient.builder()
-                .url("shop_cart.php")
+                .url("shop_cart_data.json")
                 .loader(getContext())
                 .success(this)
                 .build()

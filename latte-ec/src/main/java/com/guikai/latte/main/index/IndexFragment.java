@@ -178,7 +178,7 @@ public class IndexFragment extends BottomItemFragment implements View.OnFocusCha
         StatusBarCompat.translucentStatusBar(getProxyActivity(), true);
         initRefreshLayout();
         initRecyclerView();
-        mRefreshHandler.firstPage("index.php");
+        mRefreshHandler.firstPage("index_data.json");
     }
 
     @Override
