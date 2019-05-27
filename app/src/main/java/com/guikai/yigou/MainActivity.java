@@ -18,6 +18,8 @@ import com.guikai.latte.ui.launcher.OnLauncherFinishTag;
 import cn.jpush.android.api.JPushInterface;
 import qiu.niorgai.StatusBarCompat;
 
+//这是Dev分支 release分支请切换
+
 public class MainActivity extends ProxyActivity implements
         ISignListener, ILauncherListener {
 
