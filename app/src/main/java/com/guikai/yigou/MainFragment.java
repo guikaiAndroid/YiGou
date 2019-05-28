@@ -14,7 +14,7 @@ import com.guikai.latte.net.callback.ISuccess;
 
 /**
  * Created by Anding on 2019/1/12 19:34
- * Note:
+ * Note: 测试页面
  */
 
 public class MainFragment extends LatteFragment {
