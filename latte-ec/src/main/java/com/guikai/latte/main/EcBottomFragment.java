@@ -24,11 +24,11 @@ public class EcBottomFragment extends BaseBottomFragment{
     @Override
     public LinkedHashMap<BottomTabBean, BottomItemFragment> setItems(BottomItemBuilder builder) {
         final LinkedHashMap<BottomTabBean, BottomItemFragment> items = new LinkedHashMap<>();
-        items.put(new BottomTabBean("{fa-home}","主页"), new IndexFragment());
-        items.put(new BottomTabBean("{fa-sort}","分类"), new SortFragment());
-        items.put(new BottomTabBean("{fa-compass}","发现"), new DiscoverFragment());
-        items.put(new BottomTabBean("{fa-shopping-cart}","购物车"), new ShopCartFragment());
-        items.put(new BottomTabBean("{fa-user}","我的"), new PersonalFragment());
+        items.put(new BottomTabBean("{icon-home}","主页"), new IndexFragment());
+        items.put(new BottomTabBean("{icon-sort}","分类"), new SortFragment());
+        items.put(new BottomTabBean("{icon-discover}","发现"), new DiscoverFragment());
+        items.put(new BottomTabBean("{icon-cart}","购物车"), new ShopCartFragment());
+        items.put(new BottomTabBean("{icon-my}","我的"), new PersonalFragment());
         return builder.addItems(items).build();
     }
 
@@ -39,6 +39,6 @@ public class EcBottomFragment extends BaseBottomFragment{
 
     @Override
     public int setClickColor() {
-        return Color.parseColor("#ffff8800");
+        return Color.parseColor("#FF6B00");
     }
 }
