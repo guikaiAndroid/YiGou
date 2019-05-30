@@ -90,6 +90,7 @@ public abstract class BaseBottomFragment extends LatteFragment implements View.O
             itemIcon.setText(bean.getIcon());
             itemTitle.setText(bean.getTitle());
             if (i == mIndexFragment) {
+                itemIcon.setText(bean.getFillIcon());
                 itemIcon.setTextColor(mClickedColor);
                 itemTitle.setTextColor(mClickedColor);
             }
@@ -103,6 +104,7 @@ public abstract class BaseBottomFragment extends LatteFragment implements View.O
         for (int i = 0; i < count; i++) {
             final RelativeLayout item = (RelativeLayout) mBottomBar.getChildAt(i);
             final IconTextView itemIcon = (IconTextView) item.getChildAt(0);
+            itemIcon.setText(TAB_BEANS.get(i).getIcon());
             itemIcon.setTextColor(Color.GRAY);
             final AppCompatTextView itemTitle = (AppCompatTextView) item.getChildAt(1);
             itemTitle.setTextColor(Color.GRAY);
@@ -114,6 +116,7 @@ public abstract class BaseBottomFragment extends LatteFragment implements View.O
         final RelativeLayout item = (RelativeLayout) mBottomBar.getChildAt(tabIndex);
         //获取底部icon
         final IconTextView itemIcon = (IconTextView) item.getChildAt(0);
+        itemIcon.setText(TAB_BEANS.get(tabIndex).getFillIcon());
         itemIcon.setTextColor(mClickedColor);
         //获取底部导航文字
         final AppCompatTextView itemTitle = (AppCompatTextView) item.getChildAt(1);

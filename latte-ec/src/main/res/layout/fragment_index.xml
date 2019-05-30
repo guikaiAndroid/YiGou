@@ -39,20 +39,39 @@
                 android:gravity="center"
                 android:text="{icon-scan}"
                 android:textColor="@android:color/white"
-                android:textSize="24sp" />
+                android:textSize="26sp" />
 
-            <android.support.v7.widget.AppCompatEditText
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:background="@drawable/search_view"
+            android:orientation="horizontal">
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="12dp"
+                android:textColor="@android:color/darker_gray"
+                android:text="{icon-search}"
+                android:textSize="18sp" />
+
+            <android.support.v7.widget.AppCompatTextView
                 android:id="@+id/et_search_view"
                 android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="30dp"
                 android:layout_gravity="center"
-                android:layout_weight="6"
-                android:background="@android:color/white"
+                android:paddingLeft="8dp"
                 android:gravity="center_vertical"
-                android:hint="搜索"
-                android:cursorVisible="false"
-                android:textSize="16sp"
-                android:paddingLeft="20dp" />
+                android:textColor="@android:color/darker_gray"
+                android:text="请输入搜索的商品..."
+                android:textSize="14sp"
+                 />
+
+        </android.support.v7.widget.LinearLayoutCompat>
 
             <com.joanzapata.iconify.widget.IconTextView
                 android:id="@+id/icon_index_message"
@@ -61,9 +80,9 @@
                 android:layout_gravity="right"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="{fa-bullhorn}"
+                android:text="{icon-message}"
                 android:textColor="@android:color/white"
-                android:textSize="24sp" />
+                android:textSize="26sp" />
 
         </android.support.v7.widget.LinearLayoutCompat>
 

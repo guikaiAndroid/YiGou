@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.AppCompatEditText;
+import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -44,7 +45,7 @@ import static com.blankj.utilcode.util.BarUtils.getStatusBarHeight;
  * Note: 主页fragment
  */
 
-public class IndexFragment extends BottomItemFragment implements View.OnFocusChangeListener {
+public class IndexFragment extends BottomItemFragment {
 
     private RecyclerView mRecyclerView = null;
     private SwipeRefreshLayout mSwipeRefreshLayout = null;
@@ -62,7 +63,7 @@ public class IndexFragment extends BottomItemFragment implements View.OnFocusCha
         Toolbar mToolbar = $(R.id.tb_index);
 
         final IconTextView mIconScan = $(R.id.icon_index_scan);
-        final AppCompatEditText mSearch = $(R.id.et_search_view);
+        final AppCompatTextView mSearch = $(R.id.et_search_view);
 
         mToolbar.getBackground().mutate().setAlpha(0);
         mToolbar.setPadding(0, getStatusBarHeight(), 0, 0);
@@ -83,7 +84,12 @@ public class IndexFragment extends BottomItemFragment implements View.OnFocusCha
                 startScanWithCheck(getParentFragments());
             }
         });
-        mSearch.setOnFocusChangeListener(this);
+        mSearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getParentFragments().start(new SearchFragment());
+            }
+        });
 
 //        onCallRxGet();
 //        onCallRxRestClient();
@@ -181,10 +187,4 @@ public class IndexFragment extends BottomItemFragment implements View.OnFocusCha
         mRefreshHandler.firstPage("index_data.json");
     }
 
-    @Override
-    public void onFocusChange(View v, boolean hasFocus) {
-        if (hasFocus) {
-            getParentFragments().start(new SearchFragment());
-        }
-    }
 }

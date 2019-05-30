@@ -13,7 +13,7 @@
         android:layout_above="@id/tv_bottom_item"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:textSize="28sp" />
+        android:textSize="26sp" />
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/tv_bottom_item"
@@ -23,6 +23,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
         android:gravity="center"
-        android:textSize="12sp" />
+        android:textSize="10sp" />
 
 </RelativeLayout>

@@ -24,11 +24,11 @@ public class EcBottomFragment extends BaseBottomFragment{
     @Override
     public LinkedHashMap<BottomTabBean, BottomItemFragment> setItems(BottomItemBuilder builder) {
         final LinkedHashMap<BottomTabBean, BottomItemFragment> items = new LinkedHashMap<>();
-        items.put(new BottomTabBean("{icon-home}","主页"), new IndexFragment());
-        items.put(new BottomTabBean("{icon-sort}","分类"), new SortFragment());
-        items.put(new BottomTabBean("{icon-discover}","发现"), new DiscoverFragment());
-        items.put(new BottomTabBean("{icon-cart}","购物车"), new ShopCartFragment());
-        items.put(new BottomTabBean("{icon-my}","我的"), new PersonalFragment());
+        items.put(new BottomTabBean("{icon-home}","{icon-home-fill}","主页"), new IndexFragment());
+        items.put(new BottomTabBean("{icon-sort}","{icon-sort-fill}","分类"), new SortFragment());
+        items.put(new BottomTabBean("{icon-discover}","{icon-discover-fill}","发现"), new DiscoverFragment());
+        items.put(new BottomTabBean("{icon-cart}","{icon-cart-fill}","购物车"), new ShopCartFragment());
+        items.put(new BottomTabBean("{icon-my}","{icon-my-fill}","我的"), new PersonalFragment());
         return builder.addItems(items).build();
     }
 

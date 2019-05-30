@@ -15,8 +15,10 @@ public enum EcIcons implements Icon {
     icon_my('\ue78b'),
     icon_my_fill('\ue78c'),
 
-    icon_scan('\ue749'),
-    icon_ali_pay('\ue600');
+    icon_scan('\ue689'),
+    icon_ali_pay('\ue600'),
+    icon_message('\ue6bc'),
+    icon_search('\ue65c');
 
     private char character;
 
