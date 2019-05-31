@@ -24,6 +24,7 @@ public class MainApplication extends Application {
                 .withIcon(new FontAwesomeModule())                       //Awesome风格图片
                 .withIcon(new FontEcModule())                            //自定义IconText
                 .withApiHost("http://47.110.68.60:8080/data/")
+//                .withApiHost("http://192.168.0.109/RestServer/data/")
 //                .withApiHost("http://mock.fulingjie.com/mock-android/api/")
                 .withWeChatAppId("Your apply App_id")                    //微信开放平台Id
                 .withWeChatAppSecret("Your apply Secret_id")
