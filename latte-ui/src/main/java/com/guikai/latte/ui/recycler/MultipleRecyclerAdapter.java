@@ -29,6 +29,7 @@ public class MultipleRecyclerAdapter extends
 
     //确保初始化一次Banner,防止重复Item加载
     private boolean mIsInitBanner = false;
+
     //设置图片加载策略
     private static final RequestOptions REQUEST_OPTIONS =
             new RequestOptions()

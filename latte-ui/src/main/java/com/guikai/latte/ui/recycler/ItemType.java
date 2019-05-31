@@ -18,7 +18,7 @@ public class ItemType {
     public static final int IMAGE_AD = 7;
 
     //双图片占一行 span=2
-    public static final int IMAGE_DOUBLE = 2;
+    public static final int IMAGE_DOUBLE = 8;
 
     public static final int VERTICAL_MENU_LIST = 5;
 

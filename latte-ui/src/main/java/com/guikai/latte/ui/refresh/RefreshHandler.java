@@ -7,9 +7,12 @@ import android.widget.Toast;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.blankj.utilcode.util.LogUtils;
+import com.blankj.utilcode.util.ToastUtils;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.guikai.latte.app.Latte;
 import com.guikai.latte.net.RestClient;
+import com.guikai.latte.net.callback.IError;
+import com.guikai.latte.net.callback.IFailure;
 import com.guikai.latte.net.callback.ISuccess;
 import com.guikai.latte.ui.recycler.DataConverter;
 import com.guikai.latte.ui.recycler.MultipleRecyclerAdapter;
@@ -54,6 +57,7 @@ public class RefreshHandler implements
         refresh();
     }
 
+    //加载首页数据
     public void firstPage(String url) {
         BEAN.setDelayed(1000);
         RestClient.builder()
@@ -76,6 +80,7 @@ public class RefreshHandler implements
                 .get();
     }
 
+    //分页
     private void paging(final String url) {
         final int pageSize = BEAN.getPageSize();
         final int currentCount = BEAN.getCurrentCount();
@@ -93,12 +98,26 @@ public class RefreshHandler implements
                             .success(new ISuccess() {
                                 @Override
                                 public void onSuccess(String response) {
-                                    LogUtils.json("首页刷新第" + BEAN.getPageIndex() + "页", response);
+                                    LogUtils.json("上滑分页刷新第" + BEAN.getPageIndex() + "页", response);
                                     mAdapter.setNewData(CONVERTER.setJsonData(response).convert());
                                     //累加数量
                                     BEAN.setCurrentCount(mAdapter.getData().size());
                                     mAdapter.loadMoreComplete();
                                     BEAN.addIndex();
+                                }
+                            })
+                            .failure(new IFailure() {
+                                @Override
+                                public void onFailure() {
+                                    mAdapter.loadMoreFail();
+                                    ToastUtils.showShort("数据加载失败，请稍后再试");
+                                }
+                            })
+                            .error(new IError() {
+                                @Override
+                                public void onError(int code, String msg) {
+                                    mAdapter.loadMoreFail();
+                                    ToastUtils.showShort("数据加载失败，错误码"+code);
                                 }
                             })
                             .build()
@@ -110,7 +129,7 @@ public class RefreshHandler implements
 
     @Override
     public void onLoadMoreRequested() {
-        paging("refresh.php?index=");
+        paging("index_2_data.json?index=");
 //        mAdapter.loadMoreEnd();
 //        Latte.getHandler().postDelayed(new Runnable() {
 //            @Override
