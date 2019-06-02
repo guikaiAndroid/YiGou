@@ -1,0 +1,48 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "content": "内容描述",
+    "banners": [
+      "https://i8.mifile.cn/v1/a1/334f3a68-eb80-e730-8733-48f86062cf0e.webp",
+      "https://i8.mifile.cn/v1/a1/2e34feca-9c9c-e5ff-dc39-eaac973df095.webp",
+      "https://i8.mifile.cn/v1/a1/3bf6304b-f207-a136-c763-82205f53349a.webp"
+    ],
+    "tabs": [
+      {
+        "name": "商品详情",
+        "pictures": [
+          "https://i8.mifile.cn/v1/a1/61508883-814d-1427-43d5-5cf33202e8cc.webp",
+          "https://i8.mifile.cn/v1/a1/3ed519e6-fdae-2b65-81df-1d4c0258953f.webp",
+          "https://i8.mifile.cn/v1/a1/1d682a87-1788-cec8-f222-a8534978990c.webp",
+          "https://i8.mifile.cn/v1/a1/e8ebd002-3778-ab4f-fb94-67c8bec61c69.webp"
+        ]
+      },
+      {
+        "name": "规格参数",
+        "pictures": [
+          "https://i8.mifile.cn/v1/a1/50137b8a-f0ab-1548-dfd2-1d0ce56ee92f.webp",
+          "https://i8.mifile.cn/v1/a1/6caa04b9-b8dd-ea75-8b9c-9633243c9ce6.webp",
+          "https://i8.mifile.cn/v1/a1/423cc9cc-f6f1-3ad3-a2ee-d234ddb61d13.webp",
+          "https://i8.mifile.cn/v1/a1/839825f5-5af8-3535-7edf-0e9591e4e29b.webp",
+          "https://i8.mifile.cn/v1/a1/993d0bc8-92d5-3628-7540-928660abe51c.webp",
+          "https://i8.mifile.cn/v1/a1/1717e087-9ced-8315-e4e7-729031e33dbf.webp",
+          "https://i8.mifile.cn/v1/a1/e2cd47f8-f263-6c72-67b2-92039adfe4a0.webp",
+          "https://i8.mifile.cn/v1/a1/19c92a3a-8344-ddc1-e880-e15f1f52efe1.webp",
+          "https://i8.mifile.cn/v1/a1/675698d5-fa80-b14d-a323-e91d97acb175.webp",
+          "https://i8.mifile.cn/v1/a1/62df81a3-ee47-b1c4-2604-c1f4b3b4597c.webp",
+          "https://i8.mifile.cn/v1/a1/268d578c-16f9-fcd6-4557-b16e172a2126.webp",
+          "https://i8.mifile.cn/v1/a1/8719e690-9f65-10a0-9845-7d59fde924b6.webp",
+          "https://i8.mifile.cn/v1/a1/2e4f9021-8cb7-3f9e-5cbb-6e478766a0b7.webp"
+        ]
+      }
+    ],
+    "specifications": "规格参数",
+    "inventory": "商品中包含了哪些东西的清单",
+    "id": 1,
+    "name": "小米5c 3GB+64GB 金色",
+    "description": "搭载澎湃S1 八核高性能处理器 / “暗夜之眼”超感光相机 / 135g 轻薄金属机身 / 5.15 高亮护眼屏",
+    "price": 12.00,
+    "thumb": "https://i8.mifile.cn/v1/a1/334f3a68-eb80-e730-8733-48f86062cf0e.webp"
+  }
+}

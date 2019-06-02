@@ -1,0 +1,46 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "title": "小米6 6GB+128GB",
+      "desc": "变焦双摄，4 轴防抖 骁龙835",
+      "id": 1,
+      "price": 2899,
+      "count": 1,
+      "thumb": "https://i8.mifile.cn/b2c-mimall-media/f0e283f74845939fd24d53f7fb1d35c1.png?width=120&height=120"
+    },
+    {
+      "title": "悦米机械键盘",
+      "desc": "87键 铝合金机身 TTC 红轴 简约百搭",
+      "id": 3,
+      "count": 2,
+      "price": 299,
+      "thumb": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/12925f99d858e3155c4bb3ecd1f37ae7.png?width=120&height=120"
+    },
+    {
+      "title": "无线鼠标",
+      "desc": "阳极氧化铝合金外壳+ABS材质",
+      "id": 3,
+      "count": 1,
+      "price": 99,
+      "thumb": "https://i8.mifile.cn/v1/a1/2ca61893-68b9-d0a0-5f85-bdc28e655a3e.jpg?width=120&height=120"
+    },
+    {
+      "title": "USB快速充电线",
+      "desc": "坚固耐用的USB接口",
+      "id": 3,
+      "count": 2,
+      "price": 19,
+      "thumb": "https://i8.mifile.cn/v1/a1/b0580f26-ce5f-a53e-c4ef-6adaf4b798f9.jpg?width=120&height=120"
+    },
+    {
+      "title": "智能电饭煲",
+      "desc": "压力IH加热技术 3L容量",
+      "id": 3,
+      "count": 2,
+      "price": 999,
+      "thumb": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/12925f99d858e3155c4bb3ecd1f37ae7.png?width=120&height=120"
+    }
+  ]
+}

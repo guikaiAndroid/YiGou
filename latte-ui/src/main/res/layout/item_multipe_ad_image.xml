@@ -2,6 +2,5 @@
 <android.support.v7.widget.AppCompatImageView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/img_ad_single"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
-    android:layout_gravity="center"
+    android:layout_height="160dp"
     android:background="@android:color/white" />

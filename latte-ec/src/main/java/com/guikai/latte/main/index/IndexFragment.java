@@ -9,6 +9,7 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.AppCompatEditText;
 import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.AndroidException;
@@ -168,12 +169,12 @@ public class IndexFragment extends BottomItemFragment {
     }
 
     private void initRecyclerView() {
-        final GridLayoutManager manager = new GridLayoutManager(getContext(), 4);
+        final LinearLayoutManager manager = new LinearLayoutManager(getContext());
         final Context context = getContext();
         mRecyclerView.setLayoutManager(manager);
-        if (context != null)
-            mRecyclerView.addItemDecoration(BaseDecoration.create(ContextCompat.getColor(context,
-                    R.color.app_background), 5));
+//        if (context != null)
+//            mRecyclerView.addItemDecoration(BaseDecoration.create(ContextCompat.getColor(context,
+//                    R.color.app_background), 5));
         final EcBottomFragment ecBottomFragment = getParentFragments();
         mRecyclerView.addOnItemTouchListener(IndexItemClickListener.create(ecBottomFragment));
     }

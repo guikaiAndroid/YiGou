@@ -1,0 +1,100 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "id": 1,
+      "section": "手机",
+      "goods": [
+        {
+          "goods_id": 3,
+          "goods_thumb": "https://i8.mifile.cn/b2c-mimall-media/f0e283f74845939fd24d53f7fb1d35c1.png?width=120&height=120",
+          "goods_name": "小米6"
+        },
+        {
+          "goods_id": 4,
+          "goods_thumb": "https://i8.mifile.cn/b2c-mimall-media/88bc9af6c3bd4e7a695060fe628971e8.png?width=120&height=120",
+          "goods_name": "小米Max 2"
+        },
+        {
+          "goods_id": 5,
+          "goods_thumb": "https://i8.mifile.cn/b2c-mimall-media/661f8ad7f2014f352e3a47fbb5ee2939.png?width=120&height=120",
+          "goods_name": "红米4X"
+        },
+        {
+          "goods_id": 6,
+          "goods_thumb": "https://i8.mifile.cn/b2c-mimall-media/ea6275142315b78422e4f047406fc76c.png?width=120&height=120",
+          "goods_name": "红米Note 4X"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "section": "电视",
+      "goods": [
+        {
+          "goods_id": 3,
+          "goods_thumb": "https://i8.mifile.cn/b2c-mimall-media/efb682b76a29411fd26d990971992c3e.png?width=120&height=120",
+          "goods_name": "49英寸"
+        },
+        {
+          "goods_id": 4,
+          "goods_thumb": "https://i8.mifile.cn/b2c-mimall-media/a68d31ccb3ac07f289abc39a5682f334.png?width=120&height=120",
+          "goods_name": "55英寸"
+        },
+        {
+          "goods_id": 5,
+          "goods_thumb": "https://i8.mifile.cn/b2c-mimall-media/068cd93230bb3d93c80f42b0dba6d5f4.png?width=120&height=120",
+          "goods_name": "65英寸"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "section": "电脑",
+      "goods": [
+        {
+          "goods_id": 3,
+          "goods_thumb": "https://i8.mifile.cn/b2c-mimall-media/f0d7f8167e14f0c70fd84aa6cb321cb6.png?width=120&height=120",
+          "goods_name": "笔记本12.5"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "section": "标题3",
+      "goods": [
+        {
+          "goods_id": 3,
+          "goods_thumb": "http://i8.mifile.cn/v1/a1/1ef4e430-b65a-2655-791a-680a49668005.webp?width=720&height=720",
+          "goods_name": "品牌1"
+        },
+        {
+          "goods_id": 4,
+          "goods_thumb": "http://i8.mifile.cn/v1/a1/1ef4e430-b65a-2655-791a-680a49668005.webp?width=720&height=720",
+          "goods_name": "品牌2"
+        },
+        {
+          "goods_id": 5,
+          "goods_thumb": "http://i8.mifile.cn/v1/a1/1ef4e430-b65a-2655-791a-680a49668005.webp?width=720&height=720",
+          "goods_name": "品牌3"
+        },
+        {
+          "goods_id": 6,
+          "goods_thumb": "http://i8.mifile.cn/v1/a1/1ef4e430-b65a-2655-791a-680a49668005.webp?width=720&height=720",
+          "goods_name": "品牌4"
+        },
+        {
+          "goods_id": 7,
+          "goods_thumb": "http://i8.mifile.cn/v1/a1/T1SexQBgCT1RC2b46K.webp",
+          "goods_name": "品牌5"
+        },
+        {
+          "goods_id": 8,
+          "goods_thumb": "http://i8.mifile.cn/v1/a1/T1SexQBgCT1RC2b46K.webp",
+          "goods_name": "品牌6"
+        }
+      ]
+    }
+  ]
+}

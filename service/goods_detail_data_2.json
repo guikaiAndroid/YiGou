@@ -1,0 +1,35 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "content": "内容描述",
+    "banners": [
+      "http://i8.mifile.cn/v1/a1/7ebaccc9-5a10-1d71-4941-bc1c4ebba954.webp",
+      "http://i8.mifile.cn/v1/a1/74d2aa0f-62eb-6737-3d7b-c272850d3950.webp",
+      "http://i8.mifile.cn/v1/a1/15a1ae44-4007-6a3a-e8f1-512e2e87e09d.webp"
+    ],
+    "pictures": [
+      "http://i8.mifile.cn/v1/a1/7ebaccc9-5a10-1d71-4941-bc1c4ebba954.webp",
+      "http://i8.mifile.cn/v1/a1/74d2aa0f-62eb-6737-3d7b-c272850d3950.webp",
+      "http://i8.mifile.cn/v1/a1/15a1ae44-4007-6a3a-e8f1-512e2e87e09d.webp",
+      "http://i8.mifile.cn/v1/a1/02bb4430-7ff2-add0-3249-3f09810c2ef7.webp",
+      "http://i8.mifile.cn/v1/a1/d95cd554-c488-aa72-59ca-02beea4d5c02.webp",
+      "http://i8.mifile.cn/v1/a1/d95cd554-c488-aa72-59ca-02beea4d5c02.webp",
+      "http://i8.mifile.cn/v1/a1/eb48d526-52c0-c827-74c1-20079abc893d.webp",
+      "http://i8.mifile.cn/v1/a1/eb48d526-52c0-c827-74c1-20079abc893d.webp",
+      "http://i8.mifile.cn/v1/a1/bddc6dbd-d4a5-c255-f7f3-3ec764d8df79.webp",
+      "http://i8.mifile.cn/v1/a1/eb48d526-52c0-c827-74c1-20079abc893d.webp",
+      "http://i8.mifile.cn/v1/a1/4ef64a51-b1c8-f216-07b5-bcc061df099d.webp",
+      "http://i8.mifile.cn/v1/a1/13f68a5a-7a06-1468-802d-311b6ca01f11.webp",
+      "http://i8.mifile.cn/v1/a1/13f68a5a-7a06-1468-802d-311b6ca01f11.webp",
+      "http://i8.mifile.cn/v1/a1/3e6db202-804b-cdbb-e307-a3154a6eb55a.webp"
+    ],
+    "specifications": "规格参数",
+    "inventory": "商品中包含了哪些东西的清单",
+    "id": 1,
+    "name": "商品名称",
+    "description": "商品的详细描述",
+    "price": 12.00,
+    "thumb": "http://i9.qhimg.com/t017d891ca365ef60b5.jpg"
+  }
+}

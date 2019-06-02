@@ -1,0 +1,84 @@
+{
+  "code": 0,
+  "message": "OK",
+  "total": 100,
+  "page_size": 6,
+  "data": [
+    {
+      "type":5,
+      "goodsId": 0,
+      "banners": [
+        "https://i8.mifile.cn/v1/a1/251f0880-423e-fa2d-3c18-1d3ec23f9912.webp",
+        "https://i8.mifile.cn/v1/a1/49dfd019-9504-abb5-34bb-26f425b67e45.webp",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/b9540da01aef9a00a5c640b1c98b955a.jpg"
+      ]
+    },
+    {
+      "type":6,
+      "goodsId": 1,
+      "sections": [
+        "http://i8.mifile.cn/v1/a1/290976f3-acac-8a62-7e5c-a19985a6414b.webp",
+        "http://i8.mifile.cn/v1/a1/e821d48d-57fa-7dee-ebc7-a836909cc8a7!144x152.webp",
+        "http://i8.mifile.cn/v1/a1/e8bc849a-0a3b-21a0-6810-7da3a3903dee.webp",
+        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c94c523eb03128378ef2dc17c2c2cf0a.png",
+        "http://i8.mifile.cn/v1/a1/7dbcbf87-6a58-adb6-2f3f-bb3dae3e9c80.webp"
+      ]
+    },
+    {
+      "type":6,
+      "goodsId": 2,
+      "sections": [
+        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cb65daec7ef7b52cc785f88f78efba37.png",
+        "http://i8.mifile.cn/v1/a1/d317ac6d-9b2e-efd6-d59d-5dfe6ec77ba6.webp",
+        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/96c780016ea196743905dc93f9249c39.png",
+        "http://i8.mifile.cn/v1/a1/65fd2670-a567-dac3-59d1-6d96398cb733.webp",
+        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f11f9df6b0b0b428f8c8fc3267131830.png"
+      ]
+    },
+    {
+      "type":9,
+      "goodsId": 0,
+    },
+    {
+      "type":7,
+      "goodsId": 2,
+      "items":[
+        "http://i8.mifile.cn/v1/a1/5bd611b6-137c-7107-8329-93768a53fc58.webp",
+        "http://i8.mifile.cn/v1/a1/7803e2d0-e8c1-b824-2fa7-04616b197e9d.webp",
+        "http://i8.mifile.cn/v1/a1/01811d34-74c0-ad2d-001f-759e82169fb3.webp"
+      ]
+    },
+    {
+      "type":9,
+      "goodsId": 0,
+    },
+    {
+      "type":2,
+      "goodsId": 6,
+      "imageUrl": "http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/38bcfec8c2a91feecc71fddd8e5f3a39.jpg?thumb=1&w=720&h=280",
+    },
+    {
+      "type":9,
+      "goodsId": 0,
+    },
+    {
+      "type":3,
+      "goodsId": 6,
+      "imageUrl": "http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/dec3fa60d084b393b587781252995366.jpg?thumb=1&w=720&h=440",
+    },
+    // {
+    //   "type":4,
+    //   "goodsId": 6,
+    //   "items":[
+    //     {
+    //       "imageUrl": "http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d2bc1c7ff8c71628a28a5fce24caf245.jpg",
+    //       "name":"小米8"
+    //     },
+    //     {
+    //       "imageUrl": "http://i8.mifile.cn/v1/a1/2dc1fd08-ee77-65dd-c52a-82ba382ae864!360x360.webp",
+    //       "name":"小米7"
+    //     }
+    //   ]
+    // },
+  ]
+}

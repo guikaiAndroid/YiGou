@@ -1,0 +1,2651 @@
+{
+	"code": 0,
+	"info": "ok",
+	"desc": "成功",
+	"data": {
+		"tabs": [{
+			"tab_name": "推荐",
+			"tab_api": "home/appInfo",
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": "",
+			"params": {
+				"page_id": "0",
+				"tab_index": "0"
+			},
+			"tab_data": {
+				"header": {
+					"view_type": "gallery",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/dd239b285a3cdd245898605f57cad6d6.jpg?w=1080\u0026h=768\u0026bg=BFB5CB",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/dd239b285a3cdd245898605f57cad6d6.jpg?w=1080\u0026h=768\u0026bg=BFB5CB",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"goodsId\":\"\",\"commodityId\":\"10000151\",\"needVersion\":\"378\",\"productId\":\"10000151\"}",
+								"log_code": "31apphomegallery001004#t=ad\u0026act=product\u0026page=home\u0026pid=10000151\u0026page_id=6707\u0026bid=3312427.1\u0026adp=2490\u0026adm=12399"
+							},
+							"w": 1080,
+							"h": 768,
+							"ad_position_id": 2490,
+							"material_id": 12399,
+							"img_url_color": "#BFB5CB",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d2538f057a9e62afd5d49d36ad152b06.jpg?w=1080\u0026h=768\u0026bg=E96C6A",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d2538f057a9e62afd5d49d36ad152b06.jpg?w=1080\u0026h=768\u0026bg=E96C6A",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"618\\u9875\\u97621.0\",\"groupId\":\"\",\"extra_ver\":\"9719\"}",
+								"log_code": "31apphomegallery002004#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3312427.2\u0026adp=2681\u0026adm=12415"
+							},
+							"w": 1080,
+							"h": 768,
+							"ad_position_id": 2681,
+							"material_id": 12415,
+							"img_url_color": "#E96C6A",
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/c93c1a14-81b5-501a-bc2b-c871743e173a.webp?w=1080\u0026h=768\u0026bg=C6D4E9",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/c93c1a14-81b5-501a-bc2b-c871743e173a.webp?w=1080\u0026h=768\u0026bg=C6D4E9",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"goodsId\":\"\",\"commodityId\":\"9668\",\"needVersion\":\"378\",\"productId\":\"9668\"}",
+								"log_code": "31apphomegallery003004#t=ad\u0026act=product\u0026page=home\u0026pid=9668\u0026page_id=6707\u0026bid=3312427.3\u0026adp=2557\u0026adm=12345"
+							},
+							"w": 1080,
+							"h": 768,
+							"ad_position_id": 2557,
+							"material_id": 12345,
+							"img_url_color": "#C6D4E9",
+							"is_bigtap": false
+						}]
+					},
+					"location": {}
+				},
+				"sections": [{
+					"view_type": "gallery_540",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ab1d745df1460133ca181cd2065936c5.jpg?w=1080\u0026h=540\u0026bg=AF9EB4",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ab1d745df1460133ca181cd2065936c5.jpg?w=1080\u0026h=540\u0026bg=AF9EB4",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"goodsId\":\"\",\"commodityId\":\"10000151\",\"needVersion\":\"378\",\"productId\":\"10000151\"}",
+								"log_code": "31apphomegallery_540001005#t=ad\u0026act=product\u0026page=home\u0026pid=10000151\u0026page_id=6707\u0026bid=3312428.1\u0026adp=2682\u0026adm=12400"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 540,
+							"ad_position_id": 2682,
+							"material_id": 12400,
+							"img_url_color": "#AF9EB4",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/87e25f6b9a0945ec0daca71fdd4d0d5d.jpg?w=1080\u0026h=540\u0026bg=E2706F",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/87e25f6b9a0945ec0daca71fdd4d0d5d.jpg?w=1080\u0026h=540\u0026bg=E2706F",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"618\\u9875\\u97621.0\",\"groupId\":\"\",\"extra_ver\":\"9719\"}",
+								"log_code": "31apphomegallery_540002005#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3312428.2\u0026adp=2491\u0026adm=12414"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 540,
+							"ad_position_id": 2491,
+							"material_id": 12414,
+							"img_url_color": "#E2706F",
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/3b39a95a-df61-a052-8f16-8cad413a929b.webp?w=1080\u0026h=540\u0026bg=B5C8E4",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/3b39a95a-df61-a052-8f16-8cad413a929b.webp?w=1080\u0026h=540\u0026bg=B5C8E4",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"goodsId\":\"\",\"commodityId\":\"9668\",\"needVersion\":\"378\",\"productId\":\"9668\"}",
+								"log_code": "31apphomegallery_540003005#t=ad\u0026act=product\u0026page=home\u0026pid=9668\u0026page_id=6707\u0026bid=3312428.3\u0026adp=2458\u0026adm=12344"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 540,
+							"ad_position_id": 2458,
+							"material_id": 12344,
+							"img_url_color": "#B5C8E4",
+							"is_bigtap": false
+						}]
+					},
+					"location": {}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "home_icon_0",
+					"body": {
+						"w": 1080,
+						"h": 228,
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/290976f3-acac-8a62-7e5c-a19985a6414b.webp?w=216\u0026h=228\u0026bg=FDEEE9",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/290976f3-acac-8a62-7e5c-a19985a6414b.webp?w=216\u0026h=228\u0026bg=FDEEE9",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.specialevents.ui.RootFragment?pluginId=15104",
+								"log_code": "31apphomecells_auto_fill001009#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3375544.1\u0026adp=2829\u0026adm=10013"
+							},
+							"w": 216,
+							"h": 228,
+							"path_type": "image",
+							"ad_position_id": 2829,
+							"material_id": 10013,
+							"img_url_color": "#FDEEE9",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/54972aa2883ea961ee591b926265bf2f.png?w=216\u0026h=228\u0026bg=EFF0F5",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/54972aa2883ea961ee591b926265bf2f.png?w=216\u0026h=228\u0026bg=EFF0F5",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.mishopCrowdfunding.MainCrowdfundingFragment?pluginId=175",
+								"extra": "{\"needVerison\":\"38\"}",
+								"log_code": "31apphomecells_auto_fill002009#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3375544.2\u0026adp=2769\u0026adm=11601"
+							},
+							"x": 216,
+							"w": 216,
+							"h": 228,
+							"path_type": "image",
+							"ad_position_id": 2769,
+							"material_id": 11601,
+							"img_url_color": "#EFF0F5",
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/e8bc849a-0a3b-21a0-6810-7da3a3903dee.webp?w=216\u0026h=228\u0026bg=FDEFDE",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/e8bc849a-0a3b-21a0-6810-7da3a3903dee.webp?w=216\u0026h=228\u0026bg=FDEFDE",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u4ee5\\u65e7\\u6362\\u65b0-2019\",\"groupId\":\"\",\"extra_ver\":\"9623\"}",
+								"log_code": "31apphomecells_auto_fill003009#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3375544.3\u0026adp=2770\u0026adm=9511"
+							},
+							"x": 432,
+							"w": 216,
+							"h": 228,
+							"path_type": "image",
+							"ad_position_id": 2770,
+							"material_id": 9511,
+							"img_url_color": "#FDEFDE",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c94c523eb03128378ef2dc17c2c2cf0a.png?w=216\u0026h=228\u0026bg=FDF5E5",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c94c523eb03128378ef2dc17c2c2cf0a.png?w=216\u0026h=228\u0026bg=FDF5E5",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.groupshopping.RootFragment?pluginId=184",
+								"extra": "{\"needVersion\":\"40\"}",
+								"log_code": "31apphomecells_auto_fill004009#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3375544.4\u0026adp=2771\u0026adm=9510"
+							},
+							"x": 648,
+							"w": 216,
+							"h": 228,
+							"path_type": "image",
+							"ad_position_id": 2771,
+							"material_id": 9510,
+							"img_url_color": "#FDF5E5",
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/7dbcbf87-6a58-adb6-2f3f-bb3dae3e9c80.webp?w=216\u0026h=228\u0026bg=E5F4FC",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/7dbcbf87-6a58-adb6-2f3f-bb3dae3e9c80.webp?w=216\u0026h=228\u0026bg=E5F4FC",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u667a\\u80fd\\u9891\\u9053\",\"groupId\":\"\",\"extra_ver\":\"8671\"}",
+								"log_code": "31apphomecells_auto_fill005009#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3375544.5\u0026adp=2772\u0026adm=9539"
+							},
+							"x": 864,
+							"w": 216,
+							"h": 228,
+							"path_type": "image",
+							"ad_position_id": 2772,
+							"material_id": 9539,
+							"img_url_color": "#E5F4FC",
+							"is_bigtap": false
+						}]
+					},
+					"version": {
+						"min": "20180810",
+						"max": "99999999"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 228,
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cb65daec7ef7b52cc785f88f78efba37.png?w=216\u0026h=228\u0026bg=FDF1E6",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cb65daec7ef7b52cc785f88f78efba37.png?w=216\u0026h=228\u0026bg=FDF1E6",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"forceVersion\":\"27\"}",
+								"log_code": "31apphomecells_auto_fill001011#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3343216.1\u0026adp=2773\u0026adm=9509"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 216,
+							"h": 228,
+							"path_type": "image",
+							"ad_position_id": 2773,
+							"material_id": 9509,
+							"img_url_color": "#FDF1E6",
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/d317ac6d-9b2e-efd6-d59d-5dfe6ec77ba6.webp?w=216\u0026h=228\u0026bg=FDF0F0",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/d317ac6d-9b2e-efd6-d59d-5dfe6ec77ba6.webp?w=216\u0026h=228\u0026bg=FDF0F0",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.registenew.RegisteListFragment?pluginId=142",
+								"log_code": "31apphomecells_auto_fill002011#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3343216.2\u0026adp=2774\u0026adm=9519"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"x": 216,
+							"w": 216,
+							"h": 228,
+							"path_type": "image",
+							"ad_position_id": 2774,
+							"material_id": 9519,
+							"img_url_color": "#FDF0F0",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/96c780016ea196743905dc93f9249c39.png?w=216\u0026h=228\u0026bg=FDF5E5",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/96c780016ea196743905dc93f9249c39.png?w=216\u0026h=228\u0026bg=FDF5E5",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"4.23\\u7535\\u89c6\\u54c1\\u724c\\u65e5\",\"groupId\":\"\",\"extra_ver\":\"9311\"}",
+								"log_code": "31apphomecells_auto_fill003011#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3343216.3\u0026adp=2775\u0026adm=9513"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"x": 432,
+							"w": 216,
+							"h": 228,
+							"path_type": "image",
+							"ad_position_id": 2775,
+							"material_id": 9513,
+							"img_url_color": "#FDF5E5",
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/65fd2670-a567-dac3-59d1-6d96398cb733.webp?w=216\u0026h=228\u0026bg=F2F0FC",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/65fd2670-a567-dac3-59d1-6d96398cb733.webp?w=216\u0026h=228\u0026bg=F2F0FC",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u5bb6\\u7535\\u5e38\\u89c4\\u9875\\u9762\",\"groupId\":\"\",\"extra_ver\":\"8555\"}",
+								"log_code": "31apphomecells_auto_fill004011#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3343216.4\u0026adp=2777\u0026adm=11405"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"x": 648,
+							"w": 216,
+							"h": 228,
+							"path_type": "image",
+							"ad_position_id": 2777,
+							"material_id": 11405,
+							"img_url_color": "#F2F0FC",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f11f9df6b0b0b428f8c8fc3267131830.png?w=216\u0026h=228\u0026bg=FDEDE8",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f11f9df6b0b0b428f8c8fc3267131830.png?w=216\u0026h=228\u0026bg=FDEDE8",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.webview.RootFragment?pluginId=111",
+								"extra": "{\"url\":\"https:\\/\\/service.10046.mi.com\\/main_home\"}",
+								"log_code": "31apphomecells_auto_fill005011#t=ad\u0026act=webview\u0026page=home\u0026page_id=6707\u0026bid=3343216.5\u0026adp=2776\u0026adm=9516"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"x": 864,
+							"w": 216,
+							"h": 228,
+							"path_type": "image",
+							"ad_position_id": 2776,
+							"material_id": 9516,
+							"img_url_color": "#FDEDE8",
+							"is_bigtap": false
+						}]
+					},
+					"version": {
+						"min": "20180323",
+						"max": "99999999"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#cecece",
+						"line_height": "1"
+					}
+				}, {
+					"view_type": "list_broadcast",
+					"stat": "",
+					"body": {
+						"title_logo_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/846dbda81fbb2680034f44eacf665e15.jpg",
+						"action": {
+							"type": "plugin",
+							"path": "ShopPlugin://com.xiaomi.shop.plugin.homepage.MainFragment?pluginId=100",
+							"extra": "{\"tabType\":\"discovery\"}",
+							"log_code": "31apphomelist_broadcast000000#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3421700.5"
+						},
+						"items": [{
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.discovery.ArticleDetailFragment?pluginId=223",
+								"extra": "{\"article_id\":\"24846\",\"id\":\"24846\",\"type\":\"2\",\"action\":\"com.xiaomi.shop.plugin.discovery.ArticleDetailFragment\"}",
+								"log_code": "31apphomelist_broadcast001019#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3421700.1"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"news_title": "今晚小米8点档：当大魔王遇见小怪兽",
+							"is_bigtap": false
+						}, {
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.discovery.ArticleDetailFragment?pluginId=223",
+								"extra": "{\"article_id\":\"24847\",\"id\":\"24847\",\"type\":\"2\",\"action\":\"com.xiaomi.shop.plugin.discovery.ArticleDetailFragment\"}",
+								"log_code": "31apphomelist_broadcast002019#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3421700.2"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"news_title": "Redmi K20升降式摄像头容易坏吗？",
+							"is_bigtap": false
+						}, {
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.discovery.ArticleDetailFragment?pluginId=223",
+								"extra": "{\"article_id\":\"24795\",\"id\":\"24795\",\"type\":\"2\",\"action\":\"com.xiaomi.shop.plugin.discovery.ArticleDetailFragment\"}",
+								"log_code": "31apphomelist_broadcast003019#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3421700.3"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"news_title": "小米618：超值一口价，9.9元抢爆品！",
+							"is_bigtap": false
+						}, {
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.discovery.TopicDetailFragment?pluginId=223",
+								"extra": "{\"topic_id\":\"95\",\"topicId\":\"95\",\"action\":\"com.xiaomi.shop.plugin.discovery.TopicDetailFragment\"}",
+								"log_code": "31apphomelist_broadcast004019#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3421700.4"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"news_title": "说出你最喜欢的小米手机功能",
+							"is_bigtap": false
+						}]
+					},
+					"version": {
+						"min": "20190103",
+						"max": "99999999"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 762,
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/5bd611b6-137c-7107-8329-93768a53fc58.webp?w=537\u0026h=762\u0026bg=9689A5",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/5bd611b6-137c-7107-8329-93768a53fc58.webp?w=537\u0026h=762\u0026bg=9689A5",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u624b\\u673a\\u9891\\u90532019\",\"groupId\":\"\",\"extra_ver\":\"8221\"}",
+								"log_code": "31apphomecells_auto_fill001021#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3312447.1\u0026adp=1993\u0026adm=12426"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 537,
+							"h": 762,
+							"path_type": "image",
+							"ad_position_id": 1993,
+							"material_id": 12426,
+							"img_url_color": "#9689A5",
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/7803e2d0-e8c1-b824-2fa7-04616b197e9d.webp?w=537\u0026h=378\u0026bg=BDB680",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/7803e2d0-e8c1-b824-2fa7-04616b197e9d.webp?w=537\u0026h=378\u0026bg=BDB680",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u667a\\u80fd\\u9891\\u9053 2019\",\"groupId\":\"\",\"extra_ver\":\"8671\"}",
+								"log_code": "31apphomecells_auto_fill002021#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3312447.2\u0026adp=1994\u0026adm=11987"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"x": 543,
+							"w": 537,
+							"h": 378,
+							"path_type": "image",
+							"ad_position_id": 1994,
+							"material_id": 11987,
+							"img_url_color": "#BDB680",
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/01811d34-74c0-ad2d-001f-759e82169fb3.webp?w=537\u0026h=378\u0026bg=CEBBCA",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/01811d34-74c0-ad2d-001f-759e82169fb3.webp?w=537\u0026h=378\u0026bg=CEBBCA",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"4.23\\u7535\\u89c6\\u54c1\\u724c\\u65e5\",\"groupId\":\"\",\"extra_ver\":\"9311\"}",
+								"log_code": "31apphomecells_auto_fill003021#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3312447.3\u0026adp=1995\u0026adm=12213"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"x": 543,
+							"y": 384,
+							"w": 537,
+							"h": 378,
+							"path_type": "image",
+							"ad_position_id": 1995,
+							"material_id": 12213,
+							"img_url_color": "#CEBBCA",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 420,
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a8127f1259d91ce4cd6fe701314a9f15.jpg?w=1080\u0026h=420\u0026bg=C5C8DA",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a8127f1259d91ce4cd6fe701314a9f15.jpg?w=1080\u0026h=420\u0026bg=C5C8DA",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"goodsId\":\"\",\"commodityId\":\"10000134\",\"needVersion\":\"378\",\"productId\":\"10000134\"}",
+								"log_code": "31apphomecells_auto_fill001025#t=ad\u0026act=product\u0026page=home\u0026pid=10000134\u0026page_id=6707\u0026bid=3324193.1\u0026adp=925\u0026adm=12420"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 420,
+							"path_type": "image",
+							"ad_position_id": 925,
+							"material_id": 12420,
+							"img_url_color": "#C5C8DA",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "list_seckill",
+					"stat": "seckill_v2",
+					"body": {
+						"action": {
+							"type": "plugin",
+							"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+							"log_code": "31apphomelist_seckill000000#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3331676.1"
+						},
+						"items": [{
+							"img_url": "https://i8.mifile.cn/v1/a1/d1cf8b4d-eac0-2192-028c-f94cb568473c.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"commodityId\":\"1181000003\",\"goodsId\":\"2181000003\"}",
+								"log_code": "seckill#bid=3331676.01"
+							},
+							"goods_id": "2181000003",
+							"product_id": "7761",
+							"product_name": "小米MIX 2S 6GB+128GB 黑色",
+							"product_price": "2199",
+							"product_org_price": "3599",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a71196f9d25cbb659e96ff61fa28204c.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"commodityId\":\"1181500038\",\"goodsId\":\"2181500038\"}",
+								"log_code": "seckill#bid=3331676.02"
+							},
+							"goods_id": "2181500038",
+							"product_id": "7896",
+							"product_name": "小米6X 移动4G+版 6GB+64GB 赤焰红",
+							"product_price": "1099",
+							"product_org_price": "1799",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/e9e5e8fb9e0b5d16a52df672861be5af.png",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"commodityId\":\"1172800043\",\"goodsId\":\"2172800032\"}",
+								"log_code": "seckill#bid=3331676.03"
+							},
+							"goods_id": "2172800032",
+							"product_id": "6298",
+							"product_name": "小米WiFi放大器Pro 黑色",
+							"product_price": "59",
+							"product_org_price": "79",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/5e6261b62ed749b8ef503076dc2f4891.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"commodityId\":\"1182400031\",\"goodsId\":\"2182400028\"}",
+								"log_code": "seckill#bid=3331676.04"
+							},
+							"goods_id": "2182400028",
+							"product_id": "8312",
+							"product_name": "小米米家滤水壶",
+							"product_price": "89",
+							"product_org_price": "129",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://i8.mifile.cn/v1/a1/cd63932d-e89b-8825-1d28-f205cc226b0d.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"commodityId\":\"1174200034\",\"goodsId\":\"2174200021\"}",
+								"log_code": "seckill#bid=3331676.05"
+							},
+							"goods_id": "2174200021",
+							"product_id": "6124",
+							"product_name": "自动折叠伞 黑",
+							"product_price": "89",
+							"product_org_price": "99",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4e4caac1086f650b2abdd3d70ec24216.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"commodityId\":\"1182100010\",\"goodsId\":\"2182100010\"}",
+								"log_code": "seckill#bid=3331676.06"
+							},
+							"goods_id": "2182100010",
+							"product_id": "8125",
+							"product_name": "小米游戏鼠标 黑色",
+							"product_price": "189",
+							"product_org_price": "249",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://i8.mifile.cn/v1/a1/6411c848-8ff9-1cbc-ede5-b46593788ea2.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"commodityId\":\"1144600003\",\"goodsId\":\"2144600003\"}",
+								"log_code": "seckill#bid=3331676.07"
+							},
+							"goods_id": "2144600003",
+							"product_id": "1719",
+							"product_name": "小米金属鼠标垫 大号",
+							"product_price": "55",
+							"product_org_price": "59",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/ef098f1a6876f2ea75611ad97527c89d.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"commodityId\":\"1182100016\",\"goodsId\":\"2182100016\"}",
+								"log_code": "seckill#bid=3331676.08"
+							},
+							"goods_id": "2182100016",
+							"product_id": "8133",
+							"product_name": "小米游戏键盘",
+							"product_price": "189",
+							"product_org_price": "229",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://i8.mifile.cn/v1/a1/909aafaa-cba9-e2ad-4ce2-ff9466724a37.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"commodityId\":\"1171800003\",\"goodsId\":\"2171800003\"}",
+								"log_code": "seckill#bid=3331676.09"
+							},
+							"goods_id": "2171800003",
+							"product_id": "5770",
+							"product_name": "USB-C至Mini DisplayPort多功能转接器 白色",
+							"product_price": "135",
+							"product_org_price": "149",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/aea298be0dad7fafe88b2cc0b104633e.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"commodityId\":\"1182100015\",\"goodsId\":\"2182100015\"}",
+								"log_code": "seckill#bid=3331676.10"
+							},
+							"goods_id": "2182100015",
+							"product_id": "8132",
+							"product_name": "小米USB-C TO USB-C数据线 150cm 白色 ",
+							"product_price": "25",
+							"product_org_price": "29",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://i8.mifile.cn/v1/a1/cf13e34e-1f5d-9b3d-d793-ea3db41240c7.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"commodityId\":\"1183000009\",\"goodsId\":\"2183000006\"}",
+								"log_code": "seckill#bid=3331676.11"
+							},
+							"goods_id": "2183000006",
+							"product_id": "8645",
+							"product_name": "小米路由器4C 白色",
+							"product_price": "66",
+							"product_org_price": "99",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://i8.mifile.cn/v1/a1/eb3cccf6-07ca-6580-a350-d5f56a9effa7.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"commodityId\":\"1164900022\",\"goodsId\":\"2164900010\"}",
+								"log_code": "seckill#bid=3331676.12"
+							},
+							"goods_id": "2164900010",
+							"product_id": "4998",
+							"product_name": "小米移动电源10000mAh高配 灰色",
+							"product_price": "126",
+							"product_org_price": "149",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ea2e5f6366fdec82cc7e0f0d5f4c9ac3.jpg?f=webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"commodityId\":\"1185200014\",\"goodsId\":\"2185200014\"}",
+								"log_code": "seckill#bid=3331676.13"
+							},
+							"goods_id": "2185200014",
+							"product_id": "9187",
+							"product_name": "米兔儿童书包2 大号 浅粉色",
+							"product_price": "224",
+							"product_org_price": "249",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://i8.mifile.cn/v1/a1/90a78aa7-96d1-b3ea-ad1d-130b9b93854a.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"commodityId\":\"1183000021\",\"goodsId\":\"2183000015\"}",
+								"log_code": "seckill#bid=3331676.14"
+							},
+							"goods_id": "2183000015",
+							"product_id": "8656",
+							"product_name": "90分旅行箱 1A 26英寸 星空灰 26寸",
+							"product_price": "404",
+							"product_org_price": "449",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://i8.mifile.cn/v1/a1/f0d34675-4f9c-e465-8a4e-408ea24eb018.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.instantpurchase.RootFragment?pluginId=156",
+								"extra": "{\"commodityId\":\"1181000006\",\"goodsId\":\"2181000006\"}",
+								"log_code": "seckill#bid=3331676.15"
+							},
+							"goods_id": "2181000006",
+							"product_id": "7762",
+							"product_name": "小米MIX 2S 8GB+256GB 陶瓷尊享版 白色",
+							"product_price": "2499",
+							"product_org_price": "3999",
+							"is_bigtap": false
+						}],
+						"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5b8d0e42b43effef0fb1d30ad6e6f852.jpg?w=1080\u0026h=120\u0026bg=FFFAF7",
+						"img_url_color": "#FFFAF7",
+						"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5b8d0e42b43effef0fb1d30ad6e6f852.jpg?w=1080\u0026h=120\u0026bg=FFFAF7",
+						"bg_color": "#ffffff",
+						"end_time": 1559304000,
+						"title_desc": "距下一场",
+						"remain_ts": 10305,
+						"server_time": 1559293695
+					},
+					"block_id": "3331676",
+					"version": {
+						"min": "20170907",
+						"max": "99999999"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 540,
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/c5dcebe8-1366-beb8-6a4a-a83dfca3d744.webp?w=1080\u0026h=540\u0026bg=594163",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/c5dcebe8-1366-beb8-6a4a-a83dfca3d744.webp?w=1080\u0026h=540\u0026bg=594163",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.shortvideo.home.HomeFragment?pluginId=232",
+								"extra": "{\"needVersion\":\"17\",\"action\":\"com.xiaomi.shop.plugin.shortvideo.home.HomeFragment\"}",
+								"log_code": "31apphomecells_auto_fill001030#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3448611.1\u0026adp=3061\u0026adm=12456"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 540,
+							"path_type": "image",
+							"ad_position_id": 3061,
+							"material_id": 12456,
+							"img_url_color": "#594163",
+							"is_bigtap": false
+						}]
+					},
+					"version": {
+						"min": "20190329",
+						"max": "99999999"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 660,
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/f6fe4d24-ec2b-be51-1e22-e8f5095b2d29.webp?w=1080\u0026h=660\u0026bg=C8BBC9",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/f6fe4d24-ec2b-be51-1e22-e8f5095b2d29.webp?w=1080\u0026h=660\u0026bg=C8BBC9",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"goodsId\":\"\",\"commodityId\":\"10000131\",\"needVersion\":\"378\",\"productId\":\"10000131\"}",
+								"log_code": "31apphomecells_auto_fill001033#t=ad\u0026act=product\u0026page=home\u0026pid=10000131\u0026page_id=6707\u0026bid=3346141.1\u0026adp=2038\u0026adm=12329"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 660,
+							"path_type": "image",
+							"ad_position_id": 2038,
+							"material_id": 12329,
+							"img_url_color": "#C8BBC9",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#ffffff",
+						"line_height": "10"
+					}
+				}, {
+					"view_type": "list_two_type13",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f2832c3a0b8c7158809b69a2ca5a5b1c.jpg",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f2832c3a0b8c7158809b69a2ca5a5b1c.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"10000151\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13001035#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3447858.1\u0026pid=10000151"
+							},
+							"product_id": "10000151",
+							"product_name": "Redmi K20 Pro ",
+							"product_price": "2499",
+							"product_org_price": "2499",
+							"product_brief": "骁龙855， 弹出全面屏",
+							"show_price_qi": true,
+							"img_url_color": "#AA8E95",
+							"product_tag_array": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d756ede6e1c8d35b84ab75203f7fac08.png?w=167\u0026h=167"],
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/86143982-11ca-5249-e90c-eecfdb9b98a0.webp",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/86143982-11ca-5249-e90c-eecfdb9b98a0.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"10000150\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13002035#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3447858.2\u0026pid=10000150"
+							},
+							"product_id": "10000150",
+							"product_name": "Redmi K20",
+							"product_price": "1999",
+							"product_org_price": "1999",
+							"product_brief": "弹出全面屏，4800万三摄",
+							"show_price_qi": true,
+							"img_url_color": "#B1B5D3",
+							"product_tag_array": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d756ede6e1c8d35b84ab75203f7fac08.png?w=167\u0026h=167"],
+							"is_bigtap": false
+						}],
+						"bg_color": "#ffffff",
+						"btn_color": "#ea625b",
+						"btn_txt_color": "#ffffff"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#ffffff",
+						"line_height": "10"
+					}
+				}, {
+					"view_type": "list_two_type13",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/22f203ab-44f4-6b89-06b4-e01e6f00c7f8.webp",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/22f203ab-44f4-6b89-06b4-e01e6f00c7f8.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"10000152\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13001037#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3447850.1\u0026pid=10000152"
+							},
+							"product_id": "10000152",
+							"product_name": "Redmi 7A",
+							"product_price": "549",
+							"product_org_price": "549",
+							"product_brief": "骁龙8核处理器",
+							"show_price_qi": true,
+							"img_url_color": "#AFB4C1",
+							"product_tag_array": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/178323a725b700ffe9d62622ed907341.png?w=167\u0026h=167"],
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/ea80f62f-f7d4-e055-4c60-ab60cf4eb9f3.webp",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/ea80f62f-f7d4-e055-4c60-ab60cf4eb9f3.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"9455\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13002037#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3447850.2\u0026pid=9455"
+							},
+							"product_id": "9455",
+							"product_name": "Redmi Note 7 Pro",
+							"product_price": "1599",
+							"product_org_price": "1599",
+							"product_brief": "索尼4800万超清拍照 ",
+							"img_url_color": "#B3A2D6",
+							"product_tag_array": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ece1c964c29f9fc79ceabf385408a5e8.png?w=167\u0026h=167"],
+							"is_bigtap": false
+						}],
+						"bg_color": "#ffffff",
+						"btn_color": "#ea625b",
+						"btn_txt_color": "#ffffff"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#ffffff",
+						"line_height": "10"
+					}
+				}, {
+					"view_type": "list_two_type13",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/fb85df14-31c6-3584-aeff-4fe61b992e5a.webp",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/fb85df14-31c6-3584-aeff-4fe61b992e5a.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"10000134\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13001039#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3447852.1\u0026pid=10000134"
+							},
+							"product_id": "10000134",
+							"product_name": "小米9",
+							"product_price": "2999",
+							"product_org_price": "2999",
+							"product_brief": "全息幻彩机身，骁龙855",
+							"show_price_qi": true,
+							"img_url_color": "#9DA8B6",
+							"product_tag_array": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ece1c964c29f9fc79ceabf385408a5e8.png?w=167\u0026h=167"],
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/4848e768-dd4e-a61b-0c80-e90f8d5e469e.webp",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/4848e768-dd4e-a61b-0c80-e90f8d5e469e.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"10000131\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13002039#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3447852.2\u0026pid=10000131"
+							},
+							"product_id": "10000131",
+							"product_name": "Redmi Note 7",
+							"product_price": "999",
+							"product_org_price": "999",
+							"product_brief": "4800万拍照 长续航",
+							"show_price_qi": true,
+							"img_url_color": "#BEADC0",
+							"product_tag_array": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ece1c964c29f9fc79ceabf385408a5e8.png?w=167\u0026h=167"],
+							"is_bigtap": false
+						}],
+						"bg_color": "#ffffff",
+						"btn_color": "#ea625b",
+						"btn_txt_color": "#ffffff"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#ffffff",
+						"line_height": "10"
+					}
+				}, {
+					"view_type": "list_two_type13",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a20b33a5ee800e73a65e2f0e151b4a73.jpg",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a20b33a5ee800e73a65e2f0e151b4a73.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"10000135\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13001041#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3447854.1\u0026pid=10000135"
+							},
+							"product_id": "10000135",
+							"product_name": "小米9 SE",
+							"product_price": "1999",
+							"product_org_price": "1999",
+							"product_brief": "索尼4800万三摄，骁龙712",
+							"show_price_qi": true,
+							"img_url_color": "#9BAABC",
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/cfb94869-7bc6-7d77-56f7-abe34606b519.webp",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/cfb94869-7bc6-7d77-56f7-abe34606b519.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"10000100\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13002041#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3447854.2\u0026pid=10000100"
+							},
+							"product_id": "10000100",
+							"product_name": "小米8 SE",
+							"product_price": "1599",
+							"product_org_price": "1999",
+							"product_brief": "小屏旗舰机，AI超感光双摄",
+							"img_url_color": "#B69AA6",
+							"product_tag_array": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e202562575fdc2955dc705dfa66149bd.png?w=167\u0026h=167"],
+							"is_bigtap": false
+						}],
+						"bg_color": "#ffffff",
+						"btn_color": "#ea625b",
+						"btn_txt_color": "#ffffff"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#ffffff",
+						"line_height": "10"
+					}
+				}, {
+					"view_type": "list_two_type13",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/a1207748-44f0-9cc1-d5e8-09c9104cc984.webp",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/a1207748-44f0-9cc1-d5e8-09c9104cc984.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"10000117\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13001043#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3447856.1\u0026pid=10000117"
+							},
+							"product_id": "10000117",
+							"product_name": "小米8 青春版",
+							"product_price": "1299",
+							"product_org_price": "1699",
+							"product_brief": "潮流轻旗舰，超级夜景模式",
+							"show_price_qi": true,
+							"img_url_color": "#959DCF",
+							"product_tag_array": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e202562575fdc2955dc705dfa66149bd.png?w=167\u0026h=167"],
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/bb2ebb6fadaf67dfe765ce5866daac62.jpg",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/bb2ebb6fadaf67dfe765ce5866daac62.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"10000118\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13002043#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3447856.2\u0026pid=10000118"
+							},
+							"product_id": "10000118",
+							"product_name": "小米8 屏幕指纹版",
+							"product_price": "2499",
+							"product_org_price": "2999",
+							"product_brief": "压感屏幕指纹，手持超级夜景",
+							"show_price_qi": true,
+							"img_url_color": "#9E9FBB",
+							"product_tag_array": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e202562575fdc2955dc705dfa66149bd.png?w=167\u0026h=167"],
+							"is_bigtap": false
+						}],
+						"bg_color": "#ffffff",
+						"btn_color": "#ea625b",
+						"btn_txt_color": "#ffffff"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#cecece",
+						"line_height": "1"
+					}
+				}, {
+					"view_type": "list_action_title",
+					"stat": "",
+					"body": {
+						"items": [{
+							"action_title": "更多手机产品",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u624b\\u673a\\u9891\\u90532019\",\"groupId\":\"\",\"extra_ver\":\"8221\"}",
+								"log_code": "31apphomelist_action_title001045#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3421719.1"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"is_bigtap": false
+						}]
+					},
+					"block_id": "3421719"
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 420,
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/0d36ab1c-67a2-81b8-6ff9-608d2781ff03.webp?w=1080\u0026h=420\u0026bg=BDBED2",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/0d36ab1c-67a2-81b8-6ff9-608d2781ff03.webp?w=1080\u0026h=420\u0026bg=BDBED2",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"goodsId\":\"\",\"commodityId\":\"10000153\",\"needVersion\":\"378\",\"productId\":\"10000153\"}",
+								"log_code": "31apphomecells_auto_fill001047#t=ad\u0026act=product\u0026page=home\u0026pid=10000153\u0026page_id=6707\u0026bid=3312484.1\u0026adp=1254\u0026adm=12406"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 420,
+							"path_type": "image",
+							"ad_position_id": 1254,
+							"material_id": 12406,
+							"img_url_color": "#BDBED2",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "discovery_home",
+					"body": {
+						"w": 1080,
+						"h": 120,
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/24ed1765c83999a33e8cf12294fe06ba.png",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/24ed1765c83999a33e8cf12294fe06ba.png",
+							"action": {
+								"type": "plugin",
+								"log_code": "31apphomecells_auto_fill001049#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3442777.1"
+							},
+							"w": 1080,
+							"h": 120,
+							"path_type": "image",
+							"img_url_color": "#F8F8F8",
+							"is_bigtap": false
+						}],
+						"bg_color": "#ffffff",
+						"recommend_flag": "0"
+					},
+					"next_view": "home_community_view",
+					"block_id": "3442777",
+					"version": {
+						"min": "20190417",
+						"max": "99999999"
+					}
+				}, {
+					"view_type": "2row_one_top",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 720,
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a5335f9ba3653738fcd8a45cd3cddc4c.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.discovery.ArticleDetailFragment?pluginId=223",
+								"extra": "{\"content_id\":\"\",\"article_id\":\"22766\",\"topic_id\":\"\",\"topicId\":\"\",\"tag_id\":\"\",\"type\":\"2\",\"id\":\"22766\",\"action\":\"com.xiaomi.shop.plugin.discovery.ArticleDetailFragment\",\"tabType\":\"\"}",
+								"log_code": "home#page=home\u0026bid=3442777.11"
+							},
+							"title": "新品免费尝鲜：米家智能门锁霸王锁体版",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "2row_more_bottom",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/490ea4adbaacb21eb0894f95f226b85c.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.discovery.ArticleDetailFragment?pluginId=223",
+								"extra": "{\"content_id\":\"\",\"article_id\":\"24279\",\"topic_id\":\"\",\"topicId\":\"\",\"tag_id\":\"\",\"type\":\"2\",\"id\":\"24279\",\"action\":\"com.xiaomi.shop.plugin.discovery.ArticleDetailFragment\",\"tabType\":\"\"}",
+								"log_code": "home#page=home\u0026bid=3442777.21"
+							},
+							"w": 470,
+							"h": 313,
+							"title": "Redmi正式独立后 首款旗舰诞生",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c5fbf15494d6554bd37944ac0cdd6380.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.discovery.ArticleDetailFragment?pluginId=223",
+								"extra": "{\"content_id\":\"\",\"article_id\":\"23605\",\"topic_id\":\"\",\"topicId\":\"\",\"tag_id\":\"\",\"type\":\"2\",\"id\":\"23605\",\"action\":\"com.xiaomi.shop.plugin.discovery.ArticleDetailFragment\",\"tabType\":\"\"}",
+								"log_code": "home#page=home\u0026bid=3442777.22"
+							},
+							"w": 470,
+							"h": 313,
+							"title": "Redmi K20 Pro全方位评测首发",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/903c5c1a2df5a0567b34d9fc5de9264f.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.discovery.ArticleDetailFragment?pluginId=223",
+								"extra": "{\"content_id\":\"\",\"article_id\":\"22355\",\"topic_id\":\"\",\"topicId\":\"\",\"tag_id\":\"\",\"type\":\"2\",\"id\":\"22355\",\"action\":\"com.xiaomi.shop.plugin.discovery.ArticleDetailFragment\",\"tabType\":\"\"}",
+								"log_code": "home#page=home\u0026bid=3442777.23"
+							},
+							"w": 470,
+							"h": 313,
+							"title": "笔记本新品RedmiBook 14发布!",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1a76662ef9e9bdaeef937d44f0a6418b.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.discovery.ArticleDetailFragment?pluginId=223",
+								"extra": "{\"content_id\":\"\",\"article_id\":\"24736\",\"topic_id\":\"\",\"topicId\":\"\",\"tag_id\":\"\",\"type\":\"2\",\"id\":\"24736\",\"action\":\"com.xiaomi.shop.plugin.discovery.ArticleDetailFragment\",\"tabType\":\"\"}",
+								"log_code": "home#page=home\u0026bid=3442777.24"
+							},
+							"w": 470,
+							"h": 313,
+							"title": "商城美女小编们终于露面了！竟是为了它",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/430198244a754cf5b8bba9dcf7180aa8.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.discovery.ArticleDetailFragment?pluginId=223",
+								"extra": "{\"content_id\":\"\",\"article_id\":\"22541\",\"topic_id\":\"\",\"topicId\":\"\",\"tag_id\":\"\",\"type\":\"2\",\"id\":\"22541\",\"action\":\"com.xiaomi.shop.plugin.discovery.ArticleDetailFragment\",\"tabType\":\"\"}",
+								"log_code": "home#page=home\u0026bid=3442777.25"
+							},
+							"w": 470,
+							"h": 313,
+							"title": "如果【孩子的童年】有形状，应该是什么？",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4ba86fb407145c9441ae71ed05c56ad7.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.discovery.TopicDetailFragment?pluginId=223",
+								"extra": "{\"content_id\":\"\",\"article_id\":\"\",\"topic_id\":\"86\",\"topicId\":\"86\",\"tag_id\":\"\",\"type\":\"\",\"id\":\"\",\"action\":\"com.xiaomi.shop.plugin.discovery.TopicDetailFragment\",\"tabType\":\"\"}",
+								"log_code": "home#page=home\u0026bid=3442777.26"
+							},
+							"w": 470,
+							"h": 313,
+							"title": "『小米·最青春』手机摄影大赛",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/90851bcd87f02b1b864d3b7404d88f11.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.discovery.ArticleDetailFragment?pluginId=223",
+								"extra": "{\"content_id\":\"\",\"article_id\":\"19868\",\"topic_id\":\"\",\"topicId\":\"\",\"tag_id\":\"\",\"type\":\"2\",\"id\":\"19868\",\"action\":\"com.xiaomi.shop.plugin.discovery.ArticleDetailFragment\",\"tabType\":\"\"}",
+								"log_code": "home#page=home\u0026bid=3442777.27"
+							},
+							"w": 470,
+							"h": 313,
+							"title": "Redmi红米7A全新升级，小巧大电量",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c87a2f9837f599e92537be43d06ca324.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.discovery.SpecialTopicDetailFragment?pluginId=223",
+								"extra": "{\"content_id\":\"\",\"article_id\":\"\",\"topic_id\":\"69\",\"topicId\":\"\",\"tag_id\":\"69\",\"type\":\"\",\"id\":\"\",\"action\":\"com.xiaomi.shop.plugin.discovery.SpecialTopicDetailFragment\",\"tabType\":\"\"}",
+								"log_code": "home#page=home\u0026bid=3442777.28"
+							},
+							"w": 470,
+							"h": 313,
+							"title": "小米新品精彩评测，米粉真实体验等你来看",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/00b5a540b143e191c5d773e7c4d4059d.png",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.homepage.MainFragment?pluginId=100",
+								"extra": "{\"content_id\":\"\",\"article_id\":\"\",\"topic_id\":\"\",\"topicId\":\"\",\"tag_id\":\"\",\"type\":\"\",\"id\":\"\",\"action\":\"com.xiaomi.shop.plugin.discovery.RootFragment\",\"tabType\":\"discovery\"}",
+								"log_code": "home#page=home\u0026bid=3442777.29"
+							},
+							"w": 470,
+							"h": 313,
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 660,
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4ae984432e104262ca9549efae84b1a0.jpg?w=1080\u0026h=660\u0026bg=D8CBC4",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4ae984432e104262ca9549efae84b1a0.jpg?w=1080\u0026h=660\u0026bg=D8CBC4",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"goodsId\":\"\",\"commodityId\":\"8909\",\"needVersion\":\"378\",\"productId\":\"8909\"}",
+								"log_code": "31apphomecells_auto_fill001052#t=ad\u0026act=product\u0026page=home\u0026pid=8909\u0026page_id=6707\u0026bid=3312466.1\u0026adp=1467\u0026adm=11639"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 660,
+							"path_type": "image",
+							"ad_position_id": 1467,
+							"material_id": 11639,
+							"img_url_color": "#D8CBC4",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#ffffff",
+						"line_height": "10"
+					}
+				}, {
+					"view_type": "list_two_type13",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/82003442-c6b7-3258-cc7a-2a851216ce8a.webp?w=516\u0026h=420",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/82003442-c6b7-3258-cc7a-2a851216ce8a.webp?w=516\u0026h=420",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"5353\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13001054#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3448101.1\u0026pid=5353"
+							},
+							"product_id": "5353",
+							"product_name": "小米电视4A 65英寸",
+							"product_price": "2849",
+							"product_org_price": "3699",
+							"product_brief": "4K HDR，人工智能语音系统",
+							"img_url_color": "#888787",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7cd59729b9a02407979848839c0e5343.jpg?w=516\u0026h=420",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7cd59729b9a02407979848839c0e5343.jpg?w=516\u0026h=420",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"8912\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13002054#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3448101.2\u0026pid=8912"
+							},
+							"product_id": "8912",
+							"product_name": "小米电视4X 43英寸",
+							"product_price": "1299",
+							"product_org_price": "1499",
+							"product_brief": "FHD全高清屏，人工智能语音",
+							"img_url_color": "#B9B1B5",
+							"is_bigtap": false
+						}],
+						"bg_color": "#ffffff",
+						"btn_color": "#ea625b",
+						"btn_txt_color": "#ffffff"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#ffffff",
+						"line_height": "10"
+					}
+				}, {
+					"view_type": "list_two_type13",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/896d989bcdae584906c36f4a4e5fa89b.jpg?w=516\u0026h=420",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/896d989bcdae584906c36f4a4e5fa89b.jpg?w=516\u0026h=420",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"7795\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13001056#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3448103.1\u0026pid=7795"
+							},
+							"product_id": "7795",
+							"product_name": "小米电视4C 50英寸",
+							"product_price": "1749",
+							"product_org_price": "2099",
+							"product_brief": "4K HDR，钢琴烤漆",
+							"img_url_color": "#FFFFFF",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4b624a157d24822509e1f54316c8417a.jpg?w=516\u0026h=420",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4b624a157d24822509e1f54316c8417a.jpg?w=516\u0026h=420",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"6628\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13002056#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3448103.2\u0026pid=6628"
+							},
+							"product_id": "6628",
+							"product_name": "小米电视4C 55英寸",
+							"product_price": "1849",
+							"product_org_price": "2399",
+							"product_brief": "4K HDR，人工智能系统",
+							"img_url_color": "#BEC5C8",
+							"is_bigtap": false
+						}],
+						"bg_color": "#ffffff",
+						"btn_color": "#ea625b",
+						"btn_txt_color": "#ffffff"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#ffffff",
+						"line_height": "10"
+					}
+				}, {
+					"view_type": "list_two_type13",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3d20e4c39b6967319e89b1f779332b0e.jpg?w=516\u0026h=420",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3d20e4c39b6967319e89b1f779332b0e.jpg?w=516\u0026h=420",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"6222\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13001058#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3448105.1\u0026pid=6222"
+							},
+							"product_id": "6222",
+							"product_name": "小米电视4A 32英寸",
+							"product_price": "799",
+							"product_org_price": "899",
+							"product_brief": "人工智能系统，高清液晶屏",
+							"img_url_color": "#C3AEA1",
+							"product_tag_array": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/14c6a0e905f3448d3de0d067a89642eb.png?w=167\u0026h=167"],
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/06bd0cdc9a6d3cc76850633a8ffb9d74.png?w=516\u0026h=420",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/06bd0cdc9a6d3cc76850633a8ffb9d74.png?w=516\u0026h=420",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"7575\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13002058#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3448105.2\u0026pid=7575"
+							},
+							"product_id": "7575",
+							"product_name": "小米电视4A 50英寸",
+							"product_price": "1899",
+							"product_org_price": "2099",
+							"product_brief": "4K HDR，人工智能语音系统",
+							"img_url_color": "#C5A8A1",
+							"product_tag_array": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cb44e6ffb77f66a285cf527a2db9cb3a.png?w=167\u0026h=167"],
+							"is_bigtap": false
+						}],
+						"bg_color": "#ffffff",
+						"btn_color": "#ea625b",
+						"btn_txt_color": "#ffffff"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#cecece",
+						"line_height": "1"
+					}
+				}, {
+					"view_type": "list_action_title",
+					"stat": "",
+					"body": {
+						"items": [{
+							"action_title": "更多小米电视产品",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"4.23\\u7535\\u89c6\\u54c1\\u724c\\u65e5\",\"groupId\":\"\",\"extra_ver\":\"9311\"}",
+								"log_code": "31apphomelist_action_title001060#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3440338.1"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"is_bigtap": false
+						}]
+					},
+					"block_id": "3440338"
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 420,
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/88a0d5d7-c9b9-beb2-533f-96c0229731d9.webp?w=1080\u0026h=420\u0026bg=E2D3BF",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/88a0d5d7-c9b9-beb2-533f-96c0229731d9.webp?w=1080\u0026h=420\u0026bg=E2D3BF",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"goodsId\":\"\",\"commodityId\":\"7795\",\"needVersion\":\"378\",\"productId\":\"7795\"}",
+								"log_code": "31apphomecells_auto_fill001062#t=ad\u0026act=product\u0026page=home\u0026pid=7795\u0026page_id=6707\u0026bid=3376177.1\u0026adp=1354\u0026adm=11626"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 420,
+							"path_type": "image",
+							"ad_position_id": 1354,
+							"material_id": 11626,
+							"img_url_color": "#E2D3BF",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 120,
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/7bc8c7c6-48aa-54b8-5f11-ddaee4efccd0.webp",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/7bc8c7c6-48aa-54b8-5f11-ddaee4efccd0.webp",
+							"action": {
+								"type": "plugin",
+								"log_code": "31apphomecells_auto_fill001064#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3396038.1"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 120,
+							"path_type": "image",
+							"img_url_color": "#F8F8F8",
+							"is_bigtap": false
+						}],
+						"bg_color": "#ffffff",
+						"recommend_flag": "0"
+					},
+					"block_id": "3396038"
+				}, {
+					"view_type": "list_one_video3",
+					"stat": "",
+					"body": {
+						"h": 608,
+						"action": {
+							"type": "plugin",
+							"path": "ShopPlugin://com.xiaomi.shop.plugin.videochannel.DetailFragment?pluginId=219",
+							"extra": "{\"video_id\":\"23\"}",
+							"log_code": "31apphomelist_one_video3000000#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3396007.1"
+						},
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/104abf83-1e96-6969-1572-014dbad42c21.webp?w=1280\u0026h=720\u0026bg=292A89",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/104abf83-1e96-6969-1572-014dbad42c21.webp?w=1280\u0026h=720\u0026bg=292A89",
+							"action": {
+								"type": "plugin",
+								"log_code": "31apphomelist_one_video3000000#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3396007.2"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"video_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/13e4d51895173c5f88701818a045f6ef.mp4",
+							"img_url_color": "#292A89",
+							"auto_play": true,
+							"is_bigtap": false
+						}],
+						"img_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/960edc44e51d0399d2304f00ddd57e62.jpg?w=1080\u0026h=608\u0026bg=FFFFFF",
+						"img_url_color": "#FFFFFF",
+						"img_url_webp": "http://i8.mifile.cn/v1/a1/a78ede17-ae6d-6b07-20d4-bd633a0f235c.webp?w=1080\u0026h=608\u0026bg=FFFFFF"
+					},
+					"block_id": "3396007"
+				}, {
+					"view_type": "horizontal_scroll_view2",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/ca71e0f9-e337-5f5b-2cd9-c0388d11af01.webp?w=480\u0026h=270\u0026bg=EEB8D2",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/ca71e0f9-e337-5f5b-2cd9-c0388d11af01.webp?w=480\u0026h=270\u0026bg=EEB8D2",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.videochannel.DetailFragment?pluginId=219",
+								"extra": "{\"video_id\":\"25\"}",
+								"log_code": "31apphomehorizontal_scroll_view2001066#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3396008.1"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"title": "【8点档】520恋爱公开课",
+							"subtitle": "超多520礼物倾情推荐！",
+							"img_url_color": "#EEB8D2",
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/1056a70e-d870-b420-7ed9-2bf031f0c2f4.webp?w=480\u0026h=270\u0026bg=DD7A30",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/1056a70e-d870-b420-7ed9-2bf031f0c2f4.webp?w=480\u0026h=270\u0026bg=DD7A30",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.videochannel.DetailFragment?pluginId=219",
+								"extra": "{\"video_id\":\"24\"}",
+								"log_code": "31apphomehorizontal_scroll_view2002066#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3396008.2"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"title": "【8点档】小长假 宅出范",
+							"subtitle": "揭秘小米壁画电视设计背后的故事",
+							"img_url_color": "#DD7A30",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b205cf359711d9357e19255c56ac1a04.jpg?w=480\u0026h=270\u0026bg=F07625",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b205cf359711d9357e19255c56ac1a04.jpg?w=480\u0026h=270\u0026bg=F07625",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.videochannel.DetailFragment?pluginId=219",
+								"extra": "{\"video_id\":\"22\"}",
+								"log_code": "31apphomehorizontal_scroll_view2003066#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3396008.3"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"title": "【8点档】米粉节9天连播",
+							"subtitle": "2019米粉节9天连播精彩回放",
+							"img_url_color": "#F07625",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/79e87cdb5e10332f3d49a34679f71335.png",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.videochannel.RootFragment?pluginId=219",
+								"log_code": "31apphomehorizontal_scroll_view2000000#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3396008.4"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"is_bigtap": false
+						}]
+					},
+					"block_id": "3396008"
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 660,
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/2627319b-cb4c-6c13-2c96-c18286c1f34e.webp?w=1080\u0026h=660\u0026bg=BAC8C5",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/2627319b-cb4c-6c13-2c96-c18286c1f34e.webp?w=1080\u0026h=660\u0026bg=BAC8C5",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"goodsId\":\"\",\"commodityId\":\"10000140\",\"needVersion\":\"378\",\"productId\":\"10000140\"}",
+								"log_code": "31apphomecells_auto_fill001068#t=ad\u0026act=product\u0026page=home\u0026pid=10000140\u0026page_id=6707\u0026bid=3376101.1\u0026adp=2830\u0026adm=10044"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 660,
+							"path_type": "image",
+							"ad_position_id": 2830,
+							"material_id": 10044,
+							"img_url_color": "#BAC8C5",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#ffffff",
+						"line_height": "10"
+					}
+				}, {
+					"view_type": "list_two_type13",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4d241596004d7cafafcad0b9a17638e8.jpg",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4d241596004d7cafafcad0b9a17638e8.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"9511\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13001070#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3448106.1\u0026pid=9511"
+							},
+							"product_id": "9511",
+							"product_name": "Air 12.5\" 2019款",
+							"product_price": "3599",
+							"product_org_price": "3599",
+							"product_brief": "像杂志一样随身携带",
+							"img_url_color": "#B69BAD",
+							"img_url_list": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/343a16c2af7b5e577eba84f38eaa2c61.jpg?w=516\u0026h=420", "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3bd7e725acdf66f921d29ae378d9ea17.jpg?w=516\u0026h=420", "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/72d2a43a9943fff0292a14cae4004ab8.jpg?w=516\u0026h=420", "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4d241596004d7cafafcad0b9a17638e8.jpg?w=516\u0026h=420"],
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/929789799f9c4a8a740cae7e0eedbf25.jpg",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/929789799f9c4a8a740cae7e0eedbf25.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"10000142\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13002070#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3448106.2\u0026pid=10000142"
+							},
+							"product_id": "10000142",
+							"product_name": "Air 13.3\" 2019款",
+							"product_price": "4799",
+							"product_org_price": "4999",
+							"product_brief": "新一代独立显卡",
+							"show_price_qi": true,
+							"img_url_color": "#8F909C",
+							"img_url_list": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9ebd5c9d1e8d2f875aa5e94bc92000fd.jpg?w=516\u0026h=420", "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c415cdb585c8993f28c04456ff4fad93.jpg?w=516\u0026h=420", "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7576262d4131e160d6dfb05a28a80a15.jpg?w=516\u0026h=420", "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/929789799f9c4a8a740cae7e0eedbf25.jpg?w=516\u0026h=420"],
+							"is_bigtap": false
+						}],
+						"bg_color": "#ffffff",
+						"btn_color": "#ea625b",
+						"btn_txt_color": "#ffffff"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#ffffff",
+						"line_height": "10"
+					}
+				}, {
+					"view_type": "list_two_type13",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/27acb835-9137-0051-7842-0fe65bd267bc.webp?w=516\u0026h=420",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/27acb835-9137-0051-7842-0fe65bd267bc.webp?w=516\u0026h=420",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"10000144\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13001072#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3448108.1\u0026pid=10000144"
+							},
+							"product_id": "10000144",
+							"product_name": "Pro 15.6\" 2019款",
+							"product_price": "5599",
+							"product_org_price": "5599",
+							"product_brief": "强悍的专业笔记本",
+							"show_price_qi": true,
+							"img_url_color": "#9A9BA5",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1691e6df9de331a8e5c050bc2a4531cd.jpg",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1691e6df9de331a8e5c050bc2a4531cd.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"10000141\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13002072#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3448108.2\u0026pid=10000141"
+							},
+							"product_id": "10000141",
+							"product_name": "笔记本15.6\"  独显版",
+							"product_price": "3799",
+							"product_org_price": "3999",
+							"product_brief": "全面均衡的国民轻薄本",
+							"show_price_qi": true,
+							"img_url_color": "#99847E",
+							"img_url_list": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d2107cdadd7a19ce75d0c88f3fbbad0c.jpg?w=516\u0026h=420", "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9d52f7a899a2f53acd1bdaeac4e01270.jpg?w=516\u0026h=420", "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2316d9a729f762db8d681ce08094e4b3.jpg?w=516\u0026h=420", "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1691e6df9de331a8e5c050bc2a4531cd.jpg?w=516\u0026h=420"],
+							"is_bigtap": false
+						}],
+						"bg_color": "#ffffff",
+						"btn_color": "#ea625b",
+						"btn_txt_color": "#ffffff"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#ffffff",
+						"line_height": "10"
+					}
+				}, {
+					"view_type": "list_two_type13",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/6ba8286f-fe0e-c85c-5708-1725d7f6537e.webp",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/6ba8286f-fe0e-c85c-5708-1725d7f6537e.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"10000113\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13001074#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3448110.1\u0026pid=10000113"
+							},
+							"product_id": "10000113",
+							"product_name": "小米游戏本",
+							"product_price": "6499",
+							"product_org_price": "6699",
+							"product_brief": "冷酷的性能怪兽\t",
+							"show_price_qi": true,
+							"img_url_color": "#6E6F96",
+							"is_bigtap": false
+						}, {
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1a2d754fc6d5f9eb3d5bc55919dcee2c.jpg",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1a2d754fc6d5f9eb3d5bc55919dcee2c.jpg",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"10000114\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type13002074#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3448110.2\u0026pid=10000114"
+							},
+							"product_id": "10000114",
+							"product_name": "Pro 15.6\" GTX版",
+							"product_price": "6299",
+							"product_org_price": "6299",
+							"product_brief": "更强悍的专业笔记本",
+							"show_price_qi": true,
+							"img_url_color": "#83828D",
+							"img_url_list": ["https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/b03b58195fdb2dbf53cb9cbb2e18c6b2.jpg?w=516\u0026h=420", "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1a2d754fc6d5f9eb3d5bc55919dcee2c.jpg?w=516\u0026h=420"],
+							"is_bigtap": false
+						}],
+						"bg_color": "#ffffff",
+						"btn_color": "#ea625b",
+						"btn_txt_color": "#ffffff"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#cecece",
+						"line_height": "1"
+					}
+				}, {
+					"view_type": "list_action_title",
+					"stat": "",
+					"body": {
+						"items": [{
+							"action_title": "更多小米笔记本产品",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u7b14\\u8bb0\\u672c618\\u5206\\u4f1a\\u573a\",\"groupId\":\"\",\"extra_ver\":\"9752\"}",
+								"log_code": "31apphomelist_action_title001076#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3376106.1"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"is_bigtap": false
+						}]
+					},
+					"block_id": "3376106"
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 420,
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1eb65451e5e7f26cbe479340b821b6f5.jpg?w=1080\u0026h=420\u0026bg=CCBED3",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1eb65451e5e7f26cbe479340b821b6f5.jpg?w=1080\u0026h=420\u0026bg=CCBED3",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u513f\\u7ae5\\u8282-\\u548c\\u68a6\\u60f3\\u4e00\\u8d77\\u957f\\u5927\",\"groupId\":\"\",\"extra_ver\":\"9671\"}",
+								"log_code": "31apphomecells_auto_fill001078#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3387953.1\u0026adp=2873\u0026adm=12364"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 420,
+							"path_type": "image",
+							"ad_position_id": 2873,
+							"material_id": 12364,
+							"img_url_color": "#CCBED3",
+							"is_bigtap": false
+						}],
+						"recommend_flag": "0"
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 660,
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/2edd3717-9264-c490-02cd-6eb10ca2f72f.webp?w=1080\u0026h=660\u0026bg=EBEFF3",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/2edd3717-9264-c490-02cd-6eb10ca2f72f.webp?w=1080\u0026h=660\u0026bg=EBEFF3",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"goodsId\":\"\",\"commodityId\":\"9144\",\"needVersion\":\"378\",\"productId\":\"9144\"}",
+								"log_code": "31apphomecells_auto_fill001080#t=ad\u0026act=product\u0026page=home\u0026pid=9144\u0026page_id=6707\u0026bid=3414150.1\u0026adp=2981\u0026adm=11918"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 660,
+							"path_type": "image",
+							"ad_position_id": 2981,
+							"material_id": 11918,
+							"img_url_color": "#EBEFF3",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#ffffff",
+						"line_height": "10"
+					}
+				}, {
+					"view_type": "list_two_type1",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/ce8d4b39-18b3-5b8e-ea74-5a2c86856e20.webp?w=1080\u0026h=1080",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/ce8d4b39-18b3-5b8e-ea74-5a2c86856e20.webp?w=1080\u0026h=1080",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"9558\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type1001082#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3415693.1\u0026pid=9558"
+							},
+							"product_id": "9558",
+							"product_name": "米家互联网空调C1（一级能效）",
+							"product_price": "2499",
+							"product_org_price": "2799",
+							"product_brief": "1.5匹，自清洁，全直流变频",
+							"img_url_color": "#E4EAEC",
+							"btn_txt": "立即购买",
+							"product_tag_array": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/86c29c5b62521a8c3bb25bea7e62c13c.png?w=167\u0026h=167"],
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/75f5a1ad-e2c6-36a9-fd56-66d253cc0469.webp?w=1080\u0026h=1080",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/75f5a1ad-e2c6-36a9-fd56-66d253cc0469.webp?w=1080\u0026h=1080",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"9183\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type1002082#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3415693.2\u0026pid=9183"
+							},
+							"product_id": "9183",
+							"product_name": "米家空调",
+							"product_price": "1699",
+							"product_org_price": "1799",
+							"product_brief": "大1匹，静音，快速制冷热",
+							"img_url_color": "#F0F0F0",
+							"btn_txt": "立即购买",
+							"product_tag_array": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/99373508675b0459b45f9a7732368d3b.png?w=167\u0026h=167"],
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "list_two_type1",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/ecca7944-9795-a128-8101-15f148bbfdec.webp?w=1080\u0026h=1080",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/ecca7944-9795-a128-8101-15f148bbfdec.webp?w=1080\u0026h=1080",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"8634\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type1001083#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3414154.1\u0026pid=8634"
+							},
+							"product_id": "8634",
+							"product_name": "米家互联网空调",
+							"product_price": "2099",
+							"product_org_price": "2299",
+							"product_brief": "1.5匹变频，高效制冷热",
+							"img_url_color": "#79B2A7",
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/27721d21-782a-32e8-772b-462652d9acde.webp?w=1080\u0026h=1080",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/27721d21-782a-32e8-772b-462652d9acde.webp?w=1080\u0026h=1080",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"9161\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type1002083#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3414154.2\u0026pid=9161"
+							},
+							"product_id": "9161",
+							"product_name": "米家洗烘一体机10kg",
+							"product_price": "2199",
+							"product_org_price": "2199",
+							"product_brief": "洗得净、烘得干",
+							"img_url_color": "#9EB0BA",
+							"product_tag_array": ["https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6854f6f587dea751cd9d76e96a46e3d1.png?w=167\u0026h=167"],
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "list_two_type1",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/ccecfbb9-a809-f297-1bde-f283b1fb41c0.webp?w=1080\u0026h=1080",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/ccecfbb9-a809-f297-1bde-f283b1fb41c0.webp?w=1080\u0026h=1080",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"9557\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type1001084#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3415694.1\u0026pid=9557"
+							},
+							"product_id": "9557",
+							"product_name": "米家互联网空调C1",
+							"product_price": "2299",
+							"product_org_price": "2399",
+							"product_brief": "1.5匹，自清洁，变频 ",
+							"img_url_color": "#E4ECE5",
+							"btn_txt": "立即购买",
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/33c6d391-82a0-0fd2-2d0e-fb59f4679b6c.webp?w=1080\u0026h=1080",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/33c6d391-82a0-0fd2-2d0e-fb59f4679b6c.webp?w=1080\u0026h=1080",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"9509\",\"goodsId\":\"\"}",
+								"log_code": "31apphomelist_two_type1002084#t=product\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3415694.2\u0026pid=9509"
+							},
+							"product_id": "9509",
+							"product_name": "Redmi波轮洗衣机8kg",
+							"product_price": "899",
+							"product_org_price": "899",
+							"product_brief": "大容量一次洗净全家衣物",
+							"img_url_color": "#CFE2D8",
+							"btn_txt": "立即购买",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#cecece",
+						"line_height": "1"
+					}
+				}, {
+					"view_type": "list_action_title",
+					"stat": "",
+					"body": {
+						"items": [{
+							"action_title": "更多米家家电产品",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u5bb6\\u7535\\u5e38\\u89c4\\u9875\\u9762\",\"groupId\":\"\",\"extra_ver\":\"8555\"}",
+								"log_code": "31apphomelist_action_title001086#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3414156.1"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"is_bigtap": false
+						}]
+					},
+					"block_id": "3414156"
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 420,
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9975d381338436513ccfa6e66344808c.jpg?w=1080\u0026h=420\u0026bg=C8C9CD",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9975d381338436513ccfa6e66344808c.jpg?w=1080\u0026h=420\u0026bg=C8C9CD",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop.plugin.mishopCrowdfunding.detail.CrowdFundingDetailFragment?pluginId=175",
+								"extra": "{\"project_id\":\"1000149\",\"crowd_type\":\"2\"}",
+								"log_code": "31apphomecells_auto_fill001089#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3312464.1\u0026adp=192\u0026adm=12451"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 420,
+							"path_type": "image",
+							"ad_position_id": 192,
+							"material_id": 12451,
+							"img_url_color": "#C8C9CD",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 660,
+						"items": [{
+							"img_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a236a6942d9b4dade1e321154c526a0f.jpg?w=1080\u0026h=660\u0026bg=FFFFFF",
+							"img_url_webp": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a236a6942d9b4dade1e321154c526a0f.jpg?w=1080\u0026h=660\u0026bg=FFFFFF",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"4348\",\"goodsId\":\"\",\"needVersion\":\"378\",\"productId\":\"4348\"}",
+								"log_code": "31apphomecells_auto_fill001091#t=ad\u0026act=product\u0026page=home\u0026pid=4348\u0026page_id=6707\u0026bid=3312486.1\u0026adp=14\u0026adm=5934"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 660,
+							"path_type": "image",
+							"category_key": "home-660h-smart",
+							"ad_position_id": 14,
+							"material_id": 5934,
+							"img_url_color": "#FFFFFF",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#ffffff",
+						"line_height": "10"
+					}
+				}, {
+					"view_type": "list_two_type1",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/97fabcd2-aecd-e6a4-4926-5c7e8a5d01a3!540x541.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"9465\",\"goodsId\":\"\"}",
+								"log_code": "recom_home-stuff_24-1#eid=83:3:2:0:1:0:0:0:0:0\u0026tid=\u0026page=home-stuff\u0026bid=3312524.1\u0026pid=9465\u0026page_id="
+							},
+							"product_id": "9465",
+							"product_name": "米家万能遥控器",
+							"product_price": "79",
+							"product_org_price": "79",
+							"product_brief": "支持与“小爱同学”互联",
+							"img_percent": 0.5,
+							"material_id": 20869,
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/92a0708f-dbae-0b7e-117e-63fe11dda7e9!540x541.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"9659\",\"goodsId\":\"\"}",
+								"log_code": "recom_home-stuff_24-2#eid=83:3:2:0:1:0:0:0:0:0\u0026tid=\u0026page=home-stuff\u0026bid=3312524.2\u0026pid=9659\u0026page_id="
+							},
+							"product_id": "9659",
+							"product_name": "米家直流变频落地扇1X",
+							"product_price": "299",
+							"product_org_price": "299",
+							"product_brief": "模拟自然风算法",
+							"product_tag": "http://i8.mifile.cn/v1/a1/289039eb-c3ed-7c26-69c3-5b07b72a797d.webp?w=120\u0026h=48",
+							"img_percent": 0.5,
+							"material_id": 25629,
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "list_two_type1",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/cef9d0ed-8657-a8ed-39a3-66956bcabe9e!540x541.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"8810\",\"goodsId\":\"\"}",
+								"log_code": "recom_home-stuff_24-1#eid=83:3:2:0:1:0:0:0:0:0\u0026tid=\u0026page=home-stuff\u0026bid=3312524.1\u0026pid=8810\u0026page_id="
+							},
+							"product_id": "8810",
+							"product_name": "小米手环3 NFC版",
+							"product_price": "199",
+							"product_org_price": "199",
+							"product_brief": "能刷公交卡的手环",
+							"img_percent": 0.5,
+							"material_id": 16181,
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/0518c80c-a1a5-af45-0898-a4e07b3d5a9f!540x541.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"6334\",\"goodsId\":\"\"}",
+								"log_code": "recom_home-stuff_24-2#eid=83:3:2:0:1:0:0:0:0:0\u0026tid=\u0026page=home-stuff\u0026bid=3312524.2\u0026pid=6334\u0026page_id="
+							},
+							"product_id": "6334",
+							"product_name": "小米AI音箱",
+							"product_price": "299",
+							"product_org_price": "299",
+							"product_brief": "听音乐、语音遥控家电",
+							"img_percent": 0.5,
+							"material_id": 2415,
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "list_two_type1",
+					"stat": "",
+					"body": {
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/c9c2cd57-0baa-edd3-a7fd-db53fb892a03!540x541.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"8026\",\"goodsId\":\"\"}",
+								"log_code": "recom_home-stuff_24-1#eid=83:3:2:0:1:0:0:0:0:0\u0026tid=\u0026page=home-stuff\u0026bid=3312524.1\u0026pid=8026\u0026page_id="
+							},
+							"product_id": "8026",
+							"product_name": "米家智能摄像机云台版",
+							"product_price": "199",
+							"product_org_price": "199",
+							"product_brief": "高清画质，守护家的每一面",
+							"img_percent": 0.5,
+							"material_id": 11775,
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/b67f638e-ae86-f8da-79b6-c1d32d562cb4!540x541.webp",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+								"extra": "{\"commodityId\":\"9536\",\"goodsId\":\"\"}",
+								"log_code": "recom_home-stuff_24-2#eid=83:3:2:0:1:0:0:0:0:0\u0026tid=\u0026page=home-stuff\u0026bid=3312524.2\u0026pid=9536\u0026page_id="
+							},
+							"product_id": "9536",
+							"product_name": "小爱音箱万能遥控版",
+							"product_price": "9999",
+							"product_org_price": "9999",
+							"product_brief": "传统家电秒变智能",
+							"img_percent": 0.5,
+							"material_id": 22368,
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#cecece",
+						"line_height": "1"
+					}
+				}, {
+					"view_type": "list_action_title",
+					"stat": "",
+					"body": {
+						"items": [{
+							"action_title": "更多米家智能产品",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u667a\\u80fd\\u9891\\u9053\",\"groupId\":\"\",\"extra_ver\":\"8671\"}",
+								"log_code": "31apphomelist_action_title001095#t=normal\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3312488.1"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"is_bigtap": false
+						}]
+					},
+					"block_id": "3312488"
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 720,
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/46c44f3e-479d-a999-dd2d-98fb39b51e17.webp?w=537\u0026h=720\u0026bg=C0A491",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/46c44f3e-479d-a999-dd2d-98fb39b51e17.webp?w=537\u0026h=720\u0026bg=C0A491",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u7b14\\u8bb0\\u672c\\u65b0\\u5e38\\u89c4\\u4f1a\\u573a\",\"groupId\":\"\",\"extra_ver\":\"9233\"}",
+								"log_code": "31apphomecells_auto_fill001097#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3312493.1\u0026adp=45\u0026adm=10176"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 537,
+							"h": 720,
+							"path_type": "image",
+							"ad_position_id": 45,
+							"material_id": 10176,
+							"img_url_color": "#C0A491",
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/b79cb907-3ae4-2a35-6756-b243b386a95a.webp?w=537\u0026h=720\u0026bg=E8CFCB",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/b79cb907-3ae4-2a35-6756-b243b386a95a.webp?w=537\u0026h=720\u0026bg=E8CFCB",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u667a\\u80fd\\u9891\\u9053 \\u65b0\",\"groupId\":\"\",\"extra_ver\":\"8671\"}",
+								"log_code": "31apphomecells_auto_fill002097#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3312493.2\u0026adp=50\u0026adm=10953"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"x": 543,
+							"w": 537,
+							"h": 720,
+							"path_type": "image",
+							"ad_position_id": 50,
+							"material_id": 10953,
+							"img_url_color": "#E8CFCB",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "6"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 720,
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/1a8f5c31-f50c-5be0-3df0-f2c5c839e345.webp?w=537\u0026h=720\u0026bg=94979F",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/1a8f5c31-f50c-5be0-3df0-f2c5c839e345.webp?w=537\u0026h=720\u0026bg=94979F",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u667a\\u80fd\\u9891\\u9053-\\u4fbf\\u6377\\u51fa\\u884c\",\"groupId\":\"\",\"extra_ver\":\"8698\"}",
+								"log_code": "31apphomecells_auto_fill001099#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3312495.1\u0026adp=47\u0026adm=2961"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 537,
+							"h": 720,
+							"path_type": "image",
+							"ad_position_id": 47,
+							"material_id": 2961,
+							"img_url_color": "#94979F",
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/8cfcd654-4af5-9ae6-c6cc-1ba9d28be8e8.webp?w=537\u0026h=720\u0026bg=9BB5C4",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/8cfcd654-4af5-9ae6-c6cc-1ba9d28be8e8.webp?w=537\u0026h=720\u0026bg=9BB5C4",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u667a\\u80fd\\u9891\\u9053-\\u8033\\u673a\\u97f3\\u7bb1\",\"groupId\":\"\",\"extra_ver\":\"8696\"}",
+								"log_code": "31apphomecells_auto_fill002099#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3312495.2\u0026adp=48\u0026adm=44"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"x": 543,
+							"w": 537,
+							"h": 720,
+							"path_type": "image",
+							"ad_position_id": 48,
+							"material_id": 44,
+							"img_url_color": "#9BB5C4",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "6"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 720,
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/52866372-7fe5-76c2-29a0-9ae32d07b8ff.webp?w=537\u0026h=720\u0026bg=D9D8C3",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/52866372-7fe5-76c2-29a0-9ae32d07b8ff.webp?w=537\u0026h=720\u0026bg=D9D8C3",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u667a\\u80fd\\u9891\\u9053-\\u5c0f\\u5bb6\\u7535\",\"groupId\":\"\",\"extra_ver\":\"8693\"}",
+								"log_code": "31apphomecells_auto_fill001101#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3312497.1\u0026adp=49\u0026adm=10177"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 537,
+							"h": 720,
+							"path_type": "image",
+							"ad_position_id": 49,
+							"material_id": 10177,
+							"img_url_color": "#D9D8C3",
+							"is_bigtap": false
+						}, {
+							"img_url": "http://i8.mifile.cn/v1/a1/ad91499a-59ab-adc3-8fd5-98aefc1c43b4.webp?w=537\u0026h=720\u0026bg=B5C5BE",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/ad91499a-59ab-adc3-8fd5-98aefc1c43b4.webp?w=537\u0026h=720\u0026bg=B5C5BE",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"2019\\u5e74iF\\u8bbe\\u8ba1\\u5927\\u5956\",\"groupId\":\"\",\"extra_ver\":\"8597\"}",
+								"log_code": "31apphomecells_auto_fill002101#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3312497.2\u0026adp=46\u0026adm=10178"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"x": 543,
+							"w": 537,
+							"h": 720,
+							"path_type": "image",
+							"ad_position_id": 46,
+							"material_id": 10178,
+							"img_url_color": "#B5C5BE",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "divider_line",
+					"stat": "",
+					"body": {
+						"line_color": "#f5f5f5",
+						"line_height": "24"
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "",
+					"body": {
+						"w": 1080,
+						"h": 420,
+						"items": [{
+							"img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/acd34ccfa03703fa02492e4c5d7e884d.jpg?w=1080\u0026h=420\u0026bg=EF4F46",
+							"img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/acd34ccfa03703fa02492e4c5d7e884d.jpg?w=1080\u0026h=420\u0026bg=EF4F46",
+							"action": {
+								"type": "plugin",
+								"path": "ShopPlugin://com.xiaomi.shop2.plugin.hdchannel.RootFragment?pluginId=15102",
+								"extra": "{\"extra_url\":\"http:\\/\\/api.m.mi.com\\/v1\\/home\\/activity_page\",\"extra_title\":\"\\u4ee5\\u65e7\\u6362\\u65b0-2019\",\"groupId\":\"\",\"extra_ver\":\"9623\"}",
+								"log_code": "31apphomecells_auto_fill001103#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3312499.1\u0026adp=1351\u0026adm=12346"
+							},
+							"product_price": "0",
+							"product_org_price": "0",
+							"w": 1080,
+							"h": 420,
+							"path_type": "image",
+							"ad_position_id": 1351,
+							"material_id": 12346,
+							"img_url_color": "#EF4F46",
+							"is_bigtap": false
+						}]
+					}
+				}, {
+					"view_type": "cells_auto_fill",
+					"stat": "auto_recommend",
+					"body": {
+						"w": 1080,
+						"h": 180,
+						"items": [{
+							"img_url": "http://i8.mifile.cn/v1/a1/452c4951-df06-f114-6c48-c5940408a905.webp?w=1080\u0026h=180\u0026bg=F2EFEC",
+							"img_url_webp": "http://i8.mifile.cn/v1/a1/452c4951-df06-f114-6c48-c5940408a905.webp?w=1080\u0026h=180\u0026bg=F2EFEC",
+							"action": {
+								"type": "plugin",
+								"log_code": "31apphomecells_auto_fill001104#t=ad\u0026act=other\u0026page=home\u0026page_id=6707\u0026bid=3312500.1\u0026adp=1050\u0026adm=2050"
+							},
+							"w": 1080,
+							"h": 180,
+							"path_type": "image",
+							"ad_position_id": 1050,
+							"material_id": 2050,
+							"img_url_color": "#F2EFEC",
+							"is_bigtap": false
+						}]
+					}
+				}],
+				"special_navigation": null,
+				"special_jump": null,
+				"special_jump2": null,
+				"vertical_navigation": null,
+				"pinned_footer": null
+			}
+		}, {
+			"tab_name": "手机",
+			"tab_api": "home/activity_page",
+			"tab_index": 1,
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": "",
+			"params": {
+				"page_id": "8221",
+				"tab_index": "1",
+				"version": "8221"
+			}
+		}, {
+			"tab_name": "小米618",
+			"tab_api": "home/activity_page",
+			"tab_index": 2,
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": "",
+			"params": {
+				"page_id": "9719",
+				"tab_index": "2",
+				"version": "9719"
+			}
+		}, {
+			"tab_name": "智能",
+			"tab_api": "home/activity_page",
+			"tab_index": 3,
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": "",
+			"params": {
+				"page_id": "8671",
+				"tab_index": "3",
+				"version": "8671"
+			}
+		}, {
+			"tab_name": "电视",
+			"tab_api": "home/activity_page",
+			"tab_index": 4,
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": "",
+			"params": {
+				"page_id": "9311",
+				"tab_index": "4",
+				"version": "9311"
+			}
+		}, {
+			"tab_name": "笔记本",
+			"tab_api": "home/activity_page",
+			"tab_index": 5,
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": "",
+			"params": {
+				"page_id": "9752",
+				"tab_index": "5",
+				"version": "9752"
+			}
+		}, {
+			"tab_name": "家电",
+			"tab_api": "home/activity_page",
+			"tab_index": 6,
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": "",
+			"params": {
+				"page_id": "8555",
+				"tab_index": "6",
+				"version": "8555"
+			}
+		}, {
+			"tab_name": "生活周边",
+			"tab_api": "home/tab_page",
+			"tab_index": 7,
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": "",
+			"params": {
+				"page_id": "1697",
+				"tab_index": "7"
+			}
+		}],
+		"default_tab": -1,
+		"default_tab_index": 0,
+		"DefaultTabIndexIos": 0,
+		"festival": {
+			"view_type": "festival",
+			"stat": "",
+			"body": {
+				"action": {
+					"type": "plugin",
+					"path": "ShopPlugin://com.xiaomi.shop2.plugin.barcode.BarcodeFragment?pluginId=110",
+					"log_code": "app#\u0026page=home\u0026bid=3014811.1"
+				},
+				"img_url": "http://i8.mifile.cn/b2c-mimall-media/7d6e1e87f9698a495bfd58d87e4b3712.png",
+				"light_img_url": "http://i8.mifile.cn/b2c-mimall-media/e0cb863ffb50b9c8d1845be178571acb.png"
+			},
+			"action": {
+				"type": "plugin",
+				"path": "ShopPlugin://com.xiaomi.shop2.plugin.barcode.BarcodeFragment?pluginId=110",
+				"log_code": "app#\u0026page=home\u0026bid=3014811.1"
+			}
+		},
+		"title_left_menu": {
+			"view_type": "title_left_menu",
+			"stat": "",
+			"body": {
+				"items": [{
+					"img_url": "http://i8.mifile.cn/b2c-mimall-media/171fa9c4374c42c0329b96265991bd64.png",
+					"action": {
+						"type": "plugin",
+						"path": "ShopPlugin://com.xiaomi.shop2.plugin.barcode.BarcodeFragment?pluginId=110",
+						"log_code": "app#\u0026page=home\u0026bid=3014811.1"
+					},
+					"title": "扫一扫",
+					"is_bigtap": false
+				}],
+				"img_url": "http://i8.mifile.cn/b2c-mimall-media/b213dce6ff38eb83234ee4088bd3066f.png",
+				"light_img_url": "http://i8.mifile.cn/b2c-mimall-media/e0cb863ffb50b9c8d1845be178571acb.png",
+				"qrcode_img_url": "http://i8.mifile.cn/b2c-mimall-media/79ff394606e06ba685114ef3f5e74451.png",
+				"qrcode_light_img_url": "http://i8.mifile.cn/b2c-mimall-media/4be4c60b952acad6c61ff9c7d7617e8d.png"
+			}
+		}
+	}
+}

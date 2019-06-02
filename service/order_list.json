@@ -1,0 +1,27 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "id": 1,
+      "thumb": "http://i9.qhimg.com/t017d891ca365ef60b5.jpg",
+      "title": "商品标题1",
+      "price": 1.00,
+      "time": "2017-1-1"
+    },
+    {
+      "id": 2,
+      "thumb": "http://i9.qhimg.com/t017d891ca365ef60b5.jpg",
+      "title": "商品标题1",
+      "price": 1.00,
+      "time": "2017-1-1"
+    },
+    {
+      "id": 3,
+      "thumb": "http://i9.qhimg.com/t017d891ca365ef60b5.jpg",
+      "title": "商品标题1",
+      "price": 1.00,
+      "time": "2017-1-1"
+    }
+  ]
+}

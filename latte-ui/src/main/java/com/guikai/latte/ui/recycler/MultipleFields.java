@@ -7,6 +7,8 @@ public enum MultipleFields {
     IMAGE_URL,
     BANNERS,
     SPAN_SIZE,
+    SECTIONS,
+    IMAGE_ITEMS,
     ID,
     NAME,
     TAG

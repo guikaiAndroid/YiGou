@@ -1,0 +1,25 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "type":6,
+      "goodsId": 2,
+      "sections": [
+        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cb65daec7ef7b52cc785f88f78efba37.png",
+        "http://i8.mifile.cn/v1/a1/d317ac6d-9b2e-efd6-d59d-5dfe6ec77ba6.webp",
+        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/96c780016ea196743905dc93f9249c39.png",
+        "http://i8.mifile.cn/v1/a1/65fd2670-a567-dac3-59d1-6d96398cb733.webp",
+        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f11f9df6b0b0b428f8c8fc3267131830.png"
+      ]
+    },
+    {
+      "type":7,
+      "goodsId": 2,
+      "items":[
+        "http://i8.mifile.cn/v1/a1/5bd611b6-137c-7107-8329-93768a53fc58.webp",
+        "http://i8.mifile.cn/v1/a1/7803e2d0-e8c1-b824-2fa7-04616b197e9d.webp",
+        "http://i8.mifile.cn/v1/a1/01811d34-74c0-ad2d-001f-759e82169fb3.webp"
+      ]
+    }
+  ]
+}

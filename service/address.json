@@ -1,0 +1,20 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "id": 1,
+      "default": true,
+      "name": "姓名1",
+      "phone": "123456",
+      "address": "地址1"
+    },
+    {
+      "id": 2,
+      "default": false,
+      "name": "姓名2",
+      "phone": "123456",
+      "address": "地址2"
+    }
+  ]
+}
