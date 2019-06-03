@@ -54,7 +54,7 @@ public class SignInFragment extends LatteFragment implements View.OnClickListene
     private void onClickSignIn() {
         if (checkFrom()) {
             RestClient.builder()
-                    .url("http://mock.fulingjie.com/mock-android/data/user_profile.json")
+                    .url("user_profile.json")
                     .params("email", mEmail.getText().toString())
                     .params("password", mPassword.getText().toString())
                     .success(new ISuccess() {

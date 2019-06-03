@@ -31,6 +31,7 @@ public class IndexDataConverter extends DataConverter {
             final ArrayList<String> BannerImages = new ArrayList<>();
             final ArrayList<String> SectionIcons = new ArrayList<>();
             final ArrayList<String> ItemsImages = new ArrayList<>();
+
             int type = 0;
             switch (itemType) {
                 case 1:
@@ -44,6 +45,7 @@ public class IndexDataConverter extends DataConverter {
                     break;
                 case 4:
                     type = ItemType.TEXT_IMAGE;
+
                     break;
                 case 5:
                     type = ItemType.BANNER;
