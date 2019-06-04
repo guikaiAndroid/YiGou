@@ -13,13 +13,13 @@ APK体验扫描底部二维码。
 
 ## 技术包含 
 
-* 高性能单Activity多Fragmen架构设计
-* 高性能网络框架(Retrofit、RxJava)封装
+* 单Activity多Fragmen架构设计
+* Retrofit+RxJava使用
 * 字体图标App瘦身解决方案
 * 封装自己的WebView框架
 * 微信登录
 * 第三方支付(微信、支付宝)
-* 极光推送 MOB分享一键式集成
+* 极光推送、MOB分享集成
 * 自定义第三方控件
 * CoordinatorLayout、透明渐变ToolBar
 * 二维码、搜索、一键式6.0权限集成
@@ -32,7 +32,6 @@ APK体验扫描底部二维码。
 * [RxAndroid](https://github.com/ReactiveX/RxAndroid)
 * [okhttp](https://github.com/square/okhttp)
 * [retrofit](https://github.com/square/retrofit)
-* [DanmakuFlameMaster](https://github.com/Bilibili/DanmakuFlameMaster)
 * [butterknife](https://github.com/JakeWharton/butterknife)
 * [glide](https://github.com/bumptech/glide)
 * ...
