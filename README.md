@@ -1,6 +1,8 @@
 # YiGou
 
-这是一个仿小米商城的Android客户端，本项目是由慕课网电商实战项目的开源版，相比旧版的话修复了若干Bug,优化一些UI界面，但还是有改进的地方，希望各位小伙伴多多提issues和Pull Requests， 下载APK见底部。
+APK体验扫描底部二维码。
+
+一个仿小米商城的Android客户端（），本项目是由[电商实战](https://coding.imooc.com/class/116.html)项目的开源版，在旧版的话修复了若干Bug,并对AS3.0做出兼容，优化一些UI界面，但还有诸多模块需要改进，希望各位小伙伴Star一下，对代码写的有意见的，欢迎Issues和Pull Requests， 
 
 # screenshot
 ![](picture/splash.png)
@@ -18,13 +20,7 @@
 
 我也会持续关注并改进这个项目。
 
-<img src="picture/mooc.png">
-
-[慕课网电商实战项目](https://coding.imooc.com/class/116.html)
-
-与此同时，该项目正在重构，各位小伙伴请火速入手此课程，猿猿老师的良心之作！
-
-## 课程包含 
+## 技术包含 
 
 * 高性能单Activity多Fragmen架构设计
 * 高性能网络框架(Retrofit、RxJava)封装
@@ -51,9 +47,10 @@
 * ...
 
 ## Statement
-以下所有 API 均由 小米商城 提供, 本人采取非正常手段获取. 本程序仅供学习交流, 不可用于任何商业用途！如产生侵权行为，请与我联系QQ:916126728
+本程序仅供学习交流, 不可用于任何商业用途！如产生侵权行为，请与我联系QQ:916126728
 
 ### app体验链接
+
 <img src="picture/dowlod.png">
 
 ## 协议
