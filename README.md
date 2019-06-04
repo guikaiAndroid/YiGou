@@ -5,9 +5,6 @@ APK体验扫描底部二维码。
 一个仿小米商城的Android客户端，本项目是由[电商实战](https://coding.imooc.com/class/116.html)项目的开源版，在旧版的话修复了若干Bug,并对AS3.0做出兼容，优化一些UI界面，但还有诸多模块需要改进，觉得不错的话，希望各位小伙伴Star一下，对代码写的有意见的，欢迎Issues和Pull Requests， 
 
 # screenshot
-![](picture/splash.png)
-![](picture/home.png)
-![](picture/person.png)
 
 我也会持续关注并改进这个项目。
 
