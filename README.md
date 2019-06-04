@@ -8,15 +8,6 @@ APK体验扫描底部二维码。
 ![](picture/splash.png)
 ![](picture/home.png)
 ![](picture/person.png)
-![](picture/sort.png)
-![](picture/shopcart.png)
-![](picture/faxian.png)
-![](picture/detail.png)
-![](picture/fenlei.png)
-![](picture/login.png)
-![](picture/pinfen.png)
-![](picture/sacn.png)
-![](picture/search.png)
 
 我也会持续关注并改进这个项目。
 
