@@ -58,5 +58,5 @@
 
 <img alt="Apache-2.0 license" src="https://lucene.apache.org/images/mantle-power.png" width="128">
 
-DoraemonKit 基于 Apache-2.0 协议进行分发和使用，更多信息参见 [协议文件](LICENSE)。
+基于 Apache-2.0 协议进行分发和使用，更多信息参见 [协议文件](LICENSE)。
 
