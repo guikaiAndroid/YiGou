@@ -1,5 +1,18 @@
 # YiGou
 
+* 单Activity多Fragmen架构设计
+* 高性能网络框架(Retrofit+RxJava)封装
+* 字体图标App瘦身解决方案
+* 封装自己的WebView框架
+* 微信登录+支付接入(微信、支付宝)
+* 极光推送、分享集成
+* 若干自定义控件
+* CoordinatorLayout、透明渐变ToolBar
+* 二维码扫描、搜索、一键式6.0权限集成
+* 缓存、文件、动态权限、Log等处理工具
+* ...
+
+
 这是一个仿小米商城的Android客户端，本项目是由慕课网电商实战项目的开源版，相比旧版的话修复了若干Bug,优化一些UI界面，但还是有改进的地方，希望各位小伙伴多多提issues和Pull Requests， 下载APK见底部。
 
 # screenshot
