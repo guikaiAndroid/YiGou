@@ -35,22 +35,7 @@
 
 [慕课网电商实战项目](https://coding.imooc.com/class/116.html)
 
-与此同时，该项目正在重构，各位小伙伴请火速入手此课程，猿猿老师的良心之作！
-
-## 课程包含 
-
-* 高性能单Activity多Fragmen架构设计
-* 高性能网络框架(Retrofit、RxJava)封装
-* 字体图标App瘦身解决方案
-* 封装自己的WebView框架
-* 微信登录
-* 第三方支付(微信、支付宝)
-* 极光推送 MOB分享一键式集成
-* 自定义第三方控件
-* CoordinatorLayout、透明渐变ToolBar
-* 二维码、搜索、一键式6.0权限集成
-* 缓存、文件、动态权限、Log等处理工具
-* ...
+与此同时，该项目正在重构，小伙伴赶紧慕课网上操练起来吧！
 
 ## Thanks to the open source project
 
