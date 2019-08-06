@@ -4,3 +4,4 @@ local.properties
 .idea/
 .DS_Store
 build
+app/src/main/assets/ShareSDK.xml
