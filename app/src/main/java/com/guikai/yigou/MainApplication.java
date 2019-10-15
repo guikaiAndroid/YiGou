@@ -23,7 +23,8 @@ public class MainApplication extends Application {
         Latte.init(this)
                 .withIcon(new FontAwesomeModule())                       //Awesome风格图片
                 .withIcon(new FontEcModule())                            //自定义IconText
-                .withApiHost("http://47.110.68.60:8080/data/")
+                .withApiHost("http://47.98.188.119:8080/api/")
+//                .withApiHost("http://47.110.68.60:8080/data/")
 //                .withApiHost("http://192.168.0.109/RestServer/data/")
 //                .withApiHost("http://mock.fulingjie.com/mock-android/api/")
                 .withWeChatAppId("Your apply App_id")                    //微信开放平台Id
